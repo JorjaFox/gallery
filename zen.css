@@ -1,0 +1,471 @@
+/* JFO */
+
+@import url("http://jorjafox.net/wordpress/wp-content/themes/jfomindstream/style.css");
+@import url("http://jorjafox.net/content/code/fonts/fonts.css");
+
+div#sidebar .widget {
+background: url('http://jorjafox.net/wordpress/wp-content/themes/jfomindstream/images/sidebar-left.png');
+}
+
+#content { float:right;}
+
+div#latest_album ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+div#latest_album li {
+    display: inline;
+    float: left;
+    margin: 0 0 0 5px;
+    width: 175px;
+    height: 275px;
+    text-align: center;
+}
+
+div#latest_album h3 a {font-size: 20px;padding-bottom: 10px;}
+div.byline a, div.byline a:visited{color:blue;}
+.sidebar { float:left;}
+
+#menu-primary .genericon {
+	margin-bottom: 6px;
+}
+
+
+/* Responsive Design
+------------------------------------------------------------ */
+
+@media only screen and (max-width: 1000px) {
+     div#content.hfeed {width:100%;}
+     div.post {padding:0 20px;}
+     div.widget_nav_menu, div#sidebar .widget {background:none;background-color: #003300;}
+}
+
+/* These styles are just for the test template. Make some better ones. And yes, I know it's messy */
+
+#gallerytitle h2 {
+	font-size: 11pt;
+}
+
+#gallerytitle span {
+	font-weight: normal;
+	color: #CCC;
+	text-decoration: none;
+}
+
+#gallerytitle a:link,#gallerytitle a:visited {
+	text-decoration: underline;
+	color: #999;
+}
+
+/* Image Thumbnails
+------------------------------ */
+
+#thumb.not_visible {
+        border: 5px dashed #CC3333;
+}
+
+.imagethumb a, .imagethumb a:hover {
+	display: block;
+	margin: 0px 9px 9px 0px;
+	line-height: 0px;
+}
+
+.imagethumb {
+	float: left;
+}
+.albumdesc2 {
+	line-height: 18px;
+}
+
+.imagethumb ul li { list-style: none; float: left;display: inline; }
+
+/* Album Thumbnails
+------------------------------ */
+#albums {
+	float: left;
+	padding-top: 10px;
+}
+#images {
+	margin-left:30px;
+}
+
+.album,.indexalbum  {
+	margin: 0 15px 10px 0;
+	text-align:center;
+	width: 170px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.album .thumb {
+    text-align: center;
+}
+
+.album h3, .indexalbum h3 {
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	font-size: 20px;
+}
+.album p {
+    padding: 4px 0px 0px;
+    margin: 0px;
+}
+
+.albumdesc small {
+	color: #8DB8CF;
+}
+
+#imagemetadata {
+  text-align: right;
+  position: relative;
+  display: none;
+}
+
+#imagemetadata table {
+  text-align: left;
+  line-height: 1em;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 2em;
+  right: 0px;
+  background-color: #fafafa;
+}
+
+#imagemetadata table td {
+  border-bottom: 1px solid #f0f0f0;
+  background-color: #f8f8f8;
+  padding: 2px 5px;
+}
+
+
+/* Individual Image
+------------------------------ */
+.image { 
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#image {
+	text-align: center;
+	line-height: 0;
+}
+.imgnav {
+	float: right;
+	width: 140px;
+	text-align: center;
+	border: 1px solid #D5E6EE;
+	background: #EEF5F9;
+	margin-top: 10px;
+}
+.imgnav .imgprevious a, .imgnav .imgnext a {
+	display: block;
+	width: 50%;
+	height: 100%;
+	float: left;
+	padding: 4px 0;
+	font-size: 120%;
+	text-decoration: none;
+	line-height: 180%;
+	color: #237898;
+}
+.imgnav .imgprevious a:hover, .imgnav .imgnext a:hover {
+	background-color: #fff;
+	text-decoration: none;
+	color: #002E5B;
+}
+.imgnav .imgprevious a {
+	float: left;
+}
+.imgnav .imgnext a {
+	float: right;
+}
+#narrow {
+	margin: 0 auto;
+	width: 440px;
+}
+
+.pagenav {
+	margin: 5px 0px 5px;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #CCC;
+	clear: both;
+}
+
+.pagenav A:link,.pagenav A:visited {
+	color: #333;
+	text-decoration: none;
+}
+
+.disabled_nav {
+	visibility: hidden;
+}
+
+.navigation li.prev span, .navigation li.next span, .navigation li.prev a, .navigation li.current, .navigation li.first a {
+    background: url(http://jorjafox.net/wordpress/wp-content/themes/jfomindstream/images/button.png) 0 0;
+    border: none;
+    border-bottom: 1px solid #111;
+    border-top: 1px solid #999;
+    color: white;
+    font-size: 14px;
+    text-shadow: -1px -1px black;
+    padding: 5px 8px!important;
+}
+
+ul.pagelist li { 
+    margin: 5px!important;
+}
+
+.disabledlink {
+	color: #ddd;
+	cursor: default;
+}
+
+.albumtitle H3 {
+	margin: 0px;
+	padding: 0px;
+}
+
+div#imagedesc { padding-top:20px;}
+
+.error {
+	color: #C33;
+	font-weight: bold;
+}
+
+#admin, #admin_data {
+	border-left: 1px solid #E6E6DF;
+	border-bottom: 1px solid #E6E6DF;
+	background: #fff;
+	width: 120px;
+}
+
+#admin, #admin_data ul {
+	text-align:center;
+	margin: 0;
+	padding: 0;
+}
+
+#admin_data {
+	top: 15px;
+}
+
+#search {
+	text-align:left;
+}
+
+#search #search_input {
+	width: 215px;
+}
+#search a {
+text-decoration: none;
+}
+img#searchfields_icon, input#search_submit.pushbutton {display:none;}
+
+#search ul {
+border: 1px solid #ccc; position:absolute; text-align:left; list-style: none; 
+height: 8em; width: 20em; overflow: auto;
+color: black;
+background:white;
+}
+
+.clear {
+	clear: both;
+	height: 10px;
+}
+
+#map {
+	margin-top: 25px;
+}
+
+#imagemetadata {
+	text-align: right;
+	position: relative;
+	display: none;
+}
+
+#imagemetadata table {
+	text-align: left;
+	line-height: 1em;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 2em;
+	right: 0;
+	background-color: #fafafa;
+}
+
+#imagemetadata table td {
+	border-bottom: 1px solid #f0f0f0;
+	background-color: #f8f8f8;
+	padding: 2px 5px;
+}
+
+#fullsize_download_link {
+	font-size: 8pt;
+	text-align: right;
+	float: right;
+}
+
+#meta_link {
+	font-size: 8pt;
+	text-align: left;
+	float: left;
+}
+
+#image_data {
+	margin-bottom: 15px;
+}
+
+/* Archive View  */
+#archive {
+	width: 300px;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+ul.archive * {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+ul.archive .year {
+	margin-top: 10px;
+	text-align: center;
+	color: #FF6600;
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+ul.archive .month {
+	font-size: 14px;
+	list-style: none;
+	border-top: 2px solid #E6E6DF;
+	padding-top: 5px;
+}
+
+/* Tag Cloud */
+#tag_cloud {
+	text-align: center;
+	background: #eee;
+	margin-bottom: 15px;
+}
+
+#tag_cloud ul li {
+	display: inline;
+	list-style-type: none;
+}
+
+#tag_cloud p {
+	color: #FF6600;
+	padding: 10px 0;
+	margin: 20px 0;
+	background: #fff;
+	border-top: 3px solid #E6E6DF;
+	border-bottom: 3px solid #E6E6DF;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Tags */
+.taglist ul {
+	display: inline;
+	list-style-type: none;
+}
+
+.taglist li {
+	background: url(tag.png) no-repeat left center;
+	list-style-type: none;
+	line-height: 18px;
+	padding-left: 18px;
+	float: left;
+	padding-right: 5px;
+}
+
+.taglist .tags_title {
+	background: none;
+	padding-right: 5px;
+	padding-left: 0;
+}
+
+.rating {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+/* Error Messages
+------------------------------ */
+.errorbox {
+	padding: 20px;
+	background-color: #FDD;
+	border-top: 1px solid #FAA;
+	border-left: 1px solid #FAA;
+	border-right: 1px solid #FAA;
+	border-bottom: 5px solid #FAA;
+	margin-bottom: 10px;
+	font-size: 100%;
+	color: #DD6666;
+}
+
+.errorbox h2 {
+	color: #DD6666;
+	font-size: 100%;
+	font-weight: bold;
+	margin: 0px;
+}
+
+/* Zenphoto link
+------------------------------ */
+
+#zen-part {
+ font-family: Arial, Helvetice, sans-serif;
+ font-size: 2em;
+ font-weight: 100;
+}
+
+#photo-part {
+font-family: Arial, Helvetice, sans-serif;
+ font-size: 0.9em;
+ font-weight: bold;
+}
+
+/* login form */
+table.password td.userlabel{
+	text-align:right;
+}
+table.password td.userinput{
+	text-align:left;
+}
+
+table.password td.userinput input, td.passwordinput input {
+	width: 15em;
+}
+
+/* login form */
+table.password td.passwordlabel{
+	text-align:right;
+}
+
+table.password td.passwordinput{
+	text-align:left;
+}
+
+table.password td.submit{
+	text-align:center;
+}
+
+table.password td.hint{
+	text-align:left;
+}
+
+/* Editable length */
+.zp_editable {
+	width: 250px;
+}
