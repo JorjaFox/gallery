@@ -33,6 +33,9 @@ div.byline a, div.byline a:visited{color:blue;}
 	margin-bottom: 6px;
 }
 
+#menu-primary .genericon.genericon-search {
+	padding-right: 6px;
+}
 
 /* Responsive Design
 ------------------------------------------------------------ */
