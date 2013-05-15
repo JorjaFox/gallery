@@ -1,10 +1,10 @@
 /* JFO */
 
-@import url("http://jorjafox.net/wordpress/wp-content/themes/jfomindstream/style.css");
+@import url("http://jorjafox.net/wordpress/wp-content/themes/jfogenesis/style.css");
 @import url("http://jorjafox.net/content/code/fonts/fonts.css");
 
 div#sidebar .widget {
-background: url('http://jorjafox.net/wordpress/wp-content/themes/jfomindstream/images/sidebar-left.png');
+background: url('http://jorjafox.net/wordpress/wp-content/themes/jfogenesis/images/sidebar-left.png');
 }
 
 #content { float:right;}
