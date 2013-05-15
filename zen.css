@@ -9,14 +9,14 @@ background: url('http://jorjafox.net/wordpress/wp-content/themes/jfogenesis/imag
 
 #content { float:right;}
 
-div#latest_album ul, div#latest_updated_album ul {
+div#latest_album ul, div#latestupdated_album ul {
     display: inline;
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
-div#latest_album li, div#latest_updated_album li {
+div#latest_album li, div#latestupdated_album li {
     display: inline;
     float: left;
     margin: 0 0 0 5px;
@@ -25,7 +25,7 @@ div#latest_album li, div#latest_updated_album li {
     text-align: center;
 }
 
-div#latest_album h3 a, div#latest_update_album h3 a {font-size: 20px;padding-bottom: 10px;}
+div#latest_album h3 a, div#latestupdated_album h3 a {font-size: 20px;padding-bottom: 10px;}
 div.byline a, div.byline a:visited{color:blue;}
 .sidebar { float:left;}
 
