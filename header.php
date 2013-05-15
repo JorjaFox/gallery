@@ -15,7 +15,7 @@
 	<div id="nav">
 		<div class="wrap"><ul id="menu-primary" class="menu menu-primary">
 		    <li id="menu-item-3621" class="menuhover menu-item menu-item-type-custom menu-item-object-custom menu-item-3621"><a href="http://jorjafox.net/" >Home</a></li>
-			<li id="menu-item-3622" class="menuhover current menu-item menu-item-type-custom menu-item-object-custom menu-item-3622"><a href="http://jorjafox.net/gallery" >Photos</a></li>
+			<li id="menu-item-3622" class="menuhover menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-3622"><a href="http://jorjafox.net/gallery" >Photos</a></li>
 			<li id="menu-item-3623" class="menuhover menu-item menu-item-type-custom menu-item-object-custom menu-item-3623"><a href="http://jorjafox.net/video/" >Videos</a></li>
 			<li id="menu-item-3624" class="menuhover menu-item menu-item-type-custom menu-item-object-custom menu-item-3624"><a href="http://jorjafox.net/wiki/Main_Page" >JorjaPedia</a></li>
 			<li id="menu-item-4559" class="feed menu-item menu-item-type-custom menu-item-object-custom menu-item-4559"><a title="RSS Feed" href="http://jorjafox.net/feed/"><div class="genericon genericon-feed"></div></a></li>
