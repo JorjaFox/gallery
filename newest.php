@@ -35,7 +35,7 @@ include("header.php");
 		<div class="entry-content">
 
 <div id="padbox">
-		<?php if (function_exists('printLatestAlbums')) { printLatestAlbums($number = 5, $showtitle = true); } ?>
+		<?php if (function_exists('printLatestAlbums')) { printLatestAlbums($number = 8, $showtitle = true); } ?>
 </div> <!-- PadBox -->
 
 <div class="sp-content"><iframe src="http://jorjafox.net/content/code/ads/studiopress-468x60.php" width="480" height="80" frameborder="0">
