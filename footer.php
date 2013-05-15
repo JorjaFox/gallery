@@ -22,15 +22,13 @@
 				</div></div>
             </div></div>
 		</div></div>
-		
-		<div id="execphp-9" class="widget widget_execphp"><div class="widget-wrap">			
+    </div>
+
+    <div class="footer-widgets-2 widget-area"
+    		<div id="execphp-9" class="widget widget_execphp"><div class="widget-wrap">			
 			<div class="execphpwidget"><?php include("/home/jorjafox/public_html/content/code/ads/line-buttons-500x250.php"); ?></div>
         </div></div>
     </div>
-
-    <div class="footer-widgets-2 widget-area"><div id="execphp-7" class="widget widget_execphp"><div class="widget-wrap">			
-			<div class="execphpwidget"><a class="wepay-widget" href="https://www.wepay.com/donations/125987?widget_type=donations&widget_donation_id=125987&widget_auth_token=eb31233f29d3be1892d3f9fa6a58727a774c02d9&widget_show_description=0&widget_show_thermometer=0&widget_show_donations=1">Donate to Keep &quot;Jorja Fox: Online&quot; Caffinated!<script id="wepay-widget_script" type="text/javascript" src="https://www.wepay.com/min/js/widget.wepay.js"></script></a></div>
-    </div></div></div>
 
     <div class="footer-widgets-3 widget-area"><div id="execphp-8" class="widget widget_execphp"><div class="widget-wrap">			
 			<div class="execphpwidget"><?php include("/home/jorjafox/public_html/content/code/ads/medium-rectangle-300x250.php"); ?></div>
