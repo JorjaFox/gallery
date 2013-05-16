@@ -18,7 +18,7 @@
 			<li id="menu-item-3622" class="menuhover menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-3622"><a href="http://jorjafox.net/gallery" >Photos</a></li>
 			<li id="menu-item-3623" class="menuhover menu-item menu-item-type-custom menu-item-object-custom menu-item-3623"><a href="http://jorjafox.net/video/" >Videos</a></li>
 			<li id="menu-item-3624" class="menuhover menu-item menu-item-type-custom menu-item-object-custom menu-item-3624"><a href="http://jorjafox.net/wiki/Main_Page" >JorjaPedia</a></li>
-			<li id="menu-item-7232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7232"><a href="http://jorjafox.net/next-csi-episode/"><div class="genericon genericon-search"></div> Next CSI Episode…</a></li>
+			<li id="menu-item-7232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7232"><a href="http://jorjafox.net/next-csi-episode/"><div class="genericon genericon-search"></div> Next New CSI Episode…</a></li>
 			<li id="menu-item-4559" class="feed menu-item menu-item-type-custom menu-item-object-custom menu-item-4559"><a title="RSS Feed" href="http://jorjafox.net/feed/"><div class="genericon genericon-feed"></div></a></li>
 			<li id="menu-item-4560" class="email menu-item menu-item-type-custom menu-item-object-custom menu-item-4560"><a title="Email Updates" href="http://jorjafox.net/updates"><div class="genericon genericon-mail"></div></a></li>
 		</ul></div><!-- end .wrap -->
