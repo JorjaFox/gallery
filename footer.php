@@ -24,7 +24,7 @@
 		</div></div>
     </div>
 
-    <div class="footer-widgets-2 widget-area"
+    <div class="footer-widgets-2 widget-area">
     		<div id="execphp-9" class="widget widget_execphp"><div class="widget-wrap">			
 			<div class="execphpwidget"><?php include("/home/jorjafox/public_html/content/code/ads/line-buttons-500x250.php"); ?></div>
         </div></div>
