@@ -16,6 +16,10 @@ div#sidebar .widget {
     border-left: solid black 2px;
 }
 
+.header-image #title-area, .header-image .title-area {
+	margin-top: 15px;
+}
+
 #content { float:right;}
 
 div#latest_album ul, div#latestupdated_album ul {
@@ -285,6 +289,10 @@ color: black;
 background:white;
 }
 
+#search_submit {
+	display:none;
+}
+
 .clear {
 	clear: both;
 	height: 10px;
@@ -481,3 +489,32 @@ table.password td.hint{
 .zp_editable {
 	width: 250px;
 }
+
+/* Admin Toolbox
+ * ------------------------------ */
+#admin, #admin_data{
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        width: 130px;
+        border-bottom: 1px solid #E6E6DF;
+        border-left: 1px solid #E6E6DF;
+        background: #fff;
+                z-index: 2;     text-align: left;
+}
+#admin_data{
+        top: 0px;
+        padding-top: 20px;
+        z-index: 1;
+        line-height: 1.6em;
+
+}
+#admin h3 {
+        font-weight: normal;
+        color: #999;
+        margin:0;
+        padding:0; 
+	text-align: center;
+	font-size: 16px;
+}
+#admin h3:hover { color: #036;}

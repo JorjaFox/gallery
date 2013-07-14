@@ -13,8 +13,7 @@
         </div></div>
         
         <div id="nav_menu-3" class="widget widget_nav_menu"><div class="widget-wrap">
-                <?php printSearchForm(); ?>
-                <?php printAdminToolbox(); ?>
+                <?php printSearchForm();  ?>
         </div></div>
 
         <div id="nav_menu-4" class="widget widget_nav_menu"><div class="widget-wrap"><h4 class="widgettitle">Officially Jorja Fox</h4>
