@@ -15,8 +15,7 @@
     	<script type="text/javascript" src="http://jorjafox.net/content/code/respond.src.js"></script>
     	<link rel="stylesheet" href="<?php echo $_zp_themeroot ?>/zen-ie.css" type="text/css" />
     <![endif]-->
-	<meta name="pinterest" content="nopin" />
-	<?php printRSSHeaderLink('Gallery',gettext('Gallery RSS')); ?>
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	
 	<script type="text/javascript">
@@ -40,7 +39,8 @@ include("header.php");
     <div class="post-6100 post type-post status-publish format-standard hentry category-jorjafox tag-mediaarticle tag-jorja-foxproducer">
 
         <h2 class="entry-title"><?php printAlbumTitle(true); ?></h2>
-		<div class="byline"><p><strong>Description</strong><br /><?php printAlbumDesc(); ?> <?php printAlbumCustomData(); ?></p>
+		<div class="byline"><p><strong>Description</strong>
+		<br /><?php printAlbumDesc(); ?></p>
 		
 		<p><strong><?php if (function_exists('printDownloadLinkAlbumZip') && getNumAlbums()==0 ) { printDownloadLinkAlbumZip('Download a zip of all images in this album'); echo ' ('.getNumImages().' images)';} ?></strong></p>
 		</div>

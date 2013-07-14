@@ -14,8 +14,7 @@
     	<link rel="stylesheet" href="<?php echo $_zp_themeroot ?>/zen-ie.css" type="text/css" />
     <![endif]-->
 	<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
-	<meta name="pinterest" content="nopin" />
-	<?php printRSSHeaderLink('Gallery',gettext('Gallery RSS')); ?>
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>

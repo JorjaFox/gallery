@@ -15,10 +15,7 @@
     	<script type="text/javascript" src="http://jorjafox.net/content/code/respond.src.js"></script>
     	<link rel="stylesheet" href="<?php echo $_zp_themeroot ?>/zen-ie.css" type="text/css" />
     <![endif]-->
-	<meta name="pinterest" content="nopin" />
-	<?php printRSSHeaderLink('Gallery',gettext('Gallery RSS')); ?>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	
 	<script type="text/javascript">
 	// <!-- <![CDATA[
 	$(document).ready(function(){
@@ -42,13 +39,23 @@ include("header.php");
 		<div class="byline"><p><strong>Description</strong><br /><?php printImageDesc(true); ?></div>
 		
 		<div class="entry-content">
-                        
-	<!-- The Image -->
 
+    <!-- Nav Above -->
+        <div class="imgnav">
+            <?php if (hasPrevImage()) { ?>
+                <div class="imgprevious"><a href="<?php echo html_encode(getPrevImageURL()); ?>" title="<?php echo gettext("Previous Image"); ?>">« <?php echo gettext("prev"); ?></a></div>
+                <?php } if (hasNextImage()) { ?>
+                <div class="imgnext"><a href="<?php echo html_encode(getNextImageURL()); ?>" title="<?php echo gettext("Next Image"); ?>"><?php echo gettext("next"); ?> »</a></div>
+            <?php } ?>
+        </div>
+        <div style="clear:both;"><br /></div>
+                                
+	<!-- The Image -->
         <div id="image"><div class="fullsize">
             <a href="<?php echo html_encode(getDefaultSizedImage());?>" rel="showcase" full="<?php echo html_encode(getFullImageURL()); ?>" size="<?php echo getFullWidth() . "x" . getFullHeight(); ?>" title="<?php echo getBareImageTitle();?>"><?php printCustomSizedImageMaxSpace(getBareImageTitle(),580,580); ?></a>
 		</div></div>
 
+    <!-- Nav Below -->
         <div class="imgnav">
             <?php if (hasPrevImage()) { ?>
                 <div class="imgprevious"><a href="<?php echo html_encode(getPrevImageURL()); ?>" title="<?php echo gettext("Previous Image"); ?>">« <?php echo gettext("prev"); ?></a></div>

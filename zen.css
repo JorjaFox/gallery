@@ -4,7 +4,20 @@
 @import url("http://jorjafox.net/content/code/fonts/fonts.css");
 
 div#sidebar .widget {
-background: url('http://jorjafox.net/wordpress/wp-content/themes/jfogenesis/images/sidebar-left.png');
+	background: #042605; /* Old browsers */
+    background: #042605; /* Old browsers */
+    background: -moz-linear-gradient(left,  #042605 1%, #003300 33%, #013f00 65%, #004704 99%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(1%,#042605), color-stop(33%,#003300), color-stop(65%,#013f00), color-stop(99%,#004704)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #042605 1%,#003300 33%,#013f00 65%,#004704 99%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #042605 1%,#003300 33%,#013f00 65%,#004704 99%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #042605 1%,#003300 33%,#013f00 65%,#004704 99%); /* IE10+ */
+    background: linear-gradient(to right,  #042605 1%,#003300 33%,#013f00 65%,#004704 99%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#042605', endColorstr='#004704',GradientType=1 ); /* IE6-9 */
+    border-left: solid black 2px;
+}
+
+.header-image #title-area, .header-image .title-area {
+	margin-top: 15px;
 }
 
 #content { float:right;}
@@ -276,6 +289,10 @@ color: black;
 background:white;
 }
 
+#search_submit {
+	display:none;
+}
+
 .clear {
 	clear: both;
 	height: 10px;
@@ -472,3 +489,32 @@ table.password td.hint{
 .zp_editable {
 	width: 250px;
 }
+
+/* Admin Toolbox
+ * ------------------------------ */
+#admin, #admin_data{
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        width: 130px;
+        border-bottom: 1px solid #E6E6DF;
+        border-left: 1px solid #E6E6DF;
+        background: #fff;
+                z-index: 2;     text-align: left;
+}
+#admin_data{
+        top: 0px;
+        padding-top: 20px;
+        z-index: 1;
+        line-height: 1.6em;
+
+}
+#admin h3 {
+        font-weight: normal;
+        color: #999;
+        margin:0;
+        padding:0; 
+	text-align: center;
+	font-size: 16px;
+}
+#admin h3:hover { color: #036;}
