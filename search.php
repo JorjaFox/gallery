@@ -8,13 +8,12 @@
 	<title>Search Results | <?php echo getBareGalleryTitle(); ?></title>
     <link rel="stylesheet" href="<?php echo $_zp_themeroot ?>/zen.css" type="text/css" />
 	<link type="text/plain" rel="author" href="http://jorjafox.net/humans.txt" />
-	<meta name="pinterest" content="nopin" />
+	
     <!--[if lt IE 9]>
     	<script type="text/javascript" src="http://jorjafox.net/content/code/respond.src.js"></script>
     	<link rel="stylesheet" href="<?php echo $_zp_themeroot ?>/zen-ie.css" type="text/css" />
     <![endif]-->
 	<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
-	<?php printRSSHeaderLink('Gallery',gettext('Gallery RSS')); ?>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	
 	<script type="text/javascript">

@@ -14,8 +14,7 @@
     <![endif]-->
 	<link type="text/plain" rel="author" href="http://jorjafox.net/humans.txt" />
 	<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
-	<meta name="pinterest" content="nopin" />
-	<?php printRSSHeaderLink('Gallery',gettext('Gallery RSS')); ?>
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
@@ -26,25 +25,27 @@ include("header.php");
 ?>
 
     <div class="breadcrumb">You are here: <a href="http://jorjafox.net/" title="View Home">Home</a> / <a href="http://jorjafox.net/gallery/">Gallery</a> / 404</div>
-        	
-    <div class="post-6100 post type-post status-publish format-standard hentry category-jorjafox tag-mediaarticle tag-jorja-foxproducer">
+
+    <div class="lq-content"><?php include("/home/jorjafox/public_html/content/code/ads/liquidweb-325x38.php"); ?></div>
+
+    <div class="post type-post status-publish format-standard hentry category-jorjafox zenphoto-404">
 
         <h2 class="entry-title">404</h2>
-		<div class="byline">File Not Found</div>
+		<div class="byline"><p>File Not Found</p></div>
 		
 		<div class="entry-content">
 
 <div id="padbox">
     <?php
-    echo gettext("Whoops, can't find that page!");
+    echo '<p>'.gettext("Whoops, we can't find that page!").'</p>';
     if (isset($album)) {
-        echo '<br />' . sprintf(gettext('Album: %s'), html_encode($album));
+        echo '<p>' . sprintf(gettext('Album: %s'), html_encode($album)).'</p>';
     }
     if (isset($image)) {
-        echo '<br />' . sprintf(gettext('Image: %s'), html_encode($image));
+        echo '<p>' . sprintf(gettext('Image: %s'), html_encode($image)).'</p>';
     }
     if (isset($obj)) {
-        echo '<br />' . sprintf(gettext('Page: %s'), html_encode(substr(basename($obj), 0, -4)));
+        echo '<p>' . sprintf(gettext('Page: %s'), html_encode(substr(basename($obj), 0, -4))).'</p>';
     }
     ?>
 </div> <!-- PadBox -->

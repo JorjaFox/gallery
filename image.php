@@ -15,10 +15,7 @@
     	<script type="text/javascript" src="http://jorjafox.net/content/code/respond.src.js"></script>
     	<link rel="stylesheet" href="<?php echo $_zp_themeroot ?>/zen-ie.css" type="text/css" />
     <![endif]-->
-	<meta name="pinterest" content="nopin" />
-	<?php printRSSHeaderLink('Gallery',gettext('Gallery RSS')); ?>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	
 	<script type="text/javascript">
 	// <!-- <![CDATA[
 	$(document).ready(function(){
@@ -35,20 +32,31 @@ zp_apply_filter('theme_body_open');
 include("header.php"); 
 ?>
     <div class="breadcrumb">You are here: <a href="http://jorjafox.net/" title="View Home">Home</a> / <a href="http://jorjafox.net/gallery/">Gallery</a> / <?php printParentBreadcrumb('',' / ','  / '); ?></span> <span class="trail-end"><a href="<?php echo html_encode(getAlbumLinkURL());?>" title="<?php echo gettext('View album:'); ?><?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumTitle(); ?></a></div>
-        	
-    <div class="post-6100 post type-post status-publish format-standard hentry category-jorjafox tag-mediaarticle tag-jorja-foxproducer">
 
+    <div class="lq-content"><?php include("/home/jorjafox/public_html/content/code/ads/liquidweb-325x38.php"); ?></div>
+
+    <div class="post type-post status-publish format-standard hentry category-jorjafox zenphoto-image">
         <h2 class="entry-title"><?php printImageTitle(true); ?></h2>
 		<div class="byline"><p><strong>Description</strong><br /><?php printImageDesc(true); ?></div>
 		
 		<div class="entry-content">
-                        
-	<!-- The Image -->
 
+    <!-- Nav Above -->
+        <div class="imgnav">
+            <?php if (hasPrevImage()) { ?>
+                <div class="imgprevious"><a href="<?php echo html_encode(getPrevImageURL()); ?>" title="<?php echo gettext("Previous Image"); ?>">« <?php echo gettext("prev"); ?></a></div>
+                <?php } if (hasNextImage()) { ?>
+                <div class="imgnext"><a href="<?php echo html_encode(getNextImageURL()); ?>" title="<?php echo gettext("Next Image"); ?>"><?php echo gettext("next"); ?> »</a></div>
+            <?php } ?>
+        </div>
+        <div style="clear:both;"><br /></div>
+                                
+	<!-- The Image -->
         <div id="image"><div class="fullsize">
             <a href="<?php echo html_encode(getDefaultSizedImage());?>" rel="showcase" full="<?php echo html_encode(getFullImageURL()); ?>" size="<?php echo getFullWidth() . "x" . getFullHeight(); ?>" title="<?php echo getBareImageTitle();?>"><?php printCustomSizedImageMaxSpace(getBareImageTitle(),580,580); ?></a>
 		</div></div>
 
+    <!-- Nav Below -->
         <div class="imgnav">
             <?php if (hasPrevImage()) { ?>
                 <div class="imgprevious"><a href="<?php echo html_encode(getPrevImageURL()); ?>" title="<?php echo gettext("Previous Image"); ?>">« <?php echo gettext("prev"); ?></a></div>

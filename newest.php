@@ -14,8 +14,7 @@
     	<link rel="stylesheet" href="<?php echo $_zp_themeroot ?>/zen-ie.css" type="text/css" />
     <![endif]-->
 	<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
-	<meta name="pinterest" content="nopin" />
-	<?php printRSSHeaderLink('Gallery',gettext('Gallery RSS')); ?>
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
@@ -26,9 +25,11 @@ include("header.php");
 ?>
 
     <div class="breadcrumb">You are here: <a href="http://jorjafox.net/" title="View Home">Home</a> / <a href="http://jorjafox.net/gallery/">Gallery</a> / Newest Albums</div>
-        	
-    <div class="post-6100 post type-post status-publish format-standard hentry category-jorjafox tag-mediaarticle tag-jorja-foxproducer">
+        
+    <div class="lq-content"><?php include("/home/jorjafox/public_html/content/code/ads/liquidweb-325x38.php"); ?></div>
 
+    <div class="post type-post status-publish format-standard hentry category-jorjafox zenphoto-newest">
+	
         <h2 class="entry-title">Newest Albums</h2>
 		<div class="byline">Most recently uploaded albums</div>
 		
