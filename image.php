@@ -32,9 +32,10 @@ zp_apply_filter('theme_body_open');
 include("header.php"); 
 ?>
     <div class="breadcrumb">You are here: <a href="http://jorjafox.net/" title="View Home">Home</a> / <a href="http://jorjafox.net/gallery/">Gallery</a> / <?php printParentBreadcrumb('',' / ','  / '); ?></span> <span class="trail-end"><a href="<?php echo html_encode(getAlbumLinkURL());?>" title="<?php echo gettext('View album:'); ?><?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumTitle(); ?></a></div>
-        	
-    <div class="post-6100 post type-post status-publish format-standard hentry category-jorjafox tag-mediaarticle tag-jorja-foxproducer">
 
+    <div class="lq-content"><?php include("/home/jorjafox/public_html/content/code/ads/liquidweb-325x38.php"); ?></div>
+
+    <div class="post type-post status-publish format-standard hentry category-jorjafox zenphoto-image">
         <h2 class="entry-title"><?php printImageTitle(true); ?></h2>
 		<div class="byline"><p><strong>Description</strong><br /><?php printImageDesc(true); ?></div>
 		

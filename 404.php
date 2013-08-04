@@ -25,8 +25,10 @@ include("header.php");
 ?>
 
     <div class="breadcrumb">You are here: <a href="http://jorjafox.net/" title="View Home">Home</a> / <a href="http://jorjafox.net/gallery/">Gallery</a> / 404</div>
-        	
-    <div class="post-6100 post type-post status-publish format-standard hentry">
+
+    <div class="lq-content"><?php include("/home/jorjafox/public_html/content/code/ads/liquidweb-325x38.php"); ?></div>
+
+    <div class="post type-post status-publish format-standard hentry category-jorjafox zenphoto-404">
 
         <h2 class="entry-title">404</h2>
 		<div class="byline"><p>File Not Found</p></div>

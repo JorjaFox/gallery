@@ -25,9 +25,12 @@
     </div>
 
     <div class="footer-widgets-2 widget-area">
-    		<div id="execphp-9" class="widget widget_execphp"><div class="widget-wrap">			
-			<div class="execphpwidget"><?php include("/home/jorjafox/public_html/content/code/ads/line-buttons-500x250.php"); ?></div>
-        </div></div>
+	<section id="text-6" class="widget widget_text"><div class="widget-wrap">
+		<div class="textwidget"><div class="pw-footerwidget">
+		<div id="line-buttons-500x250"><?php include("/home/jorjafox/public_html/content/code/ads/line-buttons-500x250.php"); ?></div>
+		<div id="liquidweb-120x240"><?php include("/home/jorjafox/public_html/content/code/ads/liquidweb-120x240.php"); ?></div>
+        	</div></div>
+	</div></section>
     </div>
 
     <div class="footer-widgets-3 widget-area"><div id="execphp-8" class="widget widget_execphp"><div class="widget-wrap">			

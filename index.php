@@ -26,8 +26,10 @@ include("header.php");
 ?>
 
     <div class="breadcrumb">You are here: <a href="http://jorjafox.net/" title="View Home">Home</a> / <a href="http://jorjafox.net/gallery/">Gallery</a> </div>
-        	
-    <div class="post-6100 post type-post status-publish format-standard hentry category-jorjafox tag-mediaarticle tag-jorja-foxproducer">
+
+    <div class="lq-content"><?php include("/home/jorjafox/public_html/content/code/ads/liquidweb-325x38.php"); ?></div>
+
+    <div class="post type-post status-publish format-standard hentry category-jorjafox zenphoto-index">
 
         <h2 class="entry-title">Welcome to the Gallery</h2>
 		<div class="byline"><?php printGalleryDesc(); ?></div>
