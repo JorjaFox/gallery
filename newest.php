@@ -35,16 +35,19 @@ include("header.php");
 		
 		<div class="entry-content">
 
-<div id="padbox">
-		<?php if (function_exists('printLatestUpdatedAlbums')) { printLatestUpdatedAlbums($number = 24, $showtitle = true); } ?>
-</div> <!-- PadBox -->
-
-<div class="sp-content"><iframe src="http://jorjafox.net/content/code/ads/studiopress-468x60.php" width="480" height="80" frameborder="0">
-<?php include("/home/jorjafox/public_html/content/code/ads/studiopress-468x60.php"); ?></iframe></div>
+            <div id="padbox">
+            		<?php if (function_exists('printLatestUpdatedAlbums')) { printLatestUpdatedAlbums($number = 4, $showtitle = true, $showdesc = true); } ?>
+            		
+                    <p>&nbsp;</p>
+            </div> <!-- PadBox -->
 		</div> <!-- entry content -->
 
-        	</div> <!-- end post -->
-        </div> <!-- end content hfeed -->
+    </div> <!-- end post -->
+                
+            <div class="sp-content"><iframe src="http://jorjafox.net/content/code/ads/studiopress-468x60.php" width="480" height="80" frameborder="0">
+            <?php include("/home/jorjafox/public_html/content/code/ads/studiopress-468x60.php"); ?></iframe></div>
+            
+    </div> <!-- end content hfeed -->
 
 <?php include("sidebar.php"); ?>
 <?php include("footer.php"); ?>
