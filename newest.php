@@ -8,6 +8,8 @@
 	<?php zp_apply_filter('theme_head'); ?>
 	<title>Newest Images | <?php echo getBareGalleryTitle(); ?></title>
 	<link rel="stylesheet" href="<?php echo $_zp_themeroot ?>/zen.css" type="text/css" />
+	<link rel="stylesheet" href="http://jorjafox.net/wordpress/wp-content/themes/jfogenesis/style.css" type="text/css" />
+	<link rel="stylesheet" href="http://jorjafox.net/content/code/fonts/fonts.css" type="text/css" />
 	<link type="text/plain" rel="author" href="http://jorjafox.net/humans.txt" />
     <!--[if lt IE 9]>
     	<script type="text/javascript" src="http://jorjafox.net/content/code/respond.src.js"></script>
