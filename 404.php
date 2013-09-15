@@ -15,9 +15,7 @@
     	<script type="text/javascript" src="http://jorjafox.net/content/code/respond.src.js"></script>
     	<link rel="stylesheet" href="/gallery/themes/jfogenesis/zen-ie.css" type="text/css" />
     <![endif]-->
-	<link type="text/plain" rel="author" href="http://jorjafox.net/humans.txt" />
-	<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
-	
+	<link type="text/plain" rel="author" href="http://jorjafox.net/humans.txt" />	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>

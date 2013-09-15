@@ -49,13 +49,5 @@
 <div class="pw-footer"><?php include("/home/jorjafox/public_html/content/code/ads/leaderboard-728x90.php"); ?></div>
 
 <!-- Facebook hate -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=405758456142913";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
 <?php include("/home/jorjafox/public_html/content/code/ads/footer.php"); ?>
