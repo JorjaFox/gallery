@@ -30,70 +30,72 @@
 zp_apply_filter('theme_body_open');
 include("header.php"); 
 ?>
+
+<main class="content" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div class="breadcrumb">You are here: <a href="http://jorjafox.net/" title="View Home">Home</a> / <a href="http://jorjafox.net/gallery/">Gallery</a> / Search Results</div>
-        	
-    <div class="post-6100 post type-post status-publish format-standard hentry category-jorjafox tag-mediaarticle tag-jorja-foxproducer">
 
-        <h2 class="entry-title">Search Results</h2>
-		<div class="byline"><?php
-		if (($total = getNumImages() + getNumAlbums()) > 0) {
-			if (isset($_REQUEST['date'])){
-				$searchwords = getSearchDate();
- 		} else { $searchwords = getSearchWords(); }
-			echo '<p>'.sprintf(gettext('Total matches for <em>%1$s</em>: %2$u'), $searchwords, $total).'</p>';
-		}
-		$c = 0;
-		?></div>
-		
-		<div class="entry-content">
+    <div class="lq-content"><?php include("/home/jorjafox/public_html/content/code/ads/liquidweb-325x38.php"); ?></div>
 
-		<div id="padbox">
+    <article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
-    <?php if ((getNumAlbums()) > 0) { ?>
-        <div id="albums">
-           <?php while (next_album()): ?>
-           <div class="album">
-		     <div class="albumdesc">
-               <h3><a href="<?php echo html_encode(getAlbumLinkURL());?>" title="<?php echo gettext('View album:'); ?> <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumTitle(); ?></a></h3>
-               <p><?php printAlbumDesc(); ?></p>
-             </div>
-             <div class="thumb">
-               <a href="<?php echo html_encode(getAlbumLinkURL());?>" title="<?php echo gettext('View album:'); ?> <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumThumbImage(getAnnotatedAlbumTitle()); ?></a>
-             </div>
-             <p style="clear: both; "></p>
-           </div>
-        <?php endwhile; ?>
-        </div>        
-    <?php } ?>
+        <header class="entry-header">
+            <h1 class="entry-title" itemprop="headline">Search Results</h1>
+            <div class="entry-meta">
+                <div class="byline"><?php
+                    if (isset($_REQUEST['date'])){
+        				$searchwords = getSearchDate();
+                    } else { $searchwords = getSearchWords(); }
+                    echo '<p>'.sprintf(gettext('Total matches for <em>%1$s</em>: %2$u'), $searchwords, $total).'</p>';
+        		?></div>                
+            </div>
+        </header>
 
+        <div class="entry-content" itemprop="text">
+            <div id="padbox">
+                <?php if ((getNumAlbums()) > 0) { ?>
+                    <div id="albums">
+                       <?php while (next_album()): ?>
+                       <div class="album">
+            		     <div class="albumdesc">
+                           <h3><a href="<?php echo html_encode(getAlbumLinkURL());?>" title="<?php echo gettext('View album:'); ?> <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumTitle(); ?></a></h3>
+                           <p><?php printAlbumDesc(); ?></p>
+                         </div>
+                         <div class="thumb">
+                           <a href="<?php echo html_encode(getAlbumLinkURL());?>" title="<?php echo gettext('View album:'); ?> <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumThumbImage(getAnnotatedAlbumTitle()); ?></a>
+                         </div>
+                         <p style="clear: both; "><!-- End Albums --></p>
+                       </div>
+                    <?php endwhile; ?>
+                    </div>        
+                <?php } ?>
+        
+                <?php if ((getNumImages()) > 0) { ?>
+                    <div id="images">
+            		   <?php $x=0; while (next_image(true)):
+                       if ($x>=1) { $show='style="display:none;"'; } else { $show='';}  ?>
+                       <div class="image"><div class="imagethumb">
+            		<a href="<?php echo html_encode(getDefaultSizedImage());?>" rel="showcase" title="<?php echo getBareImageTitle();?>" full="<?php echo html_encode(getFullImageURL()); ?>" solo="<?php echo html_encode(getImageLinkURL()); ?>" size="<?php echo getFullWidth() . "x" . getFullHeight(); ?>" /> <?php printImageThumb(getAnnotatedImageTitle()); ?></a>
+            		   </div></div>
+                       <?php $x=$x+1;
+                       endwhile; ?>
+                    </div>
+                <?php } ?><!-- End Images -->
+            
+                <br clear="all" />
 
-    <?php if ((getNumImages()) > 0) { ?>
-        <div id="images">
-		   <?php $x=0; while (next_image(true)):
-           if ($x>=1) { $show='style="display:none;"'; } else { $show='';}  ?>
-           <div class="image"><div class="imagethumb">
-		<a href="<?php echo html_encode(getDefaultSizedImage());?>" rel="showcase" title="<?php echo getBareImageTitle();?>" full="<?php echo html_encode(getFullImageURL()); ?>" solo="<?php echo html_encode(getImageLinkURL()); ?>" size="<?php echo getFullWidth() . "x" . getFullHeight(); ?>" /> <?php printImageThumb(getAnnotatedImageTitle()); ?></a>
-		   </div></div>
-           <?php $x=$x+1;
-           endwhile; ?>
+            </div> <!-- PadBox -->
         </div>
-    <?php } ?>
 
-		<br clear="all" />
+        <div class="sp-content"><?php include("/home/jorjafox/public_html/content/code/ads/studiopress-468x60.php"); ?></div>
 
-	</div>
-<div class="sp-content"><iframe src="http://jorjafox.net/content/code/ads/studiopress-468x60.php" width="480" height="80" frameborder="0">
-<?php include("/home/jorjafox/public_html/content/code/ads/studiopress-468x60.php"); ?></iframe></div>
-
-		</div> <!-- entry content -->
-
-        	</div> <!-- end post -->
-        </div> <!-- end content hfeed -->
+        <footer class="entry-footer"></footer>
+    </article>	
+</main>
 
 <?php include("sidebar.php"); ?>
 <?php include("footer.php"); ?>
 
-</div>
+</div> <!-- End Site-container -->
 <?php zp_apply_filter('theme_body_close'); ?>
 
 </body>

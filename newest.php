@@ -23,36 +23,34 @@
 zp_apply_filter('theme_body_open');
 include("header.php"); 
 ?>
-
+<main class="content" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div class="breadcrumb">You are here: <a href="http://jorjafox.net/" title="View Home">Home</a> / <a href="http://jorjafox.net/gallery/">Gallery</a> / Newest Albums</div>
-        
+
     <div class="lq-content"><?php include("/home/jorjafox/public_html/content/code/ads/liquidweb-325x38.php"); ?></div>
 
-    <div class="post type-post status-publish format-standard hentry category-jorjafox zenphoto-newest">
-	
-        <h2 class="entry-title">Newest Albums</h2>
-		<div class="byline">Most recently uploaded albums</div>
-		
-		<div class="entry-content">
+    <article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
+        <header class="entry-header">
+            <h1 class="entry-title" itemprop="headline">Newest Albums</h1>
+            <div class="entry-meta"><div class="byline"><p>Most recently uploaded albums</p></div></div>
+        </header>
+
+        <div class="entry-content" itemprop="text">
             <div id="padbox">
-            		<?php if (function_exists('printLatestUpdatedAlbums')) { printLatestUpdatedAlbums($number = 4, $showtitle = true, $showdesc = true); } ?>
-            		
-                    <p>&nbsp;</p>
+                <?php if (function_exists('printLatestUpdatedAlbums')) { printLatestUpdatedAlbums($number = 4, $showtitle = true, $showdesc = true); } ?>
             </div> <!-- PadBox -->
-		</div> <!-- entry content -->
+        </div>
 
-    </div> <!-- end post -->
-                
-            <div class="sp-content"><iframe src="http://jorjafox.net/content/code/ads/studiopress-468x60.php" width="480" height="80" frameborder="0">
-            <?php include("/home/jorjafox/public_html/content/code/ads/studiopress-468x60.php"); ?></iframe></div>
-            
-    </div> <!-- end content hfeed -->
+        <div class="sp-content"><?php include("/home/jorjafox/public_html/content/code/ads/studiopress-468x60.php"); ?></div>
+
+        <footer class="entry-footer"></footer>
+    </article>	
+</main>
 
 <?php include("sidebar.php"); ?>
 <?php include("footer.php"); ?>
 
-</div>
+</div> <!-- End Site-container -->
 <?php zp_apply_filter('theme_body_close'); ?>
 
 </body>

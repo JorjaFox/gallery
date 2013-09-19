@@ -25,41 +25,45 @@ zp_apply_filter('theme_body_open');
 include("header.php"); 
 ?>
 
+<main class="content" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div class="breadcrumb">You are here: <a href="http://jorjafox.net/" title="View Home">Home</a> / <a href="http://jorjafox.net/gallery/">Gallery</a> / 404</div>
 
     <div class="lq-content"><?php include("/home/jorjafox/public_html/content/code/ads/liquidweb-325x38.php"); ?></div>
 
-    <div class="post type-post status-publish format-standard hentry category-jorjafox zenphoto-404">
+    <article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
-        <h2 class="entry-title">404</h2>
-		<div class="byline"><p>File Not Found</p></div>
-		
-		<div class="entry-content">
+        <header class="entry-header">
+            <h1 class="entry-title" itemprop="headline">404</h1>
+            <div class="entry-meta"><div class="byline"><p>File Not Found</p></div></div>
+        </header>
 
-<div id="padbox">
-    <?php
-    echo '<p>'.gettext("Whoops, we can't find that page!").'</p>';
-    if (isset($album)) {
-        echo '<p>' . sprintf(gettext('Album: %s'), html_encode($album)).'</p>';
-    }
-    if (isset($image)) {
-        echo '<p>' . sprintf(gettext('Image: %s'), html_encode($image)).'</p>';
-    }
-    if (isset($obj)) {
-        echo '<p>' . sprintf(gettext('Page: %s'), html_encode(substr(basename($obj), 0, -4))).'</p>';
-    }
-    ?>
-</div> <!-- PadBox -->
-<div class="sp-content"><a target="_new" href="http://www.shareasale.com/r.cfm?b=281075&u=728549&m=28169&urllink=&afftrack="><img src="http://www.shareasale.com/image/28169/TotMCrystal468x60.gif"  alt="StudioPress Theme of the Month" border="0"></a></div>
-		</div> <!-- entry content -->
+        <div class="entry-content" itemprop="text">
+            <div id="padbox">
+                <?php
+                echo '<p>'.gettext("Whoops, we can't find that page!").'</p>';
+                if (isset($album)) {
+                    echo '<p>' . sprintf(gettext('Album: %s'), html_encode($album)).'</p>';
+                }
+                if (isset($image)) {
+                    echo '<p>' . sprintf(gettext('Image: %s'), html_encode($image)).'</p>';
+                }
+                if (isset($obj)) {
+                    echo '<p>' . sprintf(gettext('Page: %s'), html_encode(substr(basename($obj), 0, -4))).'</p>';
+                }
+                ?>
+            </div> <!-- PadBox -->
+        </div>
 
-        	</div> <!-- end post -->
-        </div> <!-- end content hfeed -->
+        <div class="sp-content"><?php include("/home/jorjafox/public_html/content/code/ads/studiopress-468x60.php"); ?></div>
+
+        <footer class="entry-footer"></footer>
+    </article>	
+</main>
 
 <?php include("sidebar.php"); ?>
 <?php include("footer.php"); ?>
 
-</div>
+</div> <!-- End Site-container -->
 <?php zp_apply_filter('theme_body_close'); ?>
 
 </body>

@@ -222,7 +222,17 @@ div.byline a, div.byline a:visited{color:blue;}
 	visibility: hidden;
 }
 
-.navigation li.prev span, .navigation li.next span, .navigation li.prev a, .navigation li.current, .navigation li.first a {
+.navigation .disabledlink {
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+
+.navigation .current {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.navigation li.prev span, .navigation li.next span, .navigation li.prev a, .navigation li.current, .navigation li.first a, .navigation li.prev a:visited, .navigation li.first a:visited {
     background: url(http://jorjafox.net/wordpress/wp-content/themes/jfogenesis/images/button.png) 0 0;
     border: none;
     border-bottom: 1px solid #111;
