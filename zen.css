@@ -48,7 +48,7 @@ div.byline a, div.byline a:visited{color:blue;}
 }
 
 .entry-content {
-    padding-bottom: 20px;
+    padding: 0px!important;
 }
 
 /* Responsive Design
@@ -92,6 +92,7 @@ div.byline a, div.byline a:visited{color:blue;}
 
 .imagethumb {
 	float: left;
+	padding: 0 0 5px 0;
 }
 .albumdesc2 {
 	line-height: 18px;
@@ -101,16 +102,12 @@ div.byline a, div.byline a:visited{color:blue;}
 
 /* Album Thumbnails
 ------------------------------ */
-#albums {
-	/* float: left; */
-	padding-top: 10px;
-}
-#images {
+#albums, #images {
 	margin-left:30px;
 }
 
-.album,.indexalbum  {
-	margin: 0 15px 10px 0;
+.album, .indexalbum  {
+	margin: 0 0 10px 5px;
 	text-align:center;
 	width: 170px;
 	display: inline-block;
