@@ -1,16 +1,7 @@
 /* JFO */
 
-div#sidebar .widget {
-	background: #042605; /* Old browsers */
-    background: #042605; /* Old browsers */
-    background: -moz-linear-gradient(left,  #042605 1%, #003300 33%, #013f00 65%, #004704 99%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(1%,#042605), color-stop(33%,#003300), color-stop(65%,#013f00), color-stop(99%,#004704)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(left,  #042605 1%,#003300 33%,#013f00 65%,#004704 99%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(left,  #042605 1%,#003300 33%,#013f00 65%,#004704 99%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(left,  #042605 1%,#003300 33%,#013f00 65%,#004704 99%); /* IE10+ */
-    background: linear-gradient(to right,  #042605 1%,#003300 33%,#013f00 65%,#004704 99%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#042605', endColorstr='#004704',GradientType=1 ); /* IE6-9 */
-    border-left: solid black 2px;
+.site-container {
+    margin: 30px 0 0 0;
 }
 
 .header-image #title-area, .header-image .title-area {
@@ -49,15 +40,6 @@ div.byline a, div.byline a:visited{color:blue;}
 
 .entry-content {
     padding: 0px!important;
-}
-
-/* Responsive Design
------------------------------------------------------------- */
-
-@media only screen and (max-width: 1000px) {
-     div#content.hfeed {width:100%;}
-     div.post {padding:0 20px;}
-     div.widget_nav_menu, div#sidebar .widget {background:none;background-color: #003300;}
 }
 
 /* These styles are just for the test template. Make some better ones. And yes, I know it's messy */
