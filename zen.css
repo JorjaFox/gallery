@@ -494,20 +494,26 @@ table.password td.hint{
 
 /* Admin Toolbox
  * ------------------------------ */
+ 
+#admin {
+    z-index: 10;
+    margin: 49px 0 0 0;
+}
+
 #admin, #admin_data{
         position: fixed;
-        right: 0px;
+        right: 5px;
         top: 0px;
         width: 130px;
         border-bottom: 1px solid #E6E6DF;
         border-left: 1px solid #E6E6DF;
-        background: #fff;
-                z-index: 2;     text-align: left;
+        background: #fff;  
+        text-align: left;
 }
 #admin_data{
         top: 0px;
-        padding-top: 20px;
-        z-index: 1;
+        padding-top: 69px;
+        z-index: 9;
         line-height: 1.6em;
 
 }
