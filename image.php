@@ -68,9 +68,13 @@ include("header.php");
             </div> <!-- PadBox -->
         </div>
 
-        <div class="sp-content"><?php include("/home/jorjafox/public_html/content/code/ads/studiopress-468x60.php"); ?></div>
-
         <footer class="entry-footer"><p>Per our <a href="http://jorjafox.net/wiki/JorjaPedia:Copyrights">Copyrights</a> and <a href="http://jorjafox.net/wiki/JorjaPedia:Terms_of_Use">Terms of Use</a>, you are welcome to copy and reuse images on this site for your own use, provided you credit this site in some way (via a link back, or simply by mentioning us by name).</p></footer>
+
+        <div class="pw-footerwidget"><center>
+            <?php include("/home/jorjafox/public_html/content/code/ads/medium-rectangle-300x250.php"); ?>
+            <?php include("/home/jorjafox/public_html/content/code/ads/line-buttons-500x250.php"); ?>
+        </center></div>    
+    
     </article>	
 </main>
 
