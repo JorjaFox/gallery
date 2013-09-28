@@ -55,15 +55,6 @@ include("header.php");
                     <?php printCustomSizedImageMaxSpace(getBareImageTitle(),580,580); ?>
         		</div></div>
             
-                <!-- Nav Below -->
-                <div class="imgnav">
-                    <?php if (hasPrevImage()) { ?>
-                        <div class="imgprevious"><a href="<?php echo html_encode(getPrevImageURL()); ?>" title="<?php echo gettext("Previous Image"); ?>">« <?php echo gettext("prev"); ?></a></div>
-                        <?php } if (hasNextImage()) { ?>
-                        <div class="imgnext"><a href="<?php echo html_encode(getNextImageURL()); ?>" title="<?php echo gettext("Next Image"); ?>"><?php echo gettext("next"); ?> »</a></div>
-                    <?php } ?>
-                </div>
-            
             <div style="clear:both;"><p>&nbsp;</p></div>
             </div> <!-- PadBox -->
         </div>
