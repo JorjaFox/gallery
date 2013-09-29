@@ -14,4 +14,17 @@
     </div>
 </footer>
 
-<?php include("/home/jorjafox/public_html/content/code/ads/footer.php"); ?>
+<div id="bit" class="">
+    <a class="bsub" href="javascript:void(0)"><span id="bsub-text">Follow JFO</span></a>
+    <div id="bitsubscribe">
+        <div class="widget-wrap">
+            <p>Want the latest news about Jorja (and JFO) in your in-box ASAP? <a href="http://jorjafox.net/updates">Sign up for email updates</a> and they're yours!</p>
+            <a href="http://jorjafox.net/updates"><input type="submit" value="Sign me up!" name="jetpack_subscriptions_widget"></a>
+        </div>
+    </div>
+</div>
+
+<?php 
+    include("/home/jorjafox/public_html/content/code/ads/footer.php"); 
+    include("/home/jorjafox/public_html/content/code/js/bit-slideup.php");
+?>
