@@ -6,11 +6,11 @@
     
     <section id="nav_menu-3" class="widget widget_nav_menu"><div class="widget-wrap">
         <div class="menu-secondary-container"><ul id="menu-secondary" class="menu">
-            <li id="menu-item-4225" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4225"><a href="http://jorjafox.net/wiki/JorjaPedia:About">About the Site</a></li>
+            <li id="menu-item-4225" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4225"><a href="http://jorjafox.net/wiki/JorjaPedia:About">About Us</a></li>
+            <li id="menu-item-4227" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4227"><a href="http://jorjafox.net/contact/">Contact Us</a></li>
+            <li id="menu-item-6103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6103"><a href="http://jorjafox.net/support/">Support Us</a></li>
             <li id="menu-item-4226" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4226"><a href="http://jorjafox.net/wiki/FAQs">Frequently Asked Questions</a></li>
-            <li id="menu-item-4227" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4227"><a href="http://jorjafox.net/contact/">Contact JFO</a></li>
-            <li id="menu-item-6103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6103"><a href="http://jorjafox.net/support/">Support the Site</a></li>
-            <li id="menu-item-7233" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7233"><a href="http://jorjafox.net/updates">Email Updates</a></li>
+            <li id="menu-item-7233" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7233"><a href="http://jorjafox.net/updates">Subscribe to Updates</a></li>
         </ul></div>
     </div></section>
 
@@ -19,14 +19,14 @@
     </section>
     
     <section id="nav_menu-4" class="widget widget_nav_menu"><div class="widget-wrap">
-        <h4 class="widget-title widgettitle">Officially Jorja Fox</h4>
+        <h4 class="widget-title widgettitle">Follow Jorja Fox</h4>
         <div class="menu-officially-jorja-container"><ul id="menu-officially-jorja" class="menu">
             <li id="menu-item-6680" class="social-buttons menu-item menu-item-type-custom menu-item-object-custom menu-item-6680"><a href="https://www.facebook.com/JorjaFoxworldwide">Facebook</a></li>
         </ul></div>
     </div></section>
 
     <section id="nav_menu-5" class="widget widget_nav_menu"><div class="widget-wrap">
-        <h4 class="widget-title widgettitle">Officially JFO</h4>
+        <h4 class="widget-title widgettitle">Follow JFO</h4>
         <div class="menu-officially-jfo-container"><ul id="menu-officially-jfo" class="menu">
             <li id="menu-item-6200" class="social-buttons menu-item menu-item-type-custom menu-item-object-custom menu-item-6200"><a href="https://www.facebook.com/JFO.Fans">Facebook</a></li>
             <li id="menu-item-6199" class="social-buttons menu-item menu-item-type-custom menu-item-object-custom menu-item-6199"><a href="http://twitter.com/jorjafoxonline">Twitter</a></li>
