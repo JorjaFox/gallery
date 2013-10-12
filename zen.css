@@ -507,3 +507,11 @@ table.password td.hint{
         font-size: 18px;
 }
 #admin h3:hover { color: #036;}
+
+/* Mobile */
+@media only screen and (max-width: 1067px) {
+    .title-area {
+        padding: 0px!important;
+        width: 250px!important;
+    }
+}

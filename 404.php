@@ -1,4 +1,13 @@
-<?php if (!defined('WEBPATH')) die(); ?>
+<?php if (!defined('WEBPATH')) die(); 
+    
+    // Redirect lost pages
+    $thisurl="http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+    $ishtml = substr(parse_url($thisurl, PHP_URL_PATH), -5); 
+    if ( $ishtml = ".html") {
+        $thisurl = substr_replace($thisurl ,"",-5);
+        header( 'Location: '.$thisurl.'' ) ;
+    }
+?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -35,7 +44,9 @@ include("header.php");
         <div class="entry-content" itemprop="text">
             <div id="padbox">
                 <?php
-                echo '<p>'.gettext("Whoops, we can't find that page!").'</p>';
+                
+                echo '<p>'.gettext("Whoops! We can't find that page...").'</p>';
+            
                 if (isset($album)) {
                     echo '<p>' . sprintf(gettext('Album: %s'), html_encode($album)).'</p>';
                 }
