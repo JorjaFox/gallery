@@ -49,32 +49,31 @@ include("header.php");
 
         <div class="entry-content" itemprop="text">
             <div id="padbox">
-                <?php if ((getNumAlbums()) > 0) { ?>
-                    <div id="albums">
-            
-            			<?php while (next_album()): ?>
-            			<div class="album">
-            				<div class="thumb"><a href="<?php echo htmlspecialchars(getAlbumLinkURL());?>" title="<?php echo gettext('View album:'); ?> <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumThumbImage(getAnnotatedAlbumTitle()); ?></a></div>
-            				<div class="albumdesc"><h3><a href="<?php echo htmlspecialchars(getAlbumLinkURL());?>" title="<?php echo gettext('View album:'); ?> <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumTitle(); ?></a></h3>
-                            <p><?php printAlbumDesc(); ?><br /><em><?php if (getNumImages() > 0) { echo getNumImages(); echo ' Images';} ?></em></p></div>
-            				
-            			</div>
-            			<?php endwhile; ?>
-                    </div>        
-                <?php } ?>
-            
-                <?php if ((getNumImages()) > 0) { ?>
-                    <div id="images">
-            		   <?php $x=0; while (next_image(true)):
-                       if ($x>=1) { $show='style="display:none;"'; } else { $show='';}  ?>
-                       <div class="image"><div class="imagethumb">
-            		<a href="<?php echo html_encode(getDefaultSizedImage());?>" rel="showcase" title="<?php echo getBareImageTitle();?>" full="<?php echo html_encode(getFullImageURL()); ?>" solo="<?php echo html_encode(getImageLinkURL()); ?>" size="<?php echo getFullWidth() . "x" . getFullHeight(); ?>" /> <?php printImageThumb(getAnnotatedImageTitle()); ?></a>
-            		   </div></div>
-                       <?php $x=$x+1;
-                       endwhile; ?>
-                    </div>
-                <?php } ?>
-            
+
+
+				<div id="albums">
+					<?php while (next_album()): ?>
+						<div class="album">
+							<div class="thumb">
+								<a href="<?php echo html_encode(getAlbumLinkURL()); ?>" title="<?php echo gettext('View album:'); ?> <?php printAnnotatedAlbumTitle(); ?>"><?php printAlbumThumbImage(getAnnotatedAlbumTitle()); ?></a>
+							</div>
+							<div class="albumdesc">
+								<h3><a href="<?php echo html_encode(getAlbumLinkURL()); ?>" title="<?php echo gettext('View album:'); ?> <?php printAnnotatedAlbumTitle(); ?>"><?php printAlbumTitle(); ?></a></h3>
+								<div><?php printAlbumDesc(); ?></div>
+							</div>
+							<p style="clear: both; "></p>
+						</div>
+					<?php endwhile; ?>
+				</div>
+				<div id="images">
+					<?php while (next_image()): ?>
+						<div class="image">
+							<div class="imagethumb">
+								<a href="<?php echo html_encode(getDefaultSizedImage());?>" rel="showcase" title="<?php echo getBareImageTitle();?>" full="<?php echo html_encode(getFullImageURL()); ?>" solo="<?php echo html_encode(getImageLinkURL()); ?>" size="<?php echo getFullWidth() . "x" . getFullHeight(); ?>" /> <?php printImageThumb(getAnnotatedImageTitle()); ?></a>
+							</div>
+						</div>
+					<?php endwhile; ?>
+				</div>
             </div> <!-- PadBox -->
             
             <div style="clear:both;"></div>
@@ -83,6 +82,8 @@ include("header.php");
         <footer class="entry-footer">
             <?php if ((getNumAlbums()) > 0) { ?>
                 <div class="archive-pagination pagination"><?php printPageListWithNav("« ".gettext("prev"), gettext("next")." »"); ?></div>
+            <?php } else { ?>
+		<div class="archive-pagination pagination"><?php printPageListWithNav("« " . gettext("prev"), gettext("next") . " »"); ?></div>
             <?php } ?>
 
             <p>Per our <a href="http://jorjafox.net/wiki/JorjaPedia:Copyrights">Copyrights</a> and <a href="http://jorjafox.net/wiki/JorjaPedia:Terms_of_Use">Terms of Use</a>, you are welcome to copy and reuse images on this site for your own use, provided you credit this site in some way (via a link back, or simply by mentioning us by name).</p>

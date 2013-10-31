@@ -27,7 +27,7 @@ div#latest_album li, div#latestupdated_album li {
 }
 
 div#latest_album h3 a, div#latestupdated_album h3 a {font-size: 20px;padding-bottom: 10px;}
-div.byline a, div.byline a:visited{color:blue;}
+div.byline a, div.byline a:visited {color:blue!important;}
 .sidebar { float:left;}
 
 #menu-primary .genericon {

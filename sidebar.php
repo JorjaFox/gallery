@@ -29,9 +29,10 @@
         <h4 class="widget-title widgettitle">Follow JFO</h4>
         <div class="menu-officially-jfo-container"><ul id="menu-officially-jfo" class="menu">
             <li id="menu-item-6200" class="social-buttons menu-item menu-item-type-custom menu-item-object-custom menu-item-6200"><a href="https://www.facebook.com/JFO.Fans">Facebook</a></li>
+            <li id="menu-item-6202" class="social-buttons menu-item menu-item-type-custom menu-item-object-custom menu-item-6202"><a href="https://plus.google.com/u/0/112696204123972047628">Google+</a></li>
             <li id="menu-item-6199" class="social-buttons menu-item menu-item-type-custom menu-item-object-custom menu-item-6199"><a href="http://twitter.com/jorjafoxonline">Twitter</a></li>
             <li id="menu-item-6201" class="social-buttons menu-item menu-item-type-custom menu-item-object-custom menu-item-6201"><a href="http://tumblr.jorjafox.net/">Tumblr</a></li>
-            <li id="menu-item-6202" class="social-buttons menu-item menu-item-type-custom menu-item-object-custom menu-item-6202"><a href="https://plus.google.com/u/0/112696204123972047628">Google+</a></li>
+            <li id="menu-item-6203" class="social-buttons menu-item menu-item-type-custom menu-item-object-custom menu-item-6203"><a href="https://vimeo.com/jorjafox">Vimeo</a></li>
         </ul></div>
     </div></section>
 
