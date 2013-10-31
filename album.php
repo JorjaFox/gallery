@@ -59,7 +59,6 @@ include("header.php");
 							</div>
 							<div class="albumdesc">
 								<h3><a href="<?php echo html_encode(getAlbumLinkURL()); ?>" title="<?php echo gettext('View album:'); ?> <?php printAnnotatedAlbumTitle(); ?>"><?php printAlbumTitle(); ?></a></h3>
-								<small><?php printAlbumDate(""); ?></small>
 								<div><?php printAlbumDesc(); ?></div>
 							</div>
 							<p style="clear: both; "></p>
@@ -78,13 +77,13 @@ include("header.php");
             </div> <!-- PadBox -->
             
             <div style="clear:both;"></div>
-
-            <div class="archive-pagination pagination"><?php printPageListWithNav("« " . gettext("prev"), gettext("next") . " »"); ?></div>
         </div>
 
         <footer class="entry-footer">
             <?php if ((getNumAlbums()) > 0) { ?>
                 <div class="archive-pagination pagination"><?php printPageListWithNav("« ".gettext("prev"), gettext("next")." »"); ?></div>
+            <?php } else { ?>
+		<div class="archive-pagination pagination"><?php printPageListWithNav("« " . gettext("prev"), gettext("next") . " »"); ?></div>
             <?php } ?>
 
             <p>Per our <a href="http://jorjafox.net/wiki/JorjaPedia:Copyrights">Copyrights</a> and <a href="http://jorjafox.net/wiki/JorjaPedia:Terms_of_Use">Terms of Use</a>, you are welcome to copy and reuse images on this site for your own use, provided you credit this site in some way (via a link back, or simply by mentioning us by name).</p>
