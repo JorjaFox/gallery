@@ -12,10 +12,7 @@
 	<link rel="stylesheet" href="http://jorjafox.net/wordpress/wp-content/themes/jfogenesis/style.css" type="text/css" />
 	<link rel="stylesheet" href="http://jorjafox.net/content/code/fonts/fonts.css" type="text/css" />
 	<link type="text/plain" rel="author" href="http://jorjafox.net/humans.txt" />
-    <!--[if lt IE 9]>
-    	<script type="text/javascript" src="http://jorjafox.net/content/code/respond.src.js"></script>
-    	<link rel="stylesheet" href="<?php echo $_zp_themeroot ?>/zen-ie.css" type="text/css" />
-    <![endif]-->
+	<link rel="stylesheet" href="http://jorjafox.net/content/code/fonts/genericons/genericons.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>	
 </head>
 <body class="going-green-pro-forest">
