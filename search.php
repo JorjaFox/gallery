@@ -84,6 +84,7 @@ include("header.php");
         <footer class="entry-footer"></footer>
         <div class="pw-footerwidget"><center>
             <?php include("/home/jorjafox/public_html/content/code/ads/medium-rectangle-300x250.php"); ?>
+            <?php include("/home/jorjafox/public_html/content/code/ads/studiopress-120x240.php"); ?> 
             <?php include("/home/jorjafox/public_html/content/code/ads/line-buttons-500x250.php"); ?>
         </center></div>    
 
