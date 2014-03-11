@@ -21,6 +21,7 @@
     <section id="nav_menu-4" class="widget widget_nav_menu"><div class="widget-wrap">
         <h4 class="widget-title widgettitle">Follow Jorja Fox</h4>
         <div class="menu-officially-jorja-container"><ul id="menu-officially-jorja" class="menu">
+            <li id="menu-item-10143" class="social-buttons menu-item menu-item-type-custom menu-item-object-custom menu-item-10143"><a href="http://jorjafox.com">Jorja Fox’s Homepage</a></li>
             <li id="menu-item-6680" class="social-buttons menu-item menu-item-type-custom menu-item-object-custom menu-item-6680"><a href="https://www.facebook.com/JorjaFoxworldwide">Facebook</a></li>
             <li id="menu-item-9858" class="social-buttons menu-item menu-item-type-custom menu-item-object-custom menu-item-9858"><a href="http://twitter.com/jorjafoxofficia">Twitter</a></li>
         </ul></div>
