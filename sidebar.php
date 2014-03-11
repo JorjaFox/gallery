@@ -1,7 +1,7 @@
 <aside class="sidebar sidebar-primary widget-area" role="complementary" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
 
     <section id="text-8" class="widget widget_text"><div class="widget-wrap">
-    	<div class="textwidget"><div class="lq-content"><?php include("/home/jorjafox/public_html/content/code/ads/liquidweb-325x38.php"); ?></div></div>
+    	<div class="textwidget"><div class="lq-content"><?php include("/home/jorjafox/public_html/content/code/ads/liquidweb-325x38.php"); ?></div><br /><div class="pw-sidebar"><div id="halfbanner-234x60"><?php include("/home/jorjafox/public_html/content/code/ads/halfbanner-234x60.php"); ?></div></div></div>
     </div></section>
     
     <section id="nav_menu-3" class="widget widget_nav_menu"><div class="widget-wrap">
@@ -22,6 +22,7 @@
         <h4 class="widget-title widgettitle">Follow Jorja Fox</h4>
         <div class="menu-officially-jorja-container"><ul id="menu-officially-jorja" class="menu">
             <li id="menu-item-6680" class="social-buttons menu-item menu-item-type-custom menu-item-object-custom menu-item-6680"><a href="https://www.facebook.com/JorjaFoxworldwide">Facebook</a></li>
+            <li id="menu-item-9858" class="social-buttons menu-item menu-item-type-custom menu-item-object-custom menu-item-9858"><a href="http://twitter.com/jorjafoxofficia">Twitter</a></li>
         </ul></div>
     </div></section>
 
@@ -37,12 +38,12 @@
     </div></section>
 
     <section id="text-5" class="widget widget_text"><div class="widget-wrap">
+        <h4 class="widget-title widgettitle">Keep JFO Running</h4>
     	<div class="textwidget">
-        	<center>
-        	<a class="donate-button" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=C784CZQPZVGQ2"><i class="genericon genericon-heart genericond"></i> PayPal</a>
-        	<a class="wepay-widget-button donate-button" id="wepay_widget_anchor_5162fe8525e9a" href="https://www.wepay.com/donations/1180694999"><i class="genericon genericon-heart genericond"></i> WePay</a><script type="text/javascript">var WePay=WePay||{};WePay.load_widgets=WePay.load_widgets||function(){};WePay.widgets=WePay.widgets||[];WePay.widgets.push({object_id:1180694999,widget_type:"donation_campaign",anchor_id:"wepay_widget_anchor_5162fe8525e9a",widget_options:{list_suggested_donations:true,allow_cover_fee:true,enable_recurring:true,allow_anonymous:true,button_text:"Donate"}});if(!WePay.script){WePay.script=document.createElement('script');WePay.script.type='text/javascript';WePay.script.async=true;WePay.script.src='https://static.wepay.com/min/js/widgets.v2.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(WePay.script,s);}else if(WePay.load_widgets){WePay.load_widgets();}</script>
-        	<a class="donate-button" href="http://amzn.com/w/1S5TEEA510W19"><i class="genericon genericon-heart genericond"></i> Amazon WishList</a>
-        	</center>
+        	<center><a class="donate-button" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=C784CZQPZVGQ2"><i style="color:inherit;" class="genericond genericon genericon-heart genericon-1x "></i> PayPal</a>
+            <a class="donate-button" href="https://store.halfelf.org/donate/"><i style="color:inherit;" class="genericond genericon genericon-heart genericon-1x "></i> Half-Elf Donations</a>
+            <a class="donate-button" href="http://www.amazon.com/registry/wishlist/1S5TEEA510W19"><i style="color:inherit;" class="genericond genericon genericon-heart genericon-1x "></i> Amazon WishList</a>
+            </center>
 
             <div class="pw-sidebar"><?php include("/home/jorjafox/public_html/content/code/ads/skyscraper-160x600.php"); ?></div>
         </div>

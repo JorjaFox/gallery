@@ -18,9 +18,9 @@
     		<div class="textwidget">
     		<div class="site-intro">
     		    <h1><a href="http://jorjafox.net">Jorja Fox: Online</a></h1>
-                <p>A fansite for everything you wanted to know<br>(about Jorja Fox)</p>
+                <p>A fansite for everything<br />(about Jorja Fox)</p>
             </div>
-            <div class="pw-header"><div id="halfbanner-234x60"><?php include("/home/jorjafox/public_html/content/code/ads/halfbanner-234x60.php"); ?></div></div>
+            <div  class="pw-header"><a href="http://www.crowdrise.com/jorjafox46/"><img src="/content/images/birthday-button.png" alt="Jorja's Birthday Fundraiser"></a></div>
             </div>
         </div></section></aside>
 	</div></header><!--end #header-->

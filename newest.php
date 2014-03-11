@@ -10,7 +10,6 @@
 	<link rel="stylesheet" href="<?php echo $_zp_themeroot ?>/zen.css" type="text/css" />
 	<link rel="stylesheet" href="http://jorjafox.net/wordpress/wp-content/themes/jfogenesis/style.css" type="text/css" />
 	<link rel="stylesheet" href="http://jorjafox.net/content/code/fonts/fonts.css" type="text/css" />
-	<link rel="stylesheet" href="http://jorjafox.net/content/code/fonts/genericons/genericons.css" type="text/css" />
 	<link type="text/plain" rel="author" href="http://jorjafox.net/humans.txt" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
@@ -41,6 +40,7 @@ include("header.php");
         <footer class="entry-footer"></footer>
         <div class="pw-footerwidget"><center>
             <?php include("/home/jorjafox/public_html/content/code/ads/medium-rectangle-300x250.php"); ?>
+            <?php include("/home/jorjafox/public_html/content/code/ads/studiopress-120x240.php"); ?> 
             <?php include("/home/jorjafox/public_html/content/code/ads/line-buttons-500x250.php"); ?>
         </center></div>    
 
