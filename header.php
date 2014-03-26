@@ -7,7 +7,6 @@
             <li id="menu-item-3622" class="menu-photos menu-item menu-item-type-custom menu-item-object-custom menu-item-3622 current-menu-item current_page_item"><a href="http://jorjafox.net/gallery">Photos</a></li>
             <li id="menu-item-3623" class="menu-videos menu-item menu-item-type-custom menu-item-object-custom menu-item-3623"><a href="http://jorjafox.net/video/">Videos</a></li>
             <li id="menu-item-3624" class="menu-jorjapedia menu-item menu-item-type-custom menu-item-object-custom menu-item-3624"><a href="http://jorjafox.net/wiki/Main_Page">JorjaPedia</a></li>
-            <li id="menu-item-7552" class="next-new-csi-episode menu-item menu-item-type-custom menu-item-object-custom menu-item-7552"><a href="http://jorjafox.net/next-csi-episode/">Next New CSI Episode…</a></li>
             <li id="menu-item-8517" class="top menu-item menu-item-type-custom menu-item-object-custom menu-item-8517"><a title="Jump to Top" href="#top">Top</a></li>
         </ul>
     </div></nav>
