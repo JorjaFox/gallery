@@ -38,14 +38,19 @@
         </ul></div>
     </div></section>
 
-    <section id="text-5" class="widget widget_text"><div class="widget-wrap">
+    <section id="nav_menu-6" class="widget widget_nav_menu"><div class="widget-wrap">
         <h4 class="widget-title widgettitle">Keep JFO Running</h4>
-    	<div class="textwidget">
-        	<center><a class="donate-button" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=C784CZQPZVGQ2"><i style="color:inherit;" class="genericond genericon genericon-heart genericon-1x "></i> PayPal</a>
-            <a class="donate-button" href="https://store.halfelf.org/donate/"><i style="color:inherit;" class="genericond genericon genericon-heart genericon-1x "></i> Half-Elf Donations</a>
-            <a class="donate-button" href="http://www.amazon.com/registry/wishlist/1S5TEEA510W19"><i style="color:inherit;" class="genericond genericon genericon-heart genericon-1x "></i> Amazon WishList</a>
-            </center>
+        <div class="menu-donations-container">
+        <ul id="menu-donations" class="menu">
+            <li id="menu-item-10260" class="donation-buttons menu-item menu-item-type-custom menu-item-object-custom menu-item-10260"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=S7K469QF8NQ56">Paypal</a></li>
+            <li id="menu-item-10261" class="donation-buttons menu-item menu-item-type-custom menu-item-object-custom menu-item-10261"><a href="https://store.halfelf.org/donate/">Half-Elf</a></li>
+            <li id="menu-item-10262" class="donation-buttons menu-item menu-item-type-custom menu-item-object-custom menu-item-10262"><a href="http://www.amazon.com/registry/wishlist/1S5TEEA510W19">Amazon</a></li>
+        </ul>
+        </div>
+    </div></section>
 
+    <section id="text-5" class="widget widget_text"><div class="widget-wrap">
+        <div class="textwidget">
             <div class="pw-sidebar"><?php include("/home/jorjafox/public_html/content/code/ads/skyscraper-160x600.php"); ?></div>
         </div>
     </div></section>
