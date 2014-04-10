@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
 
 	<?php zp_apply_filter('theme_head'); ?>
-	<title><?php echo getImageTitle()." | ".getBareGalleryTitle(); ?></title>
+	<title><?php echo getImageTitle(); ?> | <? echo getBareGalleryTitle(); ?></title>
 	<link rel="stylesheet" href="<?php echo $_zp_themeroot ?>/zen.css" type="text/css" />
 	<link rel="stylesheet" href="http://jorjafox.net/wordpress/wp-content/themes/jfogenesis/style.css" type="text/css" />
 	<link rel="stylesheet" href="http://jorjafox.net/content/code/fonts/fonts.css" type="text/css" />
