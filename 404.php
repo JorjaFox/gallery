@@ -1,12 +1,6 @@
 <?php if (!defined('WEBPATH')) die(); 
-    
-    // Redirect lost pages
-    $thisurl="http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-    $ishtml = substr(parse_url($thisurl, PHP_URL_PATH), -5); 
-    if ( $ishtml = ".html") {
-        $thisurl = substr_replace($thisurl ,"",-5);
-        header( 'Location: '.$thisurl.'' ) ;
-    }
+
+error_reporting(0);
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
