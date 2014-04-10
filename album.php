@@ -42,7 +42,7 @@ include("header.php");
             <div class="entry-meta"><div class="byline">
                 <p><strong>Description</strong>
                 <br /><?php printAlbumDesc(); ?></p>
-                <p><strong><?php if (function_exists('printDownloadLinkAlbumZip') && getNumAlbums()==0 ) { printDownloadLinkAlbumZip('Download a zip of all images in this album'); echo ' ('.getNumImages().' images)';} ?></strong></p>
+                <p><strong><?php if (function_exists('printDownloadAlbumZipURL') && getNumAlbums()==0 ) { printDownloadAlbumZipURL('Download a zip of all images in this album'); echo ' ('.getNumImages().' images)';} ?></strong></p>
             </div></div>
         </header>
 
