@@ -31,7 +31,7 @@
 			
 			<li id="menu-item-facebook-square" class="social-buttons menu-item"><a href="https://www.facebook.com/JorjaFoxWorldwide" title="Jorja on Facebook"><i class="fa fa-facebook-square"></i></a></li>
 			
-			<li id="menu-item-twitter" class="social-buttons menu-item"><a href="http://twitter.com/jorjafoxofficia" title="Twitter"><i class="fa fa-twitter-square"></i></a></li>
+			<li id="menu-item-twitter" class="social-buttons menu-item"><a href="http://twitter.com/jorjafoxofficia" title="Jorja on Twitter"><i class="fa fa-twitter-square"></i></a></li>
 		</ul></div>
     </div></section>
 
