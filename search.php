@@ -19,7 +19,7 @@
 	$("a[rel='showcase']").colorbox({transition:"none", width:"75%", photo:true,title:function () { var size = $(this).attr('size'); return "View Image Page".link($(this).attr('solo')) + " | " + "View Full Sized".link($(this).attr('full')) + " ("+size+")" ;} });});
 	// ]]> -->
 	</script></head>
-<body class="going-green-pro-forest">
+<body class="zenphoto going-green-pro-forest">
 
 <?php 
 zp_apply_filter('theme_body_open');

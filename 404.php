@@ -16,7 +16,7 @@ error_reporting(0);
 	<link type="text/plain" rel="author" href="http://jorjafox.net/humans.txt" />	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
-<body class="going-green-pro-forest">
+<body class="zenphoto going-green-pro-forest">
 
 <?php 
 zp_apply_filter('theme_body_open');

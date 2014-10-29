@@ -23,7 +23,7 @@
 	</script>
 
 </head>
-<body class="going-green-pro-forest">
+<body class="zenphoto going-green-pro-forest">
 
 <?php 
 zp_apply_filter('theme_body_open');
