@@ -102,15 +102,19 @@ div.byline a, div.byline a:visited {color:blue!important;}
 /* Album Thumbnails
 ------------------------------ */
 #albums, #images {
-	margin-left:30px;
+	padding: 0 12px 0 40px;
+	padding: 0 0.75rem 0 2.5rem;
 }
 
-.album, .indexalbum  {
-	margin: 0 0 10px 5px;
-	text-align:center;
-	width: 170px;
+.album, .indexalbum {
+	margin: 0 30px 10px 0;
+	width: 200px;
 	display: inline-block;
 	vertical-align: top;
+}
+
+.album h3, .indexalbum h3 {
+	text-align:center;
 }
 
 .album .thumb {
@@ -157,7 +161,7 @@ div.byline a, div.byline a:visited {color:blue!important;}
 
 /* Individual Image
 ------------------------------ */
-.image { 
+.image {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -233,7 +237,7 @@ div.byline a, div.byline a:visited {color:blue!important;}
     padding: 5px 8px!important;
 }
 
-ul.pagelist li { 
+ul.pagelist li {
     margin: 5px!important;
 }
 
@@ -283,7 +287,7 @@ text-decoration: none;
 img#searchfields_icon, input#search_submit.pushbutton {display:none;}
 
 #search ul {
-border: 1px solid #ccc; position:absolute; text-align:left; list-style: none; 
+border: 1px solid #ccc; position:absolute; text-align:left; list-style: none;
 height: 8em; width: 20em; overflow: auto;
 color: black;
 background:white;
@@ -492,7 +496,7 @@ table.password td.hint{
 
 /* Admin Toolbox
  * ------------------------------ */
- 
+
 #admin {
     z-index: 10;
     margin: 49px 0 0 0;
@@ -505,7 +509,7 @@ table.password td.hint{
         width: 130px;
         border-bottom: 1px solid #E6E6DF;
         border-left: 1px solid #E6E6DF;
-        background: #fff;  
+        background: #fff;
         text-align: left;
 }
 #admin_data{
@@ -519,7 +523,7 @@ table.password td.hint{
         font-weight: normal;
         color: #999;
         margin:0;
-        padding:0; 
+        padding:0;
         text-align: center;
         font-size: 18px;
 }
