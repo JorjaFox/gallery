@@ -107,7 +107,7 @@ div.byline a, div.byline a:visited {color:blue!important;}
 }
 
 .album, .indexalbum {
-	margin: 0 20px 10px 0;
+	margin: 5px;
 	width: 200px;
 	display: inline-block;
 	vertical-align: top;
