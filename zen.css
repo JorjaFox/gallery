@@ -174,8 +174,8 @@ div.byline a, div.byline a:visited {color:blue!important;}
 	float: right;
 	width: 140px;
 	text-align: center;
-	border: 1px solid #D5E6EE;
-	background: #EEF5F9;
+	border: none;
+	background: none;
 	margin-top: 10px;
 }
 .imgnav .imgprevious a, .imgnav .imgnext a {
@@ -187,10 +187,8 @@ div.byline a, div.byline a:visited {color:blue!important;}
 	font-size: 120%;
 	text-decoration: none;
 	line-height: 180%;
-	color: #237898;
 }
 .imgnav .imgprevious a:hover, .imgnav .imgnext a:hover {
-	background-color: #fff;
 	text-decoration: none;
 	color: #002E5B;
 }
