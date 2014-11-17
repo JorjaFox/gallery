@@ -12,24 +12,27 @@
 	<link rel="stylesheet" href="http://jorjafox.net/wordpress/wp-content/themes/jfogenesis/style.css" type="text/css" />
 	<link rel="stylesheet" href="http://jorjafox.net/content/code/fonts/fonts.css" type="text/css" />
 	<link type="text/plain" rel="author" href="http://jorjafox.net/humans.txt" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body class="zenphoto going-green-pro-forest">
 
-<?php 
+<?php
 zp_apply_filter('theme_body_open');
-include("header.php"); 
+include("header.php");
 ?>
 
 <main class="content" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div class="breadcrumb">You are here: <a href="http://jorjafox.net/" title="View Home">Home</a> / <a href="http://jorjafox.net/gallery/">Gallery</a> / <?php printParentBreadcrumb('',' / ','  / '); ?></span> <span class="trail-end"><a href="<?php echo html_encode(getAlbumURL());?>" title="<?php echo gettext('View album:'); ?><?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumTitle(); ?></a></div>
 
-    
+
 
     <article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
         <header class="entry-header">
             <h1 class="entry-title" itemprop="headline"><?php printImageTitle(true); ?></h1>
+        </header>
+
+        <div class="entry-content" itemprop="text">
             <div class="entry-meta"><div class="byline"><p><?php printImageDesc(true); ?></p>
                 <!-- Image Nav Above -->
                 <div class="imgnav">
@@ -42,15 +45,12 @@ include("header.php");
                 <p><em><a href="<?php echo htmlspecialchars(getFullImageURL());?>" title="Right-click on the link and Save-As"><?php echo gettext("Download Full Size:"); ?><?php echo getFullWidth() . "x" . getFullHeight(); ?></a></em><br />(Right-click on the link and Save-As)</p>
                 <div style="clear:both;"><br /></div>
             </div></div>
-        </header>
-
-        <div class="entry-content" itemprop="text">
             <div id="padbox">
             	<!-- The Image -->
                 <div id="image"><div class="fullsize">
                     <?php printCustomSizedImageMaxSpace(getBareImageTitle(),580,580); ?>
         		</div></div>
-            
+
             <div style="clear:both;"><p>&nbsp;</p></div>
             </div> <!-- PadBox -->
         </div>
@@ -59,11 +59,11 @@ include("header.php");
 
         <div class="pw-footerwidget"><center>
             <?php include("/home/jorjafox/public_html/content/code/ads/medium-rectangle-300x250.php"); ?>
-            <?php include("/home/jorjafox/public_html/content/code/ads/studiopress-120x240.php"); ?> 
+            <?php include("/home/jorjafox/public_html/content/code/ads/studiopress-120x240.php"); ?>
             <?php include("/home/jorjafox/public_html/content/code/ads/line-buttons-500x250.php"); ?>
-        </center></div>    
-    
-    </article>	
+        </center></div>
+
+    </article>
 </main>
 
 <?php include("sidebar.php"); ?>
