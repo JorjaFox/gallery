@@ -1,7 +1,5 @@
 	<?php include("/home/jorjafox/public_html/content/code/ads/projectwonderful.php"); ?>
 
-	<?php include("/home/jorjafox/public_html/content/code/ads/projectwonderful.php"); ?>
-
 <ul class="wpacc-genesis-skip-link">
   <li><a href="#genwpacc-genesis-nav-primary" class="screen-reader-shortcut">Skip to primary navigation</a></li>
   <li><a href="#genwpacc-genesis-content" class="screen-reader-shortcut">Skip to content</a></li>
