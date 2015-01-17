@@ -34,7 +34,7 @@ include("header.php");
     <article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
         <header class="entry-header">
-            <h1 class="entry-title" itemprop="headline">Search Results</h1>
+            <h2 class="entry-title" itemprop="headline">Search Results</h2>
             <div class="entry-meta">
                 <div class="byline"><?php
                     if (isset($_REQUEST['date'])){

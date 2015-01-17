@@ -38,7 +38,7 @@ include("header.php");
     <article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
         <header class="entry-header">
-            <h1 class="entry-title" itemprop="headline"><?php printAlbumTitle(true); ?></h1>
+            <h2 class="entry-title" itemprop="headline"><?php printAlbumTitle(true); ?></h2>
             <div class="entry-meta"><div class="byline">
                 <p><strong>Description</strong>
                 <br /><?php printAlbumDesc(); ?></p>

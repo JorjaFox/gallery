@@ -1,5 +1,5 @@
-<?php 
-if (!defined('WEBPATH')) die(); 
+<?php
+if (!defined('WEBPATH')) die();
 error_reporting(0);
 ?>
 
@@ -19,9 +19,9 @@ error_reporting(0);
 </head>
 <body class="zenphoto going-green-pro-forest">
 
-<?php 
+<?php
 zp_apply_filter('theme_body_open');
-include("header.php"); 
+include("header.php");
 ?>
 
 <main class="content" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
@@ -30,7 +30,7 @@ include("header.php");
     <article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
         <header class="entry-header">
-            <h1 class="entry-title" itemprop="headline">Welcome to the Gallery</h1>
+            <h2 class="entry-title" itemprop="headline">Welcome to the Gallery</h2>
             <div class="entry-meta"><div class="byline"><?php printGalleryDesc(); ?></div></div>
         </header>
 
@@ -52,11 +52,11 @@ include("header.php");
         <footer class="entry-footer"></footer>
         <div class="pw-footerwidget"><center>
             <?php include("/home/jorjafox/public_html/content/code/ads/medium-rectangle-300x250.php"); ?>
-            <?php include("/home/jorjafox/public_html/content/code/ads/studiopress-120x240.php"); ?> 
+            <?php include("/home/jorjafox/public_html/content/code/ads/studiopress-120x240.php"); ?>
             <?php include("/home/jorjafox/public_html/content/code/ads/line-buttons-500x250.php"); ?>
-        </center></div>    
+        </center></div>
 
-    </article>	
+    </article>
 </main>
 
 <?php include("sidebar.php"); ?>
