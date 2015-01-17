@@ -19,7 +19,7 @@
 	</div>
 </header><!--end #header-->
 
-SiteNavigationElement" id="genwpacc-genesis-nav-primary">
+<nav class="nav-primary" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" id="genwpacc-genesis-nav-primary">
 	<div class="wrap">
 		<ul id="menu-header" class="menu genesis-nav-menu menu-primary">
 			<li id="menu-item-6105" class="menu-home menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-6105"><a href="http://jorjafox.net">Home</a></li>
