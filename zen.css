@@ -30,6 +30,10 @@ div.pagelist li:hover {
 	color: #333;
 }
 
+div.pagelist li a {
+	color: #333;
+}
+
 div.pagelist li.current {
 	background: #555;
 	border: 1px solid #FFF;
