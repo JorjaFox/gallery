@@ -1,4 +1,9 @@
-	<?php include("/home/jorjafox/public_html/content/code/ads/projectwonderful.php"); ?>
+<body class="zenphoto going-green-pro-forest">
+
+<?php
+	zp_apply_filter('theme_body_open');
+	include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/projectwonderful.php");
+?>
 
 <ul class="wpacc-genesis-skip-link">
   <li><a href="#genwpacc-genesis-nav-primary" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -12,7 +17,7 @@
 	<div class="wrap">
 		<div class="title-area"><h1 class="site-title" itemprop="headline"><a href="http://jorjafox.net/">Jorja Fox: Online</a></h1>
 		<p class="site-description" itemprop="description">A fansite for LeFox, Jorja Fox</p></div>
-		<aside class="widget-area header-widget-area"><section id="text-17" class="widget widget_text"><div class="widget-wrap"><div class="textwidget"><img src="/content/code/rotate-logo/rotate.php"></div>
+		<aside class="widget-area header-widget-area"><section id="text-17" class="widget widget_text"><div class="widget-wrap"><div class="textwidget"><img src="http://jorjafox.net/content/code/rotate-logo/rotate.php"></div>
 		</div></section></aside>
 	</div>
 </header><!--end #header-->

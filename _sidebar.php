@@ -1,7 +1,7 @@
 		<aside class="sidebar sidebar-primary widget-area" role="complementary" itemscope="itemscope" itemtype="http://schema.org/WPSideBar" id="genwpacc-sidebar-primary">
 
             <section id="text-8" class="widget widget_text"><div class="widget-wrap">
-                <div class="textwidget"><div class="lq-content"><?php include("/home/jorjafox/public_html/content/code/ads/liquidweb-325x38.php"); ?></div><br /><div class="pw-sidebar"><div id="halfbanner-234x60"><?php include("/home/jorjafox/public_html/content/code/ads/halfbanner-234x60.php"); ?></div></div></div>
+                <div class="textwidget"><div class="lq-content"><?php include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/liquidweb-325x38.php"); ?></div><br /><div class="pw-sidebar"><div id="halfbanner-234x60"><?php include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/halfbanner-234x60.php"); ?></div></div></div>
             </div></section>
 
             <section id="nav_menu-3" class="widget widget_nav_menu"><div class="widget-wrap">
@@ -24,7 +24,7 @@
 
             <section id="text-5" class="widget widget_text"><div class="widget-wrap">
                 <div class="textwidget">
-                    <div class="pw-sidebar"><?php include("/home/jorjafox/public_html/content/code/ads/skyscraper-160x600.php"); ?></div>
+                    <div class="pw-sidebar"><?php include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/skyscraper-160x600.php"); ?></div>
                 </div>
             </div></section>
 </aside>

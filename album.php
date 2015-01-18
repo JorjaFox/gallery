@@ -8,11 +8,8 @@
 
 	<?php zp_apply_filter('theme_head'); ?>
 	<title><?php echo getAlbumTitle() ." | ".getBareGalleryTitle(); ?></title>
-	<link rel="stylesheet" href="<?php echo $_zp_themeroot ?>/zen.css" type="text/css" />
-	<link rel="stylesheet" href="http://jorjafox.net/wordpress/wp-content/themes/jfogenesis/style.css" type="text/css" />
-	<link rel="stylesheet" href="http://jorjafox.net/content/code/fonts/fonts.css" type="text/css" />
-	<link type="text/plain" rel="author" href="http://jorjafox.net/humans.txt" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<?php include("_scripts.php"); ?>
 
 	<script type="text/javascript">
 	// <!-- <![CDATA[
@@ -23,12 +20,8 @@
 	</script>
 
 </head>
-<body class="zenphoto going-green-pro-forest">
 
-<?php
-zp_apply_filter('theme_body_open');
-include("header.php");
-?>
+<?php include("_header.php"); ?>
 
 <main class="content" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div class="breadcrumb">You are here: <a href="http://jorjafox.net/" title="View Home">Home</a> / <a href="http://jorjafox.net/gallery/">Gallery</a> / <?php printParentBreadcrumb('',' / ','  / '); ?></span> <span class="trail-end"><a href="<?php echo html_encode(getAlbumURL());?>" title="<?php echo gettext('View album:'); ?><?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumTitle(); ?></a></div>
@@ -86,16 +79,16 @@ include("header.php");
         </footer>
 
         <div class="pw-footerwidget"><center>
-            <?php include("/home/jorjafox/public_html/content/code/ads/medium-rectangle-300x250.php"); ?>
-            <?php include("/home/jorjafox/public_html/content/code/ads/studiopress-120x240.php"); ?>
-            <?php include("/home/jorjafox/public_html/content/code/ads/line-buttons-500x250.php"); ?>
+            <?php include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/medium-rectangle-300x250.php"); ?>
+            <?php include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/studiopress-120x240.php"); ?>
+            <?php include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/line-buttons-500x250.php"); ?>
         </center></div>
 
     </article>
 </main>
 
-<?php include("sidebar.php"); ?>
-<?php include("footer.php"); ?>
+<?php include("_sidebar.php"); ?>
+<?php include("_footer.php"); ?>
 
 </div> <!-- End Site-container -->
 <?php zp_apply_filter('theme_body_close'); ?>

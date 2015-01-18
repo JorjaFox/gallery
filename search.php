@@ -6,30 +6,22 @@
 <head>
 	<?php zp_apply_filter('theme_head'); ?>
 	<title>Search Results | <?php echo getBareGalleryTitle(); ?></title>
-    <link rel="stylesheet" href="<?php echo $_zp_themeroot ?>/zen.css" type="text/css" />
-	<link rel="stylesheet" href="http://jorjafox.net/wordpress/wp-content/themes/jfogenesis/style.css" type="text/css" />
-	<link rel="stylesheet" href="http://jorjafox.net/content/code/fonts/fonts.css" type="text/css" />
-	<link type="text/plain" rel="author" href="http://jorjafox.net/humans.txt" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	
+
+	<?php include("_scripts.php"); ?>
+
 	<script type="text/javascript">
 	// <!-- <![CDATA[
 	$(document).ready(function(){
 	$(".colorbox").colorbox({inline:true, href:"#imagethumb"});
 	$("a[rel='showcase']").colorbox({transition:"none", width:"75%", photo:true,title:function () { var size = $(this).attr('size'); return "View Image Page".link($(this).attr('solo')) + " | " + "View Full Sized".link($(this).attr('full')) + " ("+size+")" ;} });});
 	// ]]> -->
-	</script></head>
-<body class="zenphoto going-green-pro-forest">
+	</script>
+</head>
 
-<?php 
-zp_apply_filter('theme_body_open');
-include("header.php"); 
-?>
+<?php include("_header.php"); ?>
 
 <main class="content" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div class="breadcrumb">You are here: <a href="http://jorjafox.net/" title="View Home">Home</a> / <a href="http://jorjafox.net/gallery/">Gallery</a> / Search Results</div>
-
-    
 
     <article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
@@ -41,7 +33,7 @@ include("header.php");
         				$searchwords = getSearchDate();
                     } else { $searchwords = getSearchWords(); }
                     echo '<p>'.sprintf(gettext('Total matches for <em>%1$s</em>: %2$u'), $searchwords, $total).'</p>';
-        		?></div>                
+        		?></div>
             </div>
         </header>
 
@@ -61,9 +53,9 @@ include("header.php");
                          <p style="clear: both; "><!-- End Albums --></p>
                        </div>
                     <?php endwhile; ?>
-                    </div>        
+                    </div>
                 <?php } ?>
-        
+
                 <?php if ((getNumImages()) > 0) { ?>
                     <div id="images">
             		   <?php $x=0; while (next_image(true)):
@@ -75,7 +67,7 @@ include("header.php");
                        endwhile; ?>
                     </div>
                 <?php } ?><!-- End Images -->
-            
+
                 <br clear="all" />
 
             </div> <!-- PadBox -->
@@ -83,16 +75,16 @@ include("header.php");
 
         <footer class="entry-footer"></footer>
         <div class="pw-footerwidget"><center>
-            <?php include("/home/jorjafox/public_html/content/code/ads/medium-rectangle-300x250.php"); ?>
-            <?php include("/home/jorjafox/public_html/content/code/ads/studiopress-120x240.php"); ?> 
-            <?php include("/home/jorjafox/public_html/content/code/ads/line-buttons-500x250.php"); ?>
-        </center></div>    
+            <?php include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/medium-rectangle-300x250.php"); ?>
+            <?php include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/studiopress-120x240.php"); ?>
+            <?php include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/line-buttons-500x250.php"); ?>
+        </center></div>
 
-    </article>	
+    </article>
 </main>
 
-<?php include("sidebar.php"); ?>
-<?php include("footer.php"); ?>
+<?php include("_sidebar.php"); ?>
+<?php include("_footer.php"); ?>
 
 </div> <!-- End Site-container -->
 <?php zp_apply_filter('theme_body_close'); ?>

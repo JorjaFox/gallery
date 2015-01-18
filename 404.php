@@ -1,4 +1,4 @@
-<?php if (!defined('WEBPATH')) die(); 
+<?php if (!defined('WEBPATH')) die();
 
 error_reporting(0);
 ?>
@@ -10,23 +10,17 @@ error_reporting(0);
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
 	<?php zp_apply_filter('theme_head'); ?>
 	<title>404 - file not found | <?php echo getBareGalleryTitle(); ?></title>
-	<link rel="stylesheet" href="<?php echo $_zp_themeroot ?>/zen.css" type="text/css" />
-	<link rel="stylesheet" href="http://jorjafox.net/wordpress/wp-content/themes/jfogenesis/style.css" type="text/css" />
-	<link rel="stylesheet" href="http://jorjafox.net/content/code/fonts/fonts.css" type="text/css" />
-	<link type="text/plain" rel="author" href="http://jorjafox.net/humans.txt" />	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-</head>
-<body class="zenphoto going-green-pro-forest">
 
-<?php 
-zp_apply_filter('theme_body_open');
-include("header.php"); 
-?>
+	<?php include("_scripts.php"); ?>
+
+</head>
+
+<?php include("_header.php"); ?>
 
 <main class="content" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div class="breadcrumb">You are here: <a href="http://jorjafox.net/" title="View Home">Home</a> / <a href="http://jorjafox.net/gallery/">Gallery</a> / 404</div>
 
-    
+
 
     <article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
@@ -38,9 +32,9 @@ include("header.php");
         <div class="entry-content" itemprop="text">
             <div id="padbox">
                 <?php
-                
+
                 echo '<p>'.gettext("Whoops! We can't find that page...").'</p>';
-            
+
                 if (isset($album)) {
                     echo '<p>' . sprintf(gettext('Album: %s'), html_encode($album)).'</p>';
                 }
@@ -56,15 +50,15 @@ include("header.php");
 
         <footer class="entry-footer"></footer>
         <div class="pw-footerwidget"><center>
-            <?php include("/home/jorjafox/public_html/content/code/ads/medium-rectangle-300x250.php"); ?>
-            <?php include("/home/jorjafox/public_html/content/code/ads/line-buttons-500x250.php"); ?>
-        </center></div>    
+            <?php include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/medium-rectangle-300x250.php"); ?>
+            <?php include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/line-buttons-500x250.php"); ?>
+        </center></div>
 
-    </article>	
+    </article>
 </main>
 
-<?php include("sidebar.php"); ?>
-<?php include("footer.php"); ?>
+<?php include("_sidebar.php"); ?>
+<?php include("_footer.php"); ?>
 
 </div> <!-- End Site-container -->
 <?php zp_apply_filter('theme_body_close'); ?>

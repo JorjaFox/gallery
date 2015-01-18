@@ -9,7 +9,7 @@
 
 	<footer class="site-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
 		<div class="wrap"><p>Copyright &copy; 1996-<?php echo date("Y"); ?> <em><a href="http://jorjafox.net/">Jorja Fox: Online</a></em></p></div>
-		<div class="pw-footer"><?php include("/home/jorjafox/public_html/content/code/ads/leaderboard-728x90.php"); ?></div>
+		<div class="pw-footer"><?php include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/leaderboard-728x90.php"); ?></div>
 		</footer>
 </div> <!-- End Site-Container -->
 
@@ -24,6 +24,6 @@
 </div>
 
 <?php
-    include("/home/jorjafox/public_html/content/code/ads/footer.php");
-    include("/home/jorjafox/public_html/content/code/js/bit-slideup.php");
+    include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/footer.php");
+    include($_SERVER["DOCUMENT_ROOT"]."/content/code/js/bit-slideup.php");
 ?>
