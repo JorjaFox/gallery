@@ -4,80 +4,11 @@
     float: none !important;
 }
 
-.site-container {
-    margin: 30px 0 0 0;
-}
+/* Navigation */
 
-.header-image #title-area, .header-image .title-area {
-	margin-top: 15px;
-}
-
-body.zenphoto article .entry-header {
-	position: relative;
-}
-
-body.zenphoto .entry-meta a:hover {
-	color: #f1f!important;
-}
-
-body.zenphoto .entry-meta a {
-	color: #9999FF!important;
-}
-
-.title-area {
-    margin: 0 0 15px 0;
-    margin: 0 0 .9375rem 0;
-}
-
-#content { float:right;}
-
-div#latest_album ul, div#latestupdated_album ul {
-    display: inline;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-div#latest_album li, div#latestupdated_album li {
-    display: inline;
-    float: left;
-    margin: 0 0 0 5px;
-    width: 175px;
-    height: 275px;
-    text-align: center;
-}
-
-div#latest_album h3 a, div#latestupdated_album h3 a {font-size: 20px;padding-bottom: 10px;}
-div.byline a, div.byline a:visited {color:blue!important;}
-.sidebar { float:left;}
-
-#menu-primary .genericon {
-	margin-bottom: 6px;
-}
-
-#menu-primary .genericon.genericon-search {
-	padding-right: 6px;
-}
-
-.entry-content {
-    padding: 0px!important;
-}
-
-/* These styles are just for the test template. Make some better ones. And yes, I know it's messy */
-
-#gallerytitle h2 {
-	font-size: 11pt;
-}
-
-#gallerytitle span {
-	font-weight: normal;
-	color: #CCC;
-	text-decoration: none;
-}
-
-#gallerytitle a:link,#gallerytitle a:visited {
-	text-decoration: underline;
-	color: #999;
+ul.pagelist {
+	display: inline;
+	list-style-type: none;
 }
 
 /* Image Thumbnails
@@ -209,40 +140,12 @@ div.byline a, div.byline a:visited {color:blue!important;}
 	width: 440px;
 }
 
-.pagenav {
-	margin: 5px 0px 5px;
-	font-size: 8pt;
-	font-weight: bold;
-	color: #CCC;
-	clear: both;
-}
-
-.pagenav A:link,.pagenav A:visited {
-	color: #333;
-	text-decoration: none;
-}
-
 .disabled_nav {
 	visibility: hidden;
 }
 
 .navigation .disabledlink {
     visibility: hidden;
-}
-
-.navigation li.prev span, .navigation li.next span, .navigation li.prev a, .navigation li.current, .navigation li.first a, .navigation li.prev a:visited, .navigation li.first a:visited {
-    background: url(http://jorjafox.net/wordpress/wp-content/themes/jfogenesis/images/button.png) 0 0;
-    border: none;
-    border-bottom: 1px solid #111;
-    border-top: 1px solid #999;
-    color: white;
-    font-size: 14px;
-    text-shadow: -1px -1px black;
-    padding: 5px 8px!important;
-}
-
-ul.pagelist li {
-    margin: 5px!important;
 }
 
 .disabledlink {
@@ -532,11 +435,3 @@ table.password td.hint{
         font-size: 18px;
 }
 #admin h3:hover { color: #036;}
-
-/* Mobile */
-@media only screen and (max-width: 1067px) {
-    .title-area {
-        padding: 0px!important;
-        width: 250px!important;
-    }
-}
