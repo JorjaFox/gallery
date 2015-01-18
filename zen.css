@@ -20,7 +20,11 @@ div.pagelist li {
 	color: #FFF;
 }
 
-div.pagelist li a:hover {
+div.pagelist li a {
+	color: #FFF;
+}
+
+div.pagelist li:hover {
 	background: #FFF;
 	border: 1px solid #333;
 	color: #333;
