@@ -1,4 +1,4 @@
-<body class="zenphoto going-green-pro-forest">
+<body class="zenphoto utility-pro-green">
 
 <?php
 	zp_apply_filter('theme_body_open');
