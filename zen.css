@@ -11,6 +11,24 @@ ul.pagelist {
 	list-style-type: none;
 }
 
+div.pagelist li {
+	cursor: pointer;
+	display: inline-block;
+	padding: 8px 12px;
+}
+div.pagelist li a {
+	background: #333;
+	border: 1px solid #FFF;
+	color: #FFF;
+}
+
+div.pagelist li.current {
+	background: #555;
+	border: 1px solid #FFF;
+	color: #FFF;
+	cursor: none;
+}
+
 /* Image Thumbnails
 ------------------------------ */
 
