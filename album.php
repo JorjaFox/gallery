@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="http://jorjafox.net/content/code/fonts/fonts.css" type="text/css" />
 	<link type="text/plain" rel="author" href="http://jorjafox.net/humans.txt" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	
+
 	<script type="text/javascript">
 	// <!-- <![CDATA[
 	$(document).ready(function(){
@@ -25,15 +25,15 @@
 </head>
 <body class="zenphoto going-green-pro-forest">
 
-<?php 
+<?php
 zp_apply_filter('theme_body_open');
-include("header.php"); 
+include("header.php");
 ?>
 
 <main class="content" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div class="breadcrumb">You are here: <a href="http://jorjafox.net/" title="View Home">Home</a> / <a href="http://jorjafox.net/gallery/">Gallery</a> / <?php printParentBreadcrumb('',' / ','  / '); ?></span> <span class="trail-end"><a href="<?php echo html_encode(getAlbumURL());?>" title="<?php echo gettext('View album:'); ?><?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumTitle(); ?></a></div>
 
-    
+
 
     <article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
@@ -74,27 +74,24 @@ include("header.php");
 					<?php endwhile; ?>
 				</div>
             </div> <!-- PadBox -->
-            
+
             <div style="clear:both;"></div>
         </div>
 
         <footer class="entry-footer">
-            <?php if ((getNumAlbums()) > 0) { ?>
-                <div class="archive-pagination pagination"><?php printPageListWithNav("« ".gettext("prev"), gettext("next")." »"); ?></div>
-            <?php } else { ?>
-		<div class="archive-pagination pagination"><?php printPageListWithNav("« " . gettext("prev"), gettext("next") . " »"); ?></div>
-            <?php } ?>
+
+			<div class="nav-links"><span class="page-numbers current"><div class="archive-pagination pagination"><?php printPageListWithNav("« " . gettext("prev"), gettext("next") . " »"); ?></div></span></div>
 
             <p>Per our <a href="http://jorjafox.net/wiki/JorjaPedia:Copyrights">Copyrights</a> and <a href="http://jorjafox.net/wiki/JorjaPedia:Terms_of_Use">Terms of Use</a>, you are welcome to copy and reuse images on this site for your own use, provided you credit this site in some way (via a link back, or simply by mentioning us by name).</p>
         </footer>
 
         <div class="pw-footerwidget"><center>
             <?php include("/home/jorjafox/public_html/content/code/ads/medium-rectangle-300x250.php"); ?>
-            <?php include("/home/jorjafox/public_html/content/code/ads/studiopress-120x240.php"); ?> 
+            <?php include("/home/jorjafox/public_html/content/code/ads/studiopress-120x240.php"); ?>
             <?php include("/home/jorjafox/public_html/content/code/ads/line-buttons-500x250.php"); ?>
-        </center></div>    
+        </center></div>
 
-    </article>	
+    </article>
 </main>
 
 <?php include("sidebar.php"); ?>
