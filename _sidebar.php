@@ -14,6 +14,10 @@
                 </ul></div>
             </div></section>
 
+		    <section id="search-3" class="widget widget_search">
+		        <div class="widget-wrap"><?php printSearchForm();  ?></div>
+		    </section>
+
 		    <section id="text-11" class="widget widget_text"><div class="widget-wrap"><h4 class="widget-title widgettitle">Follow Jorja</h4>
 <div class="textwidget"><a href="http://jorjafox.com/" title="Jorja's Website"><i class="fa fa-home fa-home fa-3x"></i></a> <a href="https://www.facebook.com/JorjaFoxWorldwide" title="Jorja on Facebook"><i class="fa fa-facebook-square fa-3x"></i></a> <a href="http://twitter.com/jorjafoxofficia" title="Jorja on Twitter"><i class="fa fa-twitter-square fa-3x"></i></a> </div>
 </div></section>
