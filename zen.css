@@ -221,6 +221,10 @@ div#imagedesc { padding-top:20px;}
 	text-decoration: none;
 }
 
+.search-form [type="submit"] {
+	top: 0;
+}
+
 img#searchfields_icon, input#search_submit.pushbutton {
 	display:none;
 }
