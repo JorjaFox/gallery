@@ -254,6 +254,7 @@ img#searchfields_icon, input#search_submit.pushbutton {
 	padding: 0 42px 0 0;
 	position: absolute;
 	right: 0;
+	top: 0;
 	vertical-align: top;
 	width: 53px;
 	-webkit-transition: none;
