@@ -15,7 +15,7 @@
             </div></section>
 
 		    <section id="search-3" class="widget widget_search">
-		        <div class="widget-wrap"><div class="search-form"><?php printSearchForm( NULL, 'search', $_zp_themeroot . '/images/search.png' );  ?></div></div>
+		        <div class="widget-wrap"><div class="search-form"><?php printSearchForm();  ?></div></div>
 		    </section>
 
 		    <section id="text-11" class="widget widget_text"><div class="widget-wrap"><h4 class="widget-title widgettitle">Follow Jorja</h4>
