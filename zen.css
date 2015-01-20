@@ -217,13 +217,13 @@ div#imagedesc { padding-top:20px;}
 	text-align:left;
 }
 
-#search #search_input {
-	width: 215px;
-}
 #search a {
-text-decoration: none;
+	text-decoration: none;
 }
-img#searchfields_icon, input#search_submit.pushbutton {display:none;}
+
+img#searchfields_icon, input#search_submit.pushbutton {
+	display:none;
+}
 
 #search ul {
 border: 1px solid #ccc; position:absolute; text-align:left; list-style: none;
