@@ -32,7 +32,13 @@
             <h2 class="entry-title" itemprop="headline"><?php printAlbumTitle(true); ?></h2>
             <div class="entry-meta"><div class="byline">
                 <p><?php printAlbumDesc(); ?></p>
-                <p><strong><?php if (function_exists('printDownloadAlbumZipURL') && getNumAlbums()==0 ) { printDownloadAlbumZipURL('Download a zip of all images in this album'); echo ' ('.getNumImages().' images)';} ?></strong></p>
+                <?php if (function_exists('printDownloadAlbumZipURL') && getNumAlbums()==0 ) {
+	                echo '<p><strong>';
+	                printDownloadAlbumZipURL('Download a zip of all images in this album');
+	                echo ' ('.getNumImages().' images)';
+	                echo '</strong></p>';
+	                }
+	            ?>
             </div></div>
         </header>
 
