@@ -26,15 +26,12 @@
 <main class="content" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div class="breadcrumb">You are here: <a href="http://jorjafox.net/" title="View Home">Home</a> / <a href="http://jorjafox.net/gallery/">Gallery</a> / <?php printParentBreadcrumb('',' / ','  / '); ?></span> <span class="trail-end"><a href="<?php echo html_encode(getAlbumURL());?>" title="<?php echo gettext('View album:'); ?><?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumTitle(); ?></a></div>
 
-
-
     <article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
         <header class="entry-header">
             <h2 class="entry-title" itemprop="headline"><?php printAlbumTitle(true); ?></h2>
             <div class="entry-meta"><div class="byline">
-                <p><strong>Description</strong>
-                <br /><?php printAlbumDesc(); ?></p>
+                <p><?php printAlbumDesc(); ?></p>
                 <p><strong><?php if (function_exists('printDownloadAlbumZipURL') && getNumAlbums()==0 ) { printDownloadAlbumZipURL('Download a zip of all images in this album'); echo ' ('.getNumImages().' images)';} ?></strong></p>
             </div></div>
         </header>
@@ -51,7 +48,7 @@
 							</div>
 							<div class="albumdesc">
 								<h3><a href="<?php echo html_encode(getAlbumURL()); ?>" title="<?php echo gettext('View album:'); ?> <?php printAnnotatedAlbumTitle(); ?>"><?php printAlbumTitle(); ?></a></h3>
-								<div><?php printAlbumDesc(); ?></div>
+								<center><p><?php printAlbumDesc(); ?></p></center>
 							</div>
 							<p style="clear: both; "></p>
 						</div>
