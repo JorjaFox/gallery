@@ -38,6 +38,7 @@ div.pagelist li.current {
 	padding: 8px 12px;
 	color: #FFF;
 	cursor: default;
+	font-weight: normal;
 }
 
 div.pagelist li .disabledlink {
