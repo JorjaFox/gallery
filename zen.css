@@ -14,12 +14,12 @@ ul.pagelist {
 div.pagelist li {
 	cursor: pointer;
 	display: inline-block;
-
+	font-weight: bold;
 }
 
 div.pagelist li a {
 	color: #FFF;
-	padding: 8px 12px;
+	padding: 10px 12px;
 	background: #333;
 	border: 1px solid #FFF;
 	color: #FFF;
@@ -33,12 +33,12 @@ div.pagelist li a:hover {
 }
 
 
-div.pagelist li.current, div.pagelist li.prev, div.pagelist li.next {
+div.pagelist li.current, div.pagelist span.disabledlink {
 	background: #555;
 	border: 1px solid #FFF;
 	padding: 8px 12px;
 	color: #FFF;
-	cursor: none;
+	cursor: default;
 }
 
 /* Image Thumbnails
