@@ -4,6 +4,47 @@
     float: none !important;
 }
 
+div.byline p {
+	margin: 0px;
+}
+
+/* Search */
+
+#search {
+	text-align:left;
+}
+
+#search a {
+	text-decoration: none;
+}
+
+.search-form [type="submit"] {
+	top: 0;
+}
+
+img#searchfields_icon, input#search_submit.pushbutton {
+	display:none;
+}
+
+#search ul {
+	border: 1px solid #ccc; position:absolute; text-align:left; list-style: none;
+	height: 8em; width: 20em; overflow: auto;
+	color: black;
+	background:white;
+}
+
+#search_submit {
+	background-color: transparent!important;
+	border: 1px solid #ddd!important;
+	color: #ddd;
+	text-indent: -9999px;
+}
+
+.search-form [type="submit"] {
+	background: url(images/search.png) no-repeat 75% 53% #fff!important;
+	top: 0;
+}
+
 /* Navigation */
 
 ul.pagelist {
@@ -49,6 +90,14 @@ div.pagelist li .disabledlink {
     cursor: default;
 }
 
+.disabled_nav {
+	visibility: hidden;
+}
+
+.navigation .disabledlink {
+    visibility: hidden;
+}
+
 /* Image Thumbnails
 ------------------------------ */
 
@@ -74,12 +123,6 @@ div.pagelist li .disabledlink {
 
 /* Album Thumbnails
 ------------------------------ */
-/*
-#albums, #images {
-	padding: 0 12px 0 40px;
-	padding: 0 0.75rem 0 2.5rem;
-}
-*/
 
 .album, .indexalbum {
 	margin: 5px;
@@ -178,14 +221,6 @@ div.pagelist li .disabledlink {
 	width: 440px;
 }
 
-.disabled_nav {
-	visibility: hidden;
-}
-
-.navigation .disabledlink {
-    visibility: hidden;
-}
-
 .disabledlink {
 	color: #ddd;
 	cursor: default;
@@ -197,6 +232,8 @@ div.pagelist li .disabledlink {
 }
 
 div#imagedesc { padding-top:20px;}
+
+/* Misc */
 
 .error {
 	color: #C33;
@@ -219,40 +256,7 @@ div#imagedesc { padding-top:20px;}
 	top: 15px;
 }
 
-#search {
-	text-align:left;
-}
-
-#search a {
-	text-decoration: none;
-}
-
-.search-form [type="submit"] {
-	top: 0;
-}
-
-img#searchfields_icon, input#search_submit.pushbutton {
-	display:none;
-}
-
-#search ul {
-	border: 1px solid #ccc; position:absolute; text-align:left; list-style: none;
-	height: 8em; width: 20em; overflow: auto;
-	color: black;
-	background:white;
-}
-
-#search_submit {
-	background-color: transparent!important;
-	border: 1px solid #ddd!important;
-	color: #ddd;
-	text-indent: -9999px;
-}
-
-.search-form [type="submit"] {
-	background: url(images/search.png) no-repeat 75% 53% #fff!important;
-	top: 0;
-}
+/* Search */
 
 .clear {
 	clear: both;
