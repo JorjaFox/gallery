@@ -40,6 +40,14 @@ div.pagelist li.current {
 	cursor: default;
 }
 
+div.pagelist li .disabledlink {
+    background: #555;
+    border: 1px solid #FFF;
+    padding: 10px 12px;
+    color: #FFF;
+    cursor: default;
+}
+
 /* Image Thumbnails
 ------------------------------ */
 
