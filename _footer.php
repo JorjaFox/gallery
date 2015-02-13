@@ -22,8 +22,3 @@
         </div>
     </div>
 </div>
-
-<?php
-    include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/footer.php");
-    include($_SERVER["DOCUMENT_ROOT"]."/content/code/js/bit-slideup.php");
-?>

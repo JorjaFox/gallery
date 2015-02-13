@@ -8,8 +8,7 @@
 
 	<!-- Scripts -->
 
-	<script src='http://jorjafox.net/content/code/js/rum_site247.js' type="text/psajs" orig_index="12"></script>
-	<script src='http://jorjafox.net/content/code/js/rum_pingdom.js' type="text/psajs" orig_index="13"></script>
+	<script src='http://jorjafox.net/content/code/js/jfo-content.min.js' type="text/psajs" orig_index="13"></script>
 	<script type="text/psajs" orig_index="15">//<![CDATA[
 		var utilityResponsiveL10n={"buttonText":"Menu","buttonLabel":"Primary Navigation Menu","subButtonText":"Menu","subButtonLabel":"Sub Navigation Menu"};
 	//]]></script>
