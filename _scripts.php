@@ -9,14 +9,12 @@
 	<!-- Scripts -->
 
 	<script src='http://jorjafox.net/content/code/js/jfo-content.min.js' type="text/psajs" orig_index="13"></script>
-	<script type="text/psajs" orig_index="15">//<![CDATA[
+	<script type="text/psajs">//<![CDATA[
 		var utilityResponsiveL10n={"buttonText":"Menu","buttonLabel":"Primary Navigation Menu","subButtonText":"Menu","subButtonLabel":"Sub Navigation Menu"};
 	//]]></script>
-	<script src='http://jorjafox.net/wordpress/wp-content/themes/jfogenesis/js/responsive-menu.js' type="text/psajs" orig_index="16"></script>
-	<script src='http://jorjafox.net/wordpress/wp-content/themes/jfogenesis/js/genwpacc-dropdown.js' type="text/psajs" orig_index="17"></script>
-	<script src='http://jorjafox.net/wordpress/wp-content/themes/jfogenesis/js/genwpacc-skiplinks.js' type="text/psajs" orig_index="18"></script>
-	<script src='http://jorjafox.net/wordpress/wp-content/themes/jfogenesis/js/backstretch.min.js' type="text/psajs" orig_index="19"></script>
-	<script type="text/psajs" orig_index="20">//<![CDATA[
+	<script type="text/psajs">//<![CDATA[
 		var utilityBackstretchL10n={"src":"http:\/\/jorjafox.net\/wordpress\/wp-content\/uploads\/2015\/01\/JorjaFox.com_.jpg"};
 	//]]></script>
-	<script src='http://jorjafox.net/wordpress/wp-content/themes/jfogenesis/js/backstretch.args.js' type="text/psajs" orig_index="21"></script>
+	<script src='http://jorjafox.net/wordpress/wp-content/themes/jfogenesis/js/responsive-menu.min.js' type="text/psajs" orig_index="16"></script>
+	<script src='http://jorjafox.net/wordpress/wp-content/themes/jfogenesis/js/genwpacc.min.js' type="text/psajs" orig_index="17"></script>
+	<script src='http://jorjafox.net/wordpress/wp-content/themes/jfogenesis/js/backstretch.min.js' type="text/psajs" orig_index="19"></script>
