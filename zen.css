@@ -22,6 +22,10 @@ div.byline p {
 	top: 0;
 }
 
+.search-form span.tagSuggestContainer {
+	display: inline;
+}
+
 img#searchfields_icon, input#search_submit.pushbutton {
 	display:none;
 }
