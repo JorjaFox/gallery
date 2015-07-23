@@ -1,4 +1,4 @@
-<body class="zenphoto utility-pro-green">
+<body class="zenphoto sidebar-content utility-pro-green">
 
 <?php
 	zp_apply_filter('theme_body_open');
