@@ -20,6 +20,13 @@
 
 <?php include("_header.php"); ?>
 
+<?php
+	$total = getNumImages() + getNumAlbums();
+	if (!$total) {
+		$_zp_current_search->clearSearchWords();
+	}
+?>
+
 <main class="content" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div class="breadcrumb">You are here: <a href="http://jorjafox.net/" title="View Home">Home</a> / <a href="http://jorjafox.net/gallery/">Gallery</a> / Search Results</div>
 
@@ -32,7 +39,7 @@
                     if (isset($_REQUEST['date'])){
         				$searchwords = getSearchDate();
                     } else { $searchwords = getSearchWords(); }
-                    echo '<p>'.sprintf(gettext('Total matches for <em>%1$s</em>: %2$u'), $searchwords, $total).'</p>';
+                    echo '<p>'.sprintf(gettext('Total matches for <em>%1$s</em>: %2$u'), html_encode($searchwords), $total).'</p>';
         		?></div>
             </div>
         </header>
@@ -75,9 +82,16 @@
 
         <footer class="entry-footer"></footer>
         <div class="pw-footerwidget"><center>
-            <?php include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/medium-rectangle-300x250.php"); ?>
-            <?php include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/studiopress-120x240.php"); ?>
-            <?php include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/line-buttons-500x250.php"); ?>
+			<?php
+				$_GET['name'] = 'medium-rectangle-300x250';
+				include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+
+				$_GET['name'] = 'studiopress-120x240';
+				include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+
+				$_GET['name'] = 'line-buttons-500x250';
+				include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+			?>	        
         </center></div>
 
     </article>
