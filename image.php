@@ -50,9 +50,17 @@
         <footer class="entry-footer"><p>Per our <a href="http://jorjafox.net/wiki/JorjaPedia:Copyrights">Copyrights</a> and <a href="http://jorjafox.net/wiki/JorjaPedia:Terms_of_Use">Terms of Use</a>, you are welcome to copy and reuse images on this site for your own use, provided you credit this site in some way (via a link back, or simply by mentioning us by name).</p></footer>
 
         <div class="pw-footerwidget"><center>
-            <?php include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/medium-rectangle-300x250.php"); ?>
-            <?php include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/studiopress-120x240.php"); ?>
-            <?php include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/line-buttons-500x250.php"); ?>
+			<?php
+				$_GET['name'] = 'medium-rectangle-300x250';
+				include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+
+				$_GET['name'] = 'studiopress-120x240';
+				include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+
+				$_GET['name'] = 'line-buttons-500x250';
+				include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+
+			?>
         </center></div>
 
     </article>

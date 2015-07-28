@@ -50,8 +50,13 @@ error_reporting(0);
 
         <footer class="entry-footer"></footer>
         <div class="pw-footerwidget"><center>
-            <?php include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/medium-rectangle-300x250.php"); ?>
-            <?php include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/line-buttons-500x250.php"); ?>
+			<?php
+				$_GET['name'] = 'medium-rectangle-300x250';
+				include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+
+				$_GET['name'] = 'line-buttons-500x250';
+				include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+			?>
         </center></div>
 
     </article>
