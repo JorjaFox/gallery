@@ -2,7 +2,7 @@
 
 <?php
 	zp_apply_filter('theme_body_open');
-	include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/projectwonderful.php");
+	include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/loader.php");
 ?>
 
 <ul class="wpacc-genesis-skip-link">
