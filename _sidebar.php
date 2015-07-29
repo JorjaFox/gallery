@@ -7,10 +7,10 @@
 						include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
 					?></div><br />
 
-	                <div class="pw-sidebar"><div id="halfbanner-234x60"><?php
-						$_GET['name'] = 'halfbanner-234x60';
+	                <div class="google-responsive"><?php
+						$_GET['name'] = 'google-responsive';
 						include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
-					?></div></div><br />
+					?></div><br />
 				</div>
             </div></section>
 
