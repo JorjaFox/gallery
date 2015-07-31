@@ -9,7 +9,7 @@
 
 	<footer class="site-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
 		<div class="wrap"><p>Copyright &copy; 1996-<?php echo date("Y"); ?> <em><a href="http://jorjafox.net/">Jorja Fox: Online</a></em><br />Powered by <a href="https://http://zenphoto20.us/">ZenPhoto20</a> & <a href="https://store.carriedils.com/ref/8">Utility Pro</a></p></div>
-		<div class="pw-footer">
+		<div class="adboxes-footer">
 			<?php
 				$_GET['name'] = 'leaderboard-728x90';
 				include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");

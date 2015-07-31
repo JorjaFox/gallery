@@ -49,7 +49,7 @@ error_reporting(0);
         </div>
 
         <footer class="entry-footer"></footer>
-        <div class="pw-footerwidget"><center>
+        <div class="adboxes-footerwidget"><center>
 			<?php
 				$_GET['name'] = 'google-medium-rectangle';
 				include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
