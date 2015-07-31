@@ -81,7 +81,7 @@
             <p>Per our <a href="http://jorjafox.net/wiki/JorjaPedia:Copyrights">Copyrights</a> and <a href="http://jorjafox.net/wiki/JorjaPedia:Terms_of_Use">Terms of Use</a>, you are welcome to copy and reuse images on this site for your own use, provided you credit this site in some way (via a link back, or simply by mentioning us by name).</p>
         </footer>
 
-        <div class="pw-footerwidget"><center>
+        <div class="adboxes-footerwidget"><center>
 			<?php
 				$_GET['name'] = 'google-medium-rectangle';
 				include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
