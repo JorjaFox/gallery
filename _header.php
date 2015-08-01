@@ -13,6 +13,10 @@
   <li><a href="#genwpacc-genesis-nav-footer" class="screen-reader-shortcut">Skip to footer navigation</a></li>
 </ul>
 
+<div class="utility-bar"><div class="wrap"><section id="text-16" class="widget widget_text"><div class="widget-wrap">
+	<div class="textwidget"><?php printGalleryDesc(); ?></div>
+</div></section></div></div>
+
 <header class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
 	<div class="wrap">
 		<div class="title-area"><h1 class="site-title" itemprop="headline"><a href="http://jorjafox.net/">Jorja Fox: Online</a></h1>
