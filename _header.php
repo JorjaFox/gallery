@@ -13,9 +13,15 @@
   <li><a href="#genwpacc-genesis-nav-footer" class="screen-reader-shortcut">Skip to footer navigation</a></li>
 </ul>
 
-<div class="utility-bar"><div class="wrap"><section id="text-16" class="widget widget_text"><div class="widget-wrap">
-	<div class="textwidget"><?php printGalleryDesc(); ?></div>
-</div></section></div></div>
+<div class="utility-bar">
+	<div class="wrap">
+		<section id="text-16" class="widget widget_text">
+			<div class="widget-wrap">
+				<div class="textwidget"><?php printGalleryDesc(); ?></div>
+			</div>
+		</section>
+	</div>
+</div>
 
 <header class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
 	<div class="wrap">
@@ -29,10 +35,10 @@
 <nav class="nav-primary" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" id="genwpacc-genesis-nav-primary">
 	<div class="wrap">
 		<ul id="menu-header" class="menu genesis-nav-menu menu-primary">
-			<li id="menu-item-6105" class="menu-home menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-6105"><a href="http://jorjafox.net/">Home</a></li>
-			<li id="menu-item-3622" class="menu-photos menu-item menu-item-type-custom menu-item-object-custom menu-item-3622"><a href="http://jorjafox.net/gallery/">Photos</a></li>
-			<li id="menu-item-3623" class="menu-videos menu-item menu-item-type-custom menu-item-object-custom menu-item-3623"><a href="http://jorjafox.net/video/">Videos</a></li>
-			<li id="menu-item-3624" class="menu-jorjapedia menu-item menu-item-type-custom menu-item-object-custom menu-item-3624"><a href="http://jorjafox.net/wiki/">JorjaPedia</a></li>
+			<li id="menu-item-6105" class="menu-home menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-6105"><a href="/">Home</a></li>
+			<li id="menu-item-3622" class="menu-photos menu-item menu-item-type-custom menu-item-object-custom menu-item-3622"><a href="/gallery/">Photos</a></li>
+			<li id="menu-item-3623" class="menu-videos menu-item menu-item-type-custom menu-item-object-custom menu-item-3623"><a href="/video/">Videos</a></li>
+			<li id="menu-item-3624" class="menu-jorjapedia menu-item menu-item-type-custom menu-item-object-custom menu-item-3624"><a href="/wiki/">JorjaPedia</a></li>
 		</ul>
 	</div>
 </nav>
