@@ -20,12 +20,13 @@
 
     <article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
-        <header class="entry-header">
-            <h2 class="entry-title" itemprop="headline"><?php printImageTitle(true); ?></h2>
-        </header>
+<header class="entry-header"><h1 class="entry-title" itemprop="headline">CSI Finale Filming: Day Five</h1>
+<p class="entry-meta"><time class="entry-time" itemprop="datePublished" datetime="2015-08-02T14:01:10+00:00">August 2, 2015</time> by <span class="entry-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><a href="https://jorjafox.net/author/ipstenu/" class="entry-author-link" itemprop="url" rel="author"><span class="entry-author-name" itemprop="name">Mika E. (Ipstenu)</span></a></span> <a class="post-edit-link" href="https://jorjafox.net/wordpress/wp-admin/post.php?post=13190&amp;action=edit">(Edit)</a></p></header>
 
-        <div class="entry-content" itemprop="text">
-            <div class="entry-meta"><div class="byline"><p><?php printImageDesc(true); ?></p>
+        <header class="entry-header">
+            <h1 class="entry-title" itemprop="headline"><?php printImageTitle(true); ?></h1>
+
+			<div class="entry-meta">
                 <!-- Image Nav Above -->
                 <div class="imgnav">
                 <?php if (hasPrevImage()) { ?>
@@ -33,37 +34,46 @@
                     <?php } if (hasNextImage()) { ?>
                     <div class="imgnext"><a href="<?php echo html_encode(getNextImageURL()); ?>" title="<?php echo gettext("Next Image"); ?>"><?php echo gettext("next"); ?> »</a></div>
                 <?php } ?>
+                <div style="clear:both;"></div>
                 </div>
-                <p><em><a href="<?php echo htmlspecialchars(getFullImageURL());?>" title="Right-click on the link and Save-As"><?php echo gettext("Download Full Size:"); ?><?php echo getFullWidth() . "x" . getFullHeight(); ?></a></em><br />(Right-click on the link and Save-As)</p>
-                <div style="clear:both;"><br /></div>
-            </div></div>
+			</div>
+
+        </header>
+
+        <div class="entry-content" itemprop="text">
             <div id="padbox">
+				<div class="byline"><p><?php printImageDesc(true); ?></p></div>
+
             	<!-- The Image -->
                 <div id="image"><div class="fullsize">
                     <?php printCustomSizedImageMaxSpace(getBareImageTitle(),580,580); ?>
         		</div></div>
+				<div style="clear:both;"></div>
 
-            <div style="clear:both;"><p>&nbsp;</p></div>
+				<!-- Download links -->
+        		<div class="downloadline"><p><em><a href="<?php echo htmlspecialchars(getFullImageURL());?>" title="Right-click on the link and Save-As"><?php echo gettext("Download Full Size:"); ?><?php echo getFullWidth() . "x" . getFullHeight(); ?></a></em><br />(Right-click on the link and Save-As)</p></div>
+
             </div> <!-- PadBox -->
         </div>
 
-        <footer class="entry-footer"><p>Per our <a href="http://jorjafox.net/wiki/JorjaPedia:Copyrights">Copyrights</a> and <a href="http://jorjafox.net/wiki/JorjaPedia:Terms_of_Use">Terms of Use</a>, you are welcome to copy and reuse images on this site for your own use, provided you credit this site in some way (via a link back, or simply by mentioning us by name).</p></footer>
+<p class="entry-meta"><span class="entry-categories"><i class="fa fa-folder-open" alt="Category Folder"></i> <a href="https://jorjafox.net/category/jorjafox/" rel="category tag">Jorja Fox</a></span> </p>
 
-        <div class="adboxes-footerwidget"><center>
-			<?php
-				$_GET['name'] = 'google-medium-rectangle';
-				include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
-
-				$_GET['name'] = 'studiopress-120x240';
-				include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
-
-				$_GET['name'] = 'line-buttons-500x250';
-				include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
-
-			?>
-        </center></div>
-
+        <footer class="entry-footer"><p class="entry-meta">Per our <a href="http://jorjafox.net/wiki/JorjaPedia:Copyrights">Copyrights</a> and <a href="http://jorjafox.net/wiki/JorjaPedia:Terms_of_Use">Terms of Use</a>, you are welcome to copy and reuse images on this site for your own use, provided you credit this site in some way (via a link back, or simply by mentioning us by name).</p></footer>
     </article>
+
+    <div class="adboxes-footerwidget"><center>
+		<?php
+			$_GET['name'] = 'google-medium-rectangle';
+			include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+
+			$_GET['name'] = 'studiopress-120x240';
+			include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+
+			$_GET['name'] = 'line-buttons-500x250';
+			include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+
+		?>
+    </center></div>
 </main>
 
 <?php include("_sidebar.php"); ?>
