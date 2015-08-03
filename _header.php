@@ -34,6 +34,7 @@
 
 <nav class="nav-primary" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" id="genwpacc-genesis-nav-primary">
 	<div class="wrap">
+		<button role="button" aria-pressed="false" aria-expanded="false" aria-controls="menu-header" aria-label="Primary Navigation Menu" class="menu-toggle menu-toggle-primary">Menu</button>
 		<ul id="menu-header" class="menu genesis-nav-menu menu-primary">
 			<li id="menu-item-6105" class="menu-home menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-6105"><a href="/">Home</a></li>
 			<li id="menu-item-3622" class="menu-photos menu-item menu-item-type-custom menu-item-object-custom menu-item-3622"><a href="/gallery/">Photos</a></li>
