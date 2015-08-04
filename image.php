@@ -20,9 +20,6 @@
 
     <article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
-<header class="entry-header"><h1 class="entry-title" itemprop="headline">CSI Finale Filming: Day Five</h1>
-<p class="entry-meta"><time class="entry-time" itemprop="datePublished" datetime="2015-08-02T14:01:10+00:00">August 2, 2015</time> by <span class="entry-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><a href="https://jorjafox.net/author/ipstenu/" class="entry-author-link" itemprop="url" rel="author"><span class="entry-author-name" itemprop="name">Mika E. (Ipstenu)</span></a></span> <a class="post-edit-link" href="https://jorjafox.net/wordpress/wp-admin/post.php?post=13190&amp;action=edit">(Edit)</a></p></header>
-
         <header class="entry-header">
             <h1 class="entry-title" itemprop="headline"><?php printImageTitle(true); ?></h1>
 
@@ -55,8 +52,6 @@
 
             </div> <!-- PadBox -->
         </div>
-
-<p class="entry-meta"><span class="entry-categories"><i class="fa fa-folder-open" alt="Category Folder"></i> <a href="https://jorjafox.net/category/jorjafox/" rel="category tag">Jorja Fox</a></span> </p>
 
         <footer class="entry-footer"><p class="entry-meta">Per our <a href="http://jorjafox.net/wiki/JorjaPedia:Copyrights">Copyrights</a> and <a href="http://jorjafox.net/wiki/JorjaPedia:Terms_of_Use">Terms of Use</a>, you are welcome to copy and reuse images on this site for your own use, provided you credit this site in some way (via a link back, or simply by mentioning us by name).</p></footer>
     </article>

@@ -233,6 +233,10 @@ div#imagedesc { padding-top:20px;}
     text-align: center;
 }
 
+.byline {
+    padding-bottom: 10px;
+}
+
 /* Misc */
 
 .error {
