@@ -21,11 +21,9 @@
     <article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
         <header class="entry-header">
-            <h2 class="entry-title" itemprop="headline"><?php printImageTitle(true); ?></h2>
-        </header>
+            <h1 class="entry-title" itemprop="headline"><?php printImageTitle(true); ?></h1>
 
-        <div class="entry-content" itemprop="text">
-            <div class="entry-meta"><div class="byline"><p><?php printImageDesc(true); ?></p>
+			<div class="entry-meta">
                 <!-- Image Nav Above -->
                 <div class="imgnav">
                 <?php if (hasPrevImage()) { ?>
@@ -33,37 +31,44 @@
                     <?php } if (hasNextImage()) { ?>
                     <div class="imgnext"><a href="<?php echo html_encode(getNextImageURL()); ?>" title="<?php echo gettext("Next Image"); ?>"><?php echo gettext("next"); ?> »</a></div>
                 <?php } ?>
+                <div style="clear:both;"></div>
                 </div>
-                <p><em><a href="<?php echo htmlspecialchars(getFullImageURL());?>" title="Right-click on the link and Save-As"><?php echo gettext("Download Full Size:"); ?><?php echo getFullWidth() . "x" . getFullHeight(); ?></a></em><br />(Right-click on the link and Save-As)</p>
-                <div style="clear:both;"><br /></div>
-            </div></div>
+			</div>
+
+        </header>
+
+        <div class="entry-content" itemprop="text">
             <div id="padbox">
+				<div class="byline"><p><?php printImageDesc(true); ?></p></div>
+
             	<!-- The Image -->
                 <div id="image"><div class="fullsize">
                     <?php printCustomSizedImageMaxSpace(getBareImageTitle(),580,580); ?>
         		</div></div>
+				<div style="clear:both;"></div>
 
-            <div style="clear:both;"><p>&nbsp;</p></div>
+				<!-- Download links -->
+        		<div class="downloadline"><p><em><a href="<?php echo htmlspecialchars(getFullImageURL());?>" title="Right-click on the link and Save-As"><?php echo gettext("Download Full Size:"); ?><?php echo getFullWidth() . "x" . getFullHeight(); ?></a></em><br />(Right-click on the link and Save-As)</p></div>
+
             </div> <!-- PadBox -->
         </div>
 
-        <footer class="entry-footer"><p>Per our <a href="http://jorjafox.net/wiki/JorjaPedia:Copyrights">Copyrights</a> and <a href="http://jorjafox.net/wiki/JorjaPedia:Terms_of_Use">Terms of Use</a>, you are welcome to copy and reuse images on this site for your own use, provided you credit this site in some way (via a link back, or simply by mentioning us by name).</p></footer>
-
-        <div class="pw-footerwidget"><center>
-			<?php
-				$_GET['name'] = 'medium-rectangle-300x250';
-				include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
-
-				$_GET['name'] = 'studiopress-120x240';
-				include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
-
-				$_GET['name'] = 'line-buttons-500x250';
-				include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
-
-			?>
-        </center></div>
-
+        <footer class="entry-footer"><p class="entry-meta">Per our <a href="http://jorjafox.net/wiki/JorjaPedia:Copyrights">Copyrights</a> and <a href="http://jorjafox.net/wiki/JorjaPedia:Terms_of_Use">Terms of Use</a>, you are welcome to copy and reuse images on this site for your own use, provided you credit this site in some way (via a link back, or simply by mentioning us by name).</p></footer>
     </article>
+
+    <div class="adboxes-footerwidget"><center>
+		<?php
+			$_GET['name'] = 'google-medium-rectangle';
+			include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+
+			$_GET['name'] = 'studiopress-120x240';
+			include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+
+			$_GET['name'] = 'line-buttons-500x250';
+			include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+
+		?>
+    </center></div>
 </main>
 
 <?php include("_sidebar.php"); ?>

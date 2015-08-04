@@ -2,15 +2,13 @@
 
             <section id="text-8" class="widget widget_text"><div class="widget-wrap">
                 <div class="textwidget">
-	                <div class="lq-content"><?php
+	                <?php
+						$_GET['name'] = 'google-responsive';
+						include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+						echo '<br />';
 						$_GET['name'] = 'liquidweb-325x38';
 						include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
-					?></div><br />
-
-	                <div class="pw-sidebar"><div id="halfbanner-234x60"><?php
-						$_GET['name'] = 'halfbanner-234x60';
-						include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
-					?></div></div><br />
+					?>
 				</div>
             </div></section>
 
@@ -38,7 +36,7 @@
 
             <section id="text-5" class="widget widget_text"><div class="widget-wrap">
                 <div class="textwidget">
-                    <div class="pw-sidebar">
+                    <div class="adboxes-sidebar">
 	                    	<?php
 							$_GET['name'] = 'skyscraper-160x600';
 							include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");

@@ -192,34 +192,25 @@ div.pagelist li .disabledlink {
 	text-align: center;
 	line-height: 0;
 }
-.imgnav {
-	float: right;
-	width: 140px;
-	text-align: center;
-	border: none;
-	background: none;
-	margin-top: 10px;
+
+.imgnav div {
+    display: inline;
+    clear: both;
 }
-.imgnav .imgprevious a, .imgnav .imgnext a {
-	display: block;
-	width: 50%;
-	height: 100%;
-	float: left;
-	padding: 4px 0;
-	font-size: 120%;
-	text-decoration: none;
-	line-height: 180%;
-}
+
 .imgnav .imgprevious a:hover, .imgnav .imgnext a:hover {
 	text-decoration: none;
 	color: #002E5B;
 }
-.imgnav .imgprevious a {
-	float: left;
+
+.imgnav .imgprevious a, .imgnav .imgnext a {
+    border-bottom: none;
 }
-.imgnav .imgnext a {
-	float: right;
+
+.imgprevious, .imgnext {
+    padding-right: 20px;
 }
+
 #narrow {
 	margin: 0 auto;
 	width: 440px;
@@ -236,6 +227,15 @@ div.pagelist li .disabledlink {
 }
 
 div#imagedesc { padding-top:20px;}
+
+.downloadline {
+    font-size: 90%;
+    text-align: center;
+}
+
+.byline {
+    padding-bottom: 10px;
+}
 
 /* Misc */
 

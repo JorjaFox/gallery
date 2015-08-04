@@ -81,9 +81,9 @@
         </div>
 
         <footer class="entry-footer"></footer>
-        <div class="pw-footerwidget"><center>
+        <div class="adboxes-footerwidget"><center>
 			<?php
-				$_GET['name'] = 'medium-rectangle-300x250';
+				$_GET['name'] = 'google-medium-rectangle';
 				include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
 
 				$_GET['name'] = 'studiopress-120x240';
