@@ -7,7 +7,7 @@ error_reporting(0);
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
 
 	<?php zp_apply_filter('theme_head'); ?>
 	<title><?php echo getBareGalleryTitle(); ?></title>

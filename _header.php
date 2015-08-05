@@ -38,10 +38,10 @@
 	<div class="wrap">
 		<button role="button" aria-pressed="false" aria-expanded="false" aria-controls="menu-header" aria-label="Primary Navigation Menu" class="menu-toggle menu-toggle-primary">Menu</button>
 		<ul id="menu-header" class="menu genesis-nav-menu menu-primary">
-			<li id="menu-item-6105" class="menu-home menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-6105"><a href="/">Home</a></li>
-			<li id="menu-item-3622" class="menu-photos menu-item menu-item-type-custom menu-item-object-custom menu-item-3622"><a href="/gallery/">Photos</a></li>
-			<li id="menu-item-3623" class="menu-videos menu-item menu-item-type-custom menu-item-object-custom menu-item-3623"><a href="/video/">Videos</a></li>
-			<li id="menu-item-3624" class="menu-jorjapedia menu-item menu-item-type-custom menu-item-object-custom menu-item-3624"><a href="/wiki/">JorjaPedia</a></li>
+			<li id="menu-item-6105" class="menu-home menu-item menu-item-type-custom menu-item-object-custom menu-item-6105"><a href="http://jorjafox.net">Home</a></li>
+			<li id="menu-item-3622" class="menu-photos menu-item menu-item-type-custom menu-item-object-custom menu-item-3622"><a href="http://jorjafox.net/gallery">Photos</a></li>
+			<li id="menu-item-3623" class="menu-videos menu-item menu-item-type-custom menu-item-object-custom menu-item-3623"><a href="http://jorjafox.net/video/">Videos</a></li>
+			<li id="menu-item-3624" class="menu-jorjapedia menu-item menu-item-type-custom menu-item-object-custom menu-item-3624"><a href="http://jorjafox.net/wiki/Main_Page">JorjaPedia</a></li>
 		</ul>
 	</div>
 </nav>

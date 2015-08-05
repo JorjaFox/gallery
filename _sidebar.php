@@ -5,7 +5,6 @@
 	                <?php
 						$_GET['name'] = 'google-responsive';
 						include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
-						echo '<br />';
 						$_GET['name'] = 'liquidweb-325x38';
 						include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
 					?>
