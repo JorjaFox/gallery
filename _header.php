@@ -1,9 +1,11 @@
-<body class="zenphoto sidebar-content utility-pro-green">
+<body class="zenphoto custom-background sidebar-content utility-pro-green" itemscope="itemscope" itemtype="http://schema.org/WebPage">
 
 <?php
 	zp_apply_filter('theme_body_open');
 	include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/loader.php");
 ?>
+
+<div class="site-container"><h2 class="screen-reader-text">Skip links</h2>
 
 <ul class="wpacc-genesis-skip-link">
   <li><a href="#genwpacc-genesis-nav-primary" class="screen-reader-shortcut">Skip to primary navigation</a></li>

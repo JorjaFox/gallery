@@ -30,21 +30,22 @@
 
         <header class="entry-header">
             <h2 class="entry-title" itemprop="headline"><?php printAlbumTitle(true); ?></h2>
-            <div class="entry-meta"><div class="byline">
-                <p><?php printAlbumDesc(); ?></p>
-                <?php if (function_exists('printDownloadAlbumZipURL') && getNumAlbums()==0 ) {
-	                echo '<p><strong>';
-	                printDownloadAlbumZipURL('Download a zip of all images in this album');
-	                echo ' ('.getNumImages().' images)';
-	                echo '</strong></p>';
-	                }
-	            ?>
-            </div></div>
+            <div class="entry-meta"></div>
         </header>
 
         <div class="entry-content" itemprop="text">
             <div id="padbox">
 
+				<div class="byline">
+	                <p><?php printAlbumDesc(); ?></p>
+	                <?php if (function_exists('printDownloadAlbumZipURL') && getNumAlbums()==0 ) {
+		                echo '<p><strong>';
+		                printDownloadAlbumZipURL('Download a zip of all images in this album');
+		                echo ' ('.getNumImages().' images)';
+		                echo '</strong></p>';
+		                }
+		            ?>
+	            </div>
 
 				<div id="albums">
 					<?php while (next_album()): ?>
@@ -70,16 +71,9 @@
 					<?php endwhile; ?>
 				</div>
             </div> <!-- PadBox -->
-
-            <div style="clear:both;"></div>
         </div>
 
-        <footer class="entry-footer">
-
-			<div class="nav-links"><span class="page-numbers current"><div class="archive-pagination pagination"><?php printPageListWithNav("« " . gettext("prev"), gettext("next") . " »"); ?></div></span></div>
-
-            <p>Per our <a href="http://jorjafox.net/wiki/JorjaPedia:Copyrights">Copyrights</a> and <a href="http://jorjafox.net/wiki/JorjaPedia:Terms_of_Use">Terms of Use</a>, you are welcome to copy and reuse images on this site for your own use, provided you credit this site in some way (via a link back, or simply by mentioning us by name).</p>
-        </footer>
+        <footer class="entry-footer"><p class="entry-meta">Per our <a href="http://jorjafox.net/wiki/JorjaPedia:Copyrights">Copyrights</a> and <a href="http://jorjafox.net/wiki/JorjaPedia:Terms_of_Use">Terms of Use</a>, you are welcome to copy and reuse images on this site for your own use, provided you credit this site in some way (via a link back, or simply by mentioning us by name).</p></footer>
     </article>
 
     <div class="adboxes-footerwidget"><center>
