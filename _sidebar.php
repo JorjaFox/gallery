@@ -4,9 +4,9 @@
                 <div class="textwidget">
 	                <?php
 						$_GET['name'] = 'google-responsive';
-						include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+						include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
 						$_GET['name'] = 'liquidweb-325x38';
-						include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+						include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
 					?>
 				</div>
             </div></section>
@@ -38,7 +38,7 @@
                     <div class="adboxes-sidebar">
 	                    	<?php
 							$_GET['name'] = 'skyscraper-160x600';
-							include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+							include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
 						?>
                 </div>
             </div></section>

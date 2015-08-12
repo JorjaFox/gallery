@@ -12,7 +12,7 @@
 		<div class="adboxes-footer">
 			<?php
 				$_GET['name'] = 'leaderboard-728x90';
-				include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+				include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
 			?>
 		</footer>
 </div> <!-- End Site-Container -->

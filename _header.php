@@ -2,7 +2,7 @@
 
 <?php
 	zp_apply_filter('theme_body_open');
-	include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/loader.php");
+	include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/loader.php");
 ?>
 
 <div class="site-container"><h2 class="screen-reader-text">Skip links</h2>
@@ -29,19 +29,18 @@
 	<div class="wrap">
 		<div class="title-area"><h1 class="site-title" itemprop="headline"><a href="http://jorjafox.net/">Jorja Fox: Online</a></h1>
 		<p class="site-description" itemprop="description">A fansite for LeFox, Jorja Fox</p></div>
-		<aside class="widget-area header-widget-area"><section id="text-17" class="widget widget_text"><div class="widget-wrap"><div class="textwidget"><img src="http://jorjafox.net/content/code/rotate-logo/rotate.php"></div>
+		<aside class="widget-area header-widget-area"><section id="text-17" class="widget widget_text"><div class="widget-wrap"><div class="textwidget"><img src="//static.jorjafox.net/content/code/rotate-logo/rotate.php"></div>
 		</div></section></aside>
 	</div>
 </header><!--end #header-->
 
 <nav class="nav-primary" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" id="genwpacc-genesis-nav-primary">
 	<div class="wrap">
-		<button role="button" aria-pressed="false" aria-expanded="false" aria-controls="menu-header" aria-label="Primary Navigation Menu" class="menu-toggle menu-toggle-primary">Menu</button>
 		<ul id="menu-header" class="menu genesis-nav-menu menu-primary">
-			<li id="menu-item-6105" class="menu-home menu-item menu-item-type-custom menu-item-object-custom menu-item-6105"><a href="http://jorjafox.net">Home</a></li>
-			<li id="menu-item-3622" class="menu-photos menu-item menu-item-type-custom menu-item-object-custom menu-item-3622"><a href="http://jorjafox.net/gallery">Photos</a></li>
-			<li id="menu-item-3623" class="menu-videos menu-item menu-item-type-custom menu-item-object-custom menu-item-3623"><a href="http://jorjafox.net/video/">Videos</a></li>
-			<li id="menu-item-3624" class="menu-jorjapedia menu-item menu-item-type-custom menu-item-object-custom menu-item-3624"><a href="http://jorjafox.net/wiki/Main_Page">JorjaPedia</a></li>
+			<li id="menu-item-6105" class="menu-home menu-item menu-item-type-custom menu-item-object-custom menu-item-6105"><a href="/">Home</a></li>
+			<li id="menu-item-3622" class="menu-photos menu-item menu-item-type-custom menu-item-object-custom menu-item-3622"><a href="/gallery">Photos</a></li>
+			<li id="menu-item-3623" class="menu-videos menu-item menu-item-type-custom menu-item-object-custom menu-item-3623"><a href="/video/">Videos</a></li>
+			<li id="menu-item-3624" class="menu-jorjapedia menu-item menu-item-type-custom menu-item-object-custom menu-item-3624"><a href="/wiki/Main_Page">JorjaPedia</a></li>
 		</ul>
 	</div>
 </nav>
