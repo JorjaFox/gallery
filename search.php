@@ -28,7 +28,7 @@
 ?>
 
 <main class="content" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
-    <div class="breadcrumb">You are here: <a href="http://jorjafox.net/" title="View Home">Home</a> / <a href="http://jorjafox.net/gallery/">Gallery</a> / Search Results</div>
+    <div class="breadcrumb">You are here: <a href="/" title="View Home">Home</a> / <a href="/gallery/">Gallery</a> / Search Results</div>
 
     <article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
@@ -91,7 +91,7 @@
 
 				$_GET['name'] = 'line-buttons-500x250';
 				include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
-			?>	        
+			?>
         </center></div>
 
     </article>
