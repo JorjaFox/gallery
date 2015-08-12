@@ -36,13 +36,13 @@
     <div class="adboxes-footerwidget"><center>
 		<?php
 			$_GET['name'] = 'google-medium-rectangle';
-			include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+			include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
 
 			$_GET['name'] = 'studiopress-120x240';
-			include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+			include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
 
 			$_GET['name'] = 'line-buttons-500x250';
-			include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+			include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
 
 		?>
     </center></div>
