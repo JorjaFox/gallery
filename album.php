@@ -71,10 +71,9 @@
 					<?php endwhile; ?>
 				</div>
             </div> <!-- PadBox -->
-
-			<div class="nav-links"><span class="page-numbers current"><div class="archive-pagination pagination"><?php printPageListWithNav("« " . gettext("prev"), gettext("next") . " »"); ?></div></span></div>
-
         </div>
+
+        <div class="nav-links"><span class="page-numbers current"><div class="archive-pagination pagination"><?php printPageListWithNav("« " . gettext("prev"), gettext("next") . " »"); ?></div></span></div>
 
         <footer class="entry-footer"><p class="entry-meta">Per our <a href="/wiki/JorjaPedia:Copyrights">Copyrights</a> and <a href="/wiki/JorjaPedia:Terms_of_Use">Terms of Use</a>, you are welcome to copy and reuse images on this site for your own use, provided you credit this site in some way (via a link back, or simply by mentioning us by name).</p></footer>
     </article>
