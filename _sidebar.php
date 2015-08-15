@@ -37,7 +37,7 @@
                 <div class="textwidget">
                     <div class="adboxes-sidebar">
 	                    	<?php
-							$_GET['name'] = 'skyscraper-160x600';
+							$_GET['name'] = 'google-skyscraper';
 							include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
 						?>
                 </div>
