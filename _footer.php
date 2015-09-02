@@ -17,7 +17,7 @@
 		<div class="footer-widgets-3 widget-area">
 			<section id="text-10" class="widget widget_text"><div class="widget-wrap">
 				<h4 class="widget-title widgettitle">Follow JFO</h4>
-				<div class="textwidget"><a href="https://www.facebook.com/JFO.Fans" title="Facebook"><i class="fa fa-facebook-square fa-3x"></i></a> <a href="https://google.com/+JorjafoxNet" title="Google+"><i class="fa fa-google-plus-square fa-3x"></i></a> <a href="http://twitter.com/jorjafoxonline" title="Twitter"><i class="fa fa-twitter-square fa-3x"></i></a> <a href="http://tumblr.jorjafox.dev/" title="Tumblr"><i class="fa fa-tumblr-square fa-3x"></i></a> <a href="http://vimeo.com/jorjafox" title="Vimeo"><i class="fa fa-vimeo-square fa-3x"></i></a></div>
+				<div class="textwidget"><a href="https://www.facebook.com/JFO.Fans" title="Facebook"><i class="fa fa-facebook-square fa-3x"></i></a> <a href="https://google.com/+JorjafoxNet" title="Google+"><i class="fa fa-google-plus-square fa-3x"></i></a> <a href="http://twitter.com/jorjafoxonline" title="Twitter"><i class="fa fa-twitter-square fa-3x"></i></a> <a href="http://tumblr.jorjafox.net/" title="Tumblr"><i class="fa fa-tumblr-square fa-3x"></i></a> <a href="http://vimeo.com/jorjafox" title="Vimeo"><i class="fa fa-vimeo-square fa-3x"></i></a></div>
 			</div></section>
 		</div>
 	</div></div>
