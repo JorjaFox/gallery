@@ -11,6 +11,9 @@
 
 require_once(dirname(__FILE__) . '/functions.php');
 
+/* Fix because my server is stupid */
+setOption('locale','en_US',true);
+
 class ThemeOptions {
 
 	function __construct() {
