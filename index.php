@@ -7,7 +7,7 @@ error_reporting(0);
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
 
 	<?php zp_apply_filter('theme_head'); ?>
 	<title><?php echo getBareGalleryTitle(); ?></title>
@@ -19,12 +19,13 @@ error_reporting(0);
 <?php include("_header.php"); ?>
 
 <main class="content" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
-    <div class="breadcrumb">You are here: <a href="http://jorjafox.net/" title="View Home">Home</a> / <a href="http://jorjafox.net/gallery/">Gallery</a> </div>
+    <div class="breadcrumb">You are here: <a href="/" title="View Home">Home</a> / <a href="/gallery/">Gallery</a> </div>
 
     <article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
         <header class="entry-header">
             <h2 class="entry-title" itemprop="headline">Welcome to the Gallery</h2>
+			<div class="entry-meta"></div>
         </header>
 
         <div class="entry-content" itemprop="text">
@@ -47,14 +48,14 @@ error_reporting(0);
 
     <div class="adboxes-footerwidget"><center>
 		<?php
-			$_GET['name'] = 'google-medium-rectangle';
-			include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+			$_GET['name'] = 'google-large-rectangle';
+			include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
 
 			$_GET['name'] = 'studiopress-120x240';
-			include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+			include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
 
 			$_GET['name'] = 'line-buttons-500x250';
-			include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+			include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
 
 		?>
     </center></div>

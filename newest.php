@@ -15,7 +15,7 @@
 <?php include("_header.php"); ?>
 
 <main class="content" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
-    <div class="breadcrumb">You are here: <a href="http://jorjafox.net/" title="View Home">Home</a> / <a href="http://jorjafox.net/gallery/">Gallery</a> / Newest Albums</div>
+    <div class="breadcrumb">You are here: <a href="/" title="View Home">Home</a> / <a href="/gallery/">Gallery</a> / Newest Albums</div>
 
     <article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
@@ -35,14 +35,14 @@
 
     <div class="adboxes-footerwidget"><center>
 		<?php
-			$_GET['name'] = 'google-medium-rectangle';
-			include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+			$_GET['name'] = 'google-large-rectangle';
+			include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
 
 			$_GET['name'] = 'studiopress-120x240';
-			include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+			include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
 
 			$_GET['name'] = 'line-buttons-500x250';
-			include($_SERVER["DOCUMENT_ROOT"]."/content/code/ads/adboxes.php");
+			include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
 
 		?>
     </center></div>
