@@ -14,7 +14,7 @@
             <section id="nav_menu-3" class="widget widget_nav_menu"><div class="widget-wrap">
                 <div class="menu-secondary-container"><ul id="menu-secondary" class="menu">
                     <li id="menu-item-4227" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4227"><a href="/contact/">Contact Us</a></li>
-                    <li id="menu-item-4226" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4226"><a href="/wiki/FAQs">Frequently Asked Questions</a></li>
+                    <li id="menu-item-4226" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4226"><a href="/library/faq/">Frequently Asked Questions</a></li>
                 </ul></div>
             </div></section>
 

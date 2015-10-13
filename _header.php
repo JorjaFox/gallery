@@ -40,7 +40,7 @@
 			<li id="menu-item-6105" class="menu-home menu-item menu-item-type-custom menu-item-object-custom menu-item-6105"><a href="/">Home</a></li>
 			<li id="menu-item-3622" class="menu-photos menu-item menu-item-type-custom menu-item-object-custom menu-item-3622"><a href="/gallery">Photos</a></li>
 			<li id="menu-item-3623" class="menu-videos menu-item menu-item-type-custom menu-item-object-custom menu-item-3623"><a href="/video/">Videos</a></li>
-			<li id="menu-item-3624" class="menu-jorjapedia menu-item menu-item-type-custom menu-item-object-custom menu-item-3624"><a href="/wiki/Main_Page">JorjaPedia</a></li>
+			<li id="menu-item-3624" class="menu-library menu-item menu-item-type-custom menu-item-object-custom menu-item-3624"><a href="/library/">Library</a></li>
 		</ul>
 	</div>
 </nav>
