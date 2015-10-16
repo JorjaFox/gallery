@@ -32,7 +32,7 @@
 	</div></nav>
 
 	<footer class="site-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
-		<div class="wrap"><p>Copyright &copy; 1996-<?php echo date("Y"); ?> <em><a href="/">Jorja Fox: Online</a></em><br />Powered by <a href="https://http://zenphoto20.us/">ZenPhoto20</a> & <a href="https://store.carriedils.com/ref/8">Utility Pro</a></p></div>
+		<div class="wrap"><p>Copyright &copy; 1996-<?php echo date("Y"); ?> <em><a href="/">Jorja Fox: Online</a></em><br />Powered by <a href="https://http://zenphoto20.us/">ZenPhoto20</a> & <a href="http://www.shareasale.com/r.cfm?b=778546&u=728549&m=61628&urllink=&afftrack=">Utility Pro</a></p></div>
 		<div class="adboxes-footer">
 			<?php
 				$_GET['name'] = 'leaderboard-728x90';
