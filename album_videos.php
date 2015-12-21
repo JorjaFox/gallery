@@ -21,7 +21,7 @@
 
         <header class="entry-header">
             <h2 class="entry-title" itemprop="headline"><?php printAlbumTitle(true); ?></h2>
-            <div class="entry-meta"></div>
+            <div class="entry-meta">&nbsp;</div>
         </header>
 
         <div class="entry-content" itemprop="text">
@@ -47,9 +47,11 @@
 				</div>
 				<div id="images">
 					<?php while (next_image()): ?>
-						<div class="image">
-							<div class="imagethumb">
+						<div class="album">
+							<div class="thumb">
 								<a href="<?php echo getImageURL(); ?>" title="<?php getImageTitle(); ?>" > <?php printImageThumb(getImageTitle()); ?></a>
+							</div>
+							<div class="albumdesc">
 								<center><p><a href="<?php echo getImageURL(); ?>" title="<?php getImageTitle(); ?>" ><?php printImageTitle(); ?></a></p></center>
 							</div>
 						</div>
