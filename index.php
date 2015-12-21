@@ -48,7 +48,7 @@ error_reporting(0);
 
     <div class="adboxes-footerwidget"><center>
 		<?php
-			$_GET['name'] = 'google-medium-rectangle';
+			$_GET['name'] = 'google-large-rectangle';
 			include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
 
 			$_GET['name'] = 'studiopress-120x240';

@@ -493,3 +493,15 @@ table.password td.hint{
         font-size: 18px;
 }
 #admin h3:hover { color: #036;}
+
+/* Videos */
+
+.zen-video {
+    min-height: 270px;
+}
+
+div.imagethumb p a, div.imagethumb p a:hover {
+    /* font-weight: normal; */
+    border: none;
+    margin-top: 15px;
+}

@@ -39,16 +39,36 @@
 
         <div class="entry-content" itemprop="text">
             <div id="padbox">
-				<div class="byline"><p><?php printImageDesc(true); ?></p></div>
 
             	<!-- The Image -->
                 <div id="image"><div class="fullsize">
-                    <?php printCustomSizedImageMaxSpace(getBareImageTitle(),580,580); ?>
+                    <div class="zen-video"><?php
+	                    $getID3 = new getID3;
+	                    $videofile = $getID3->analyze( "/home/jorjafox/public_html".getUnprotectedImageURL() );
+	                    $videowide = $videofile['video']['resolution_x'];
+	                    $videohigh = $videofile['video']['resolution_y'];
+
+	                    printCustomSizedImage( getImageTitle(), NULL, $videowide, $videohigh, $videowide, $videohigh, NULL, NULL, "thumbnail", NULL, false, false); ?></div>
         		</div></div>
 				<div style="clear:both;"></div>
 
-				<!-- Download links -->
-        		<div class="downloadline"><p><em><a href="<?php echo htmlspecialchars(getFullImageURL());?>" title="Right-click on the link and Save-As"><?php echo gettext("Download Full Size:"); ?><?php echo getFullWidth() . "x" . getFullHeight(); ?></a></em><br />(Right-click on the link and Save-As)</p></div>
+<!-- Download links -->
+        		<div class="downloadline"><p><em><a href="<?php echo htmlspecialchars(getFullImageURL());?>" title="Right-click on the link and Save-As">Download Video (
+	        		<?php
+						function humanFileSize($size,$unit="") {
+							if( (!$unit && $size >= 1<<30) || $unit == "GB")
+								return number_format($size/(1<<30),2)." GB";
+							if( (!$unit && $size >= 1<<20) || $unit == "MB")
+								return number_format($size/(1<<20),2)." MB";
+							if( (!$unit && $size >= 1<<10) || $unit == "KB")
+								return number_format($size/(1<<10),2)." KB";
+							return number_format($size)." bytes";
+						}
+				        echo humanFileSize($videofile['filesize']);
+
+			        ?>)</a></em><br />(Right-click on the link and Save-As)</p></div>
+
+				<div class="byline"><p><?php printImageDesc(true); ?></p></div>
 
             </div> <!-- PadBox -->
         </div>
