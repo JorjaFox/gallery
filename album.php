@@ -30,7 +30,7 @@
 
         <header class="entry-header">
             <h2 class="entry-title" itemprop="headline"><?php printAlbumTitle(true); ?></h2>
-            <div class="entry-meta"></div>
+            <div class="entry-meta">&nbsp;</div>
         </header>
 
         <div class="entry-content" itemprop="text">
