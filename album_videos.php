@@ -15,13 +15,13 @@
 <?php include("_header.php"); ?>
 
 <main class="content" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
-    <div class="breadcrumb">You are here: <a href="/" title="View Home">Home</a> / <a href="/gallery/">Gallery</a> / <?php printParentBreadcrumb('',' / ','  / '); ?></span> <span class="trail-end"><a href="<?php echo html_encode(getAlbumURL());?>" title="<?php echo gettext('View album:'); ?><?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumTitle(); ?></a></div>
+    <div class="breadcrumb">You are here: <a href="/" title="View Home">Home</a> / <a href="/gallery/">Gallery</a> / <?php printParentBreadcrumb('',' / ','  / '); ?></span> <span class="trail-end"><?php printAlbumTitle(); ?></div>
 
     <article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
         <header class="entry-header">
             <h2 class="entry-title" itemprop="headline"><?php printAlbumTitle(true); ?></h2>
-            <div class="entry-meta"></div>
+			<div class="entry-meta">By the JFO Gallery Librarians</div>
         </header>
 
         <div class="entry-content" itemprop="text">
