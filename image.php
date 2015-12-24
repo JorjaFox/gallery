@@ -22,19 +22,7 @@
 
         <header class="entry-header">
             <h1 class="entry-title" itemprop="headline"><?php printImageTitle(true); ?></h1>
-
-			<div class="entry-meta">
-                <!-- Image Nav Above -->
-                <div class="imgnav">
-                <?php if (hasPrevImage()) { ?>
-                    <div class="imgprevious"><a href="<?php echo html_encode(getPrevImageURL()); ?>" title="<?php echo gettext("Previous Image"); ?>">« <?php echo gettext("prev"); ?></a></div>
-                    <?php } if (hasNextImage()) { ?>
-                    <div class="imgnext"><a href="<?php echo html_encode(getNextImageURL()); ?>" title="<?php echo gettext("Next Image"); ?>"><?php echo gettext("next"); ?> »</a></div>
-                <?php } ?>
-                <div style="clear:both;"></div>
-                </div>
-			</div>
-
+			<div class="entry-meta">By the JFO Gallery Librarians</div>
         </header>
 
         <div class="entry-content" itemprop="text">
