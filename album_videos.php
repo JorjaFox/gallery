@@ -47,9 +47,11 @@
 				</div>
 				<div id="images">
 					<?php while (next_image()): ?>
-						<div class="image">
-							<div class="imagethumb">
+						<div class="album">
+							<div class="thumb">
 								<a href="<?php echo getImageURL(); ?>" title="<?php getImageTitle(); ?>" > <?php printImageThumb(getImageTitle()); ?></a>
+							</div>
+							<div class="albumdesc">
 								<center><p><a href="<?php echo getImageURL(); ?>" title="<?php getImageTitle(); ?>" ><?php printImageTitle(); ?></a></p></center>
 							</div>
 						</div>
