@@ -27,7 +27,16 @@
 
         <div class="entry-content" itemprop="text">
             <div id="padbox">
-				<div class="byline"><p><?php printImageDesc(true); ?></p></div>
+				<div class="byline">
+					<p><?php printImageDesc(true); ?></p>
+				
+					<?php 
+						$credit = getImageData("credit");
+						if ($credit) {
+							?><p><?php printImageData('credit', 'Credit'); ?></p><?php
+						};
+					?>
+				</div>
 
             	<!-- The Image -->
                 <div id="image"><div class="fullsize">
