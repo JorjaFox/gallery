@@ -22,7 +22,7 @@
 
         <header class="entry-header">
             <h1 class="entry-title" itemprop="headline"><?php printImageTitle(true); ?></h1>
-			<div class="entry-meta">By the JFO Gallery Librarians</div>
+			<div class="entry-meta">By the Jorja Fox Gallery Librarians</div>
         </header>
 
         <div class="entry-content" itemprop="text">

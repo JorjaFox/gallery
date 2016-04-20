@@ -27,8 +27,8 @@
 
 <header class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
 	<div class="wrap">
-		<div class="title-area"><h1 class="site-title" itemprop="headline"><a href="/">Jorja Fox: Online</a></h1>
-		<p class="site-description" itemprop="description">A fansite for LeFox, Jorja Fox</p></div>
+		<div class="title-area"><h1 class="site-title" itemprop="headline"><a href="/">Fans of LeFox</a></h1>
+		<p class="site-description" itemprop="description">A fansite for Jorja Fox</p></div>
 		<aside class="widget-area header-widget-area"><section id="text-17" class="widget widget_text"><div class="widget-wrap"><div class="textwidget"><img src="//jfo-static.net/content/code/rotate.php"></div>
 		</div></section></aside>
 	</div>
