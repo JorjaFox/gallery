@@ -22,15 +22,15 @@
 
         <header class="entry-header">
             <h1 class="entry-title" itemprop="headline"><?php printImageTitle(true); ?></h1>
-			<div class="entry-meta">By the JFO Gallery Librarians</div>
+			<div class="entry-meta">By the Jorja Fox Gallery Librarians</div>
         </header>
 
         <div class="entry-content" itemprop="text">
             <div id="padbox">
 				<div class="byline">
 					<p><?php printImageDesc(true); ?></p>
-				
-					<?php 
+
+					<?php
 						$credit = getImageData("credit");
 						if ($credit) {
 							?><p><?php printImageData('credit', 'Credit'); ?></p><?php

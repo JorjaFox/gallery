@@ -15,7 +15,7 @@
 	/* ]]> */
 	</script>
 	<script type='text/javascript' src='/wordpress/wp-content/themes/jfogenesis/js/backstretch.min.js'></script>
-	<script type='text/javascript' src='//jfo-static.net/content/code/js/jfo-content.min.js'></script>
+	<script type='text/javascript' src='//jfo-static.net/content/code/js/content.min.js'></script>
 	<?php
 		include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/analyticstracking.php");
 	?>
