@@ -11,7 +11,11 @@
 		<div class="footer-widgets-2 widget-area">
 			<section id="search-2" class="widget widget_search"><div class="widget-wrap">
 				<h4 class="widget-title widgettitle">Search</h4>
-				<form method="get" action="https://jorjafox.net/" role="search" class="search-form"><label for="searchform-55e1ef83d547f4.15537928" class="screen-reader-text">Search site</label><input type="search" name="s" id="searchform-55e1ef83d547f4.15537928" value="" placeholder="" autocomplete="off"><button type="submit" aria-label="Search"><span class="search-button-text">Search</span></button></form>
+				<?php 
+				if (getOption('Allow_search')) {
+					printSearchForm('');
+				}
+				?>
 			</div></section>
 		</div>
 		<div class="footer-widgets-3 widget-area">
