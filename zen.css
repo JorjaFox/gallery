@@ -42,6 +42,10 @@ img#searchfields_icon, input#search_submit.pushbutton {
 	background:white;
 }
 
+input#search_submit {
+	   margin-top: -50px;
+}
+
 #search_submit {
 	background-color: transparent!important;
 	border: 1px solid #ddd!important;
@@ -51,7 +55,6 @@ img#searchfields_icon, input#search_submit.pushbutton {
     border: 1px solid #d9d9d9;
     box-shadow: none;
     height: 50px;
-    margin-top: -50px;
     width: 53px;
     margin: 0;
     overflow: hidden;
