@@ -26,7 +26,6 @@
 	<!-- Stylesheets -->
 	<link rel='stylesheet' href='<?php echo $_zp_themeroot ?>/zen.css' type='text/css' />
 	<link rel='stylesheet' href='/wordpress/wp-content/themes/jfogenesis/style.css' type='text/css' />
-	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Enriqueta:400,700">
 	<link type='text/plain' rel='author' href='http://jorjafox.net/humans.txt' />
 
 	<!-- Scripts -->
