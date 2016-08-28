@@ -32,7 +32,7 @@
 	<script type='text/javascript' src='/wordpress/wp-content/themes/jfogenesis/js/genwpacc.min.js'></script>
 	<script type='text/javascript'>
 	/* <![CDATA[ */
-	var utilityBackstretchL10n = {"src":"https:\/\/jfo-static.net\/content\/images\/background.jpg"};
+	var utilityBackstretchL10n = {"src":"https:\/\/static.jorjafox.net\/content\/images\/background.jpg"};
 	/* ]]> */
 	</script>
 	<script type='text/javascript' src='/wordpress/wp-content/themes/jfogenesis/js/backstretch.min.js'></script>
