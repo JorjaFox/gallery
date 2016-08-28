@@ -29,7 +29,7 @@
 	<div class="wrap">
 		<div class="title-area"><h1 class="site-title" itemprop="headline"><a href="/">Fans of LeFox</a></h1>
 		<p class="site-description" itemprop="description">A fansite for Jorja Fox</p></div>
-		<aside class="widget-area header-widget-area"><section id="text-17" class="widget widget_text"><div class="widget-wrap"><div class="textwidget"><img src="https://jfo-static.net/content/code/rotate.php"></div>
+		<aside class="widget-area header-widget-area"><section id="text-17" class="widget widget_text"><div class="widget-wrap"><div class="textwidget"><img src="https://static.jorjafox.net/content/code/rotate.php"></div>
 		</div></section></aside>
 	</div>
 </header><!--end #header-->
