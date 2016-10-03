@@ -1,7 +1,7 @@
 /* Fans of LeFox */
 
 .sidebar-primary {
-    float: none !important;
+	  float: none !important;
 }
 
 div.byline p {
@@ -11,8 +11,8 @@ div.byline p {
 /* Search */
 
 form#search_form {
-    width: 100%;
-    position: relative;
+	  width: 100%;
+	  position: relative;
 }
 
 #search {
@@ -51,23 +51,23 @@ input#search_submit {
 	border: 1px solid #ddd!important;
 	color: #ddd;
 	text-indent: -9999px;
-    background: url(images/search.png) no-repeat 75% 53% #fff;
-    border: 1px solid #d9d9d9;
-    box-shadow: none;
-    height: 53px;
-    width: 53px;
-    margin: 0;
-    overflow: hidden;
-    padding: 0 42px 0 0;
-    position: absolute;
-    right: 0;
-    text-indent: -9999px;
-    vertical-align: top;
-    -webkit-transition: none;
-    -moz-transition: none;
-    -ms-transition: none;
-    -o-transition: none;
-    transition: none;
+	  background: url(images/search.png) no-repeat 75% 53% #fff;
+	  border: 1px solid #d9d9d9;
+	  box-shadow: none;
+	  height: 53px;
+	  width: 53px;
+	  margin: 0;
+	  overflow: hidden;
+	  padding: 0 42px 0 0;
+	  position: absolute;
+	  right: 0;
+	  text-indent: -9999px;
+	  vertical-align: top;
+	  -webkit-transition: none;
+	  -moz-transition: none;
+	  -ms-transition: none;
+	  -o-transition: none;
+	  transition: none;
 }
 
 
@@ -109,11 +109,11 @@ div.pagelist li.current {
 }
 
 div.pagelist li .disabledlink {
-    background: #555;
-    border: 1px solid #FFF;
-    padding: 10px 12px;
-    color: #FFF;
-    cursor: default;
+	  background: #555;
+	  border: 1px solid #FFF;
+	  padding: 10px 12px;
+	  color: #FFF;
+	  cursor: default;
 }
 
 .disabled_nav {
@@ -121,14 +121,14 @@ div.pagelist li .disabledlink {
 }
 
 .navigation .disabledlink {
-    visibility: hidden;
+	  visibility: hidden;
 }
 
 /* Image Thumbnails
 ------------------------------ */
 
 #thumb.not_visible {
-        border: 5px dashed #CC3333;
+	      border: 5px dashed #CC3333;
 }
 
 .imagethumb a, .imagethumb a:hover {
@@ -162,7 +162,7 @@ div.pagelist li .disabledlink {
 }
 
 .album .thumb {
-    text-align: center;
+	  text-align: center;
 }
 
 .album h3, .indexalbum h3 {
@@ -172,8 +172,8 @@ div.pagelist li .disabledlink {
 	font-size: 18px;
 }
 .album p {
-    padding: 4px 0px 0px;
-    margin: 0px;
+	  padding: 4px 0px 0px;
+	  margin: 0px;
 }
 
 .albumdesc small {
@@ -181,25 +181,25 @@ div.pagelist li .disabledlink {
 }
 
 #imagemetadata {
-  text-align: right;
-  position: relative;
-  display: none;
+	text-align: right;
+	position: relative;
+	display: none;
 }
 
 #imagemetadata table {
-  text-align: left;
-  line-height: 1em;
-  border: 1px solid #ccc;
-  position: absolute;
-  top: 2em;
-  right: 0px;
-  background-color: #fafafa;
+	text-align: left;
+	line-height: 1em;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 2em;
+	right: 0px;
+	background-color: #fafafa;
 }
 
 #imagemetadata table td {
-  border-bottom: 1px solid #f0f0f0;
-  background-color: #f8f8f8;
-  padding: 2px 5px;
+	border-bottom: 1px solid #f0f0f0;
+	background-color: #f8f8f8;
+	padding: 2px 5px;
 }
 
 
@@ -216,8 +216,8 @@ div.pagelist li .disabledlink {
 }
 
 .imgnav div {
-    display: inline;
-    clear: both;
+	  display: inline;
+	  clear: both;
 }
 
 .imgnav .imgprevious a:hover, .imgnav .imgnext a:hover {
@@ -226,11 +226,11 @@ div.pagelist li .disabledlink {
 }
 
 .imgnav .imgprevious a, .imgnav .imgnext a {
-    border-bottom: none;
+	  border-bottom: none;
 }
 
 .imgprevious, .imgnext {
-    padding-right: 20px;
+	  padding-right: 20px;
 }
 
 #narrow {
@@ -251,12 +251,12 @@ div.pagelist li .disabledlink {
 div#imagedesc { padding-top:20px;}
 
 .downloadline {
-    font-size: 90%;
-    text-align: center;
+	  font-size: 90%;
+	  text-align: center;
 }
 
 .byline {
-    padding-bottom: 10px;
+	  padding-bottom: 10px;
 }
 
 /* Misc */
@@ -274,8 +274,8 @@ div#imagedesc { padding-top:20px;}
 }
 
 #admin, #admin_data ul {
-    margin: 10px 0 0 0;
-    padding: 0 0 5px 10px;
+	  margin: 10px 0 0 0;
+	  padding: 0 0 5px 10px;
 }
 
 #admin_data {
@@ -485,45 +485,90 @@ table.password td.hint{
  * ------------------------------ */
 
 #admin {
-    z-index: 10;
-    margin: 49px 0 0 0;
+	  z-index: 10;
+	  margin: 49px 0 0 0;
 }
 
 #admin, #admin_data{
-        position: fixed;
-        right: 5px;
-        top: 0px;
-        width: 130px;
-        border-bottom: 1px solid #E6E6DF;
-        border-left: 1px solid #E6E6DF;
-        background: #fff;
-        text-align: left;
+	      position: fixed;
+	      right: 5px;
+	      top: 0px;
+	      width: 130px;
+	      border-bottom: 1px solid #E6E6DF;
+	      border-left: 1px solid #E6E6DF;
+	      background: #fff;
+	      text-align: left;
 }
 #admin_data{
-        top: 0px;
-        padding-top: 69px;
-        z-index: 9;
-        line-height: 1.2em;
-        font-size: 15px;
+	      top: 0px;
+	      padding-top: 69px;
+	      z-index: 9;
+	      line-height: 1.2em;
+	      font-size: 15px;
 }
 #admin h3 {
-        font-weight: normal;
-        color: #999;
-        margin:0;
-        padding:0;
-        text-align: center;
-        font-size: 18px;
+	      font-weight: normal;
+	      color: #999;
+	      margin:0;
+	      padding:0;
+	      text-align: center;
+	      font-size: 18px;
 }
 #admin h3:hover { color: #036;}
 
 /* Videos */
 
 .zen-video {
-    min-height: 270px;
+	  min-height: 270px;
 }
 
 div.imagethumb p a, div.imagethumb p a:hover {
-    /* font-weight: normal; */
-    border: none;
-    margin-top: 15px;
+	  /* font-weight: normal; */
+	  border: none;
+	  margin-top: 15px;
+}
+
+/* Pager */
+
+.pager {
+	margin: 18px 0px;
+	list-style: none;
+	text-align: center;
+	*zoom: 1;
+}
+.pager:before,
+.pager:after {
+	display: table;
+	content: "";
+}
+.pager:after {
+	clear: both;
+}
+.pager li {
+	display: inline;
+}
+.pager a {
+	display: inline-block;
+	padding: 5px 14px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+.pager a:hover {
+	text-decoration: none;
+	background-color: #f5f5f5;
+}
+.pager .next a {
+	float: right;
+}
+.pager .previous a {
+	float: left;
+}
+.pager .disabled a,
+.pager .disabled a:hover {
+	color: #999999;
+	background-color: #fff;
+	cursor: default;
 }

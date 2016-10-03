@@ -44,6 +44,19 @@
         		</div></div>
 				<div style="clear:both;"></div>
 
+				<ul class="pager">
+					<?php if (hasPrevImage()) { ?>
+						<li><a href="<?php echo html_encode(getPrevImageURL()); ?>" title="<?php echo gettext('Previous Image'); ?>">&larr; <?php echo gettext('prev'); ?></a></li>
+					<?php } else { ?>
+						<li class="disabled"><a href="#">&larr; <?php echo gettext('prev'); ?></a></li>
+					<?php } ?>
+					<?php if (hasNextImage()) { ?>
+						<li><a href="<?php echo html_encode(getNextImageURL()); ?>" title="<?php echo gettext('Next Image'); ?>"><?php echo gettext('next'); ?> &rarr;</a></li>
+					<?php } else { ?>
+						<li class="disabled"><a href="#"><?php echo gettext('next'); ?> &rarr;</a></li>
+					<?php } ?>
+				</ul>
+
 				<!-- Download links -->
         		<div class="downloadline"><p><em><a href="<?php echo htmlspecialchars(getFullImageURL());?>" title="Right-click on the link and Save-As"><?php echo gettext("Download Full Size:"); ?><?php echo getFullWidth() . "x" . getFullHeight(); ?></a></em><br />(Right-click on the link and Save-As)</p></div>
 
