@@ -33,7 +33,7 @@
 					<?php
 						$credit = getImageData("credit");
 						if ($credit) {
-							?><p><?php printImageData('credit', 'Credit'); ?></p><?php
+							?><p><?php printImageData('credit', 'Credit: '); ?></p><?php
 						};
 					?>
 				</div>
