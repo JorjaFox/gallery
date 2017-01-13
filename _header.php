@@ -37,10 +37,11 @@
 <nav class="nav-primary" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" id="genwpacc-genesis-nav-primary">
 	<div class="wrap">
 		<ul id="menu-header" class="menu genesis-nav-menu menu-primary">
-			<li id="menu-item-6105" class="menu-home menu-item menu-item-type-custom menu-item-object-custom menu-item-6105"><a href="/">Home</a></li>
-			<li id="menu-item-3622" class="menu-photos menu-item menu-item-type-custom menu-item-object-custom menu-item-3622"><a href="/gallery">Photos</a></li>
-			<li id="menu-item-3623" class="menu-videos menu-item menu-item-type-custom menu-item-object-custom menu-item-3623"><a href="/video/">Videos</a></li>
-			<li id="menu-item-3624" class="menu-library menu-item menu-item-type-custom menu-item-object-custom menu-item-3624"><a href="/library/">Library</a></li>
+			<li class="menu-home menu-item menu-item-type-custom menu-item-object-custom"><a href="/">Home</a></li>
+			<li class="menu-news menu-item menu-item-type-custom menu-item-object-custom"><a href="/#news">News</a></li>
+			<li class="menu-photos menu-item menu-item-type-custom menu-item-object-custom"><a href="/gallery">Photos</a></li>
+			<li class="menu-videos menu-item menu-item-type-custom menu-item-object-custom"><a href="/gallery/videos/">Videos</a></li>
+			<li class="menu-library menu-item menu-item-type-custom menu-item-object-custom"><a href="/library/">Library</a></li>
 		</ul>
 	</div>
 </nav>
