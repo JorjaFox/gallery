@@ -19,7 +19,20 @@
 	<div class="wrap">
 		<section id="text-16" class="widget widget_text">
 			<div class="widget-wrap">
-				<div class="textwidget"><?php printGalleryDesc(); ?></div>
+				<div class="textwidget"><?php
+
+					$ch = curl_init();
+					curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+					curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+					curl_setopt($ch, CURLOPT_URL, 'https://jorjafox.net/wp-json/wp/v2/pages/14363');
+					$result = curl_exec($ch);
+					curl_close($ch);
+
+					$obj = json_decode($result);
+
+					echo $obj->content->rendered;
+
+				?></div>
 			</div>
 		</section>
 	</div>
