@@ -26,17 +26,18 @@
 	<!-- Stylesheets -->
 	<link rel='stylesheet' href='<?php echo $_zp_themeroot ?>/zen.css' type='text/css' />
 	<link rel='stylesheet' href='/wordpress/wp-content/themes/utility-pro/style.css' type='text/css' />
-	<link rel='stylesheet' href='/wordpress/wp-content/mu-plugins/themes/utility-pro.css' type='text/css' />
+	<link rel='stylesheet' href='/wordpress/wp-content/mu-plugins/utility-pro/style.css' type='text/css' />
 	<link type='text/plain' rel='author' href='https://jorjafox.net/humans.txt' />
 
 	<!-- Scripts -->
-	<script type='text/javascript' src='/wordpress/wp-content/themes/jfogenesis/js/genwpacc.min.js'></script>
+	<script type='text/javascript' src='/wordpress/wp-content/themes/utility-pro/js/genwpacc-dropdown.js'></script>
 	<script type='text/javascript'>
 	/* <![CDATA[ */
-	var utilityBackstretchL10n = {"src":"https:\/\/static.jorjafox.net\/content\/images\/background.jpg"};
+	var utilityBackstretchL10n = {"src":"https:\/\/static.jorjafox.net\/content\/images\/JorjaFox.com_.jpg"};
 	/* ]]> */
 	</script>
-	<script type='text/javascript' src='/wordpress/wp-content/themes/jfogenesis/js/backstretch.min.js'></script>
+	<script type='text/javascript' src='/wordpress/wp-content/themes/utility-pro/js/backstretch.min.js'></script>
+	<script type='text/javascript' src='/wordpress/wp-content/mu-plugins/utility-pro/backstretch.args.js'></script>
 	<script type='text/javascript' src='https://static.jorjafox.net/content/code/js/content.min.js'></script>
 	<?php
 		include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/analyticstracking.php");
