@@ -25,7 +25,8 @@
 
 	<!-- Stylesheets -->
 	<link rel='stylesheet' href='<?php echo $_zp_themeroot ?>/zen.css' type='text/css' />
-	<link rel='stylesheet' href='/wordpress/wp-content/themes/jfogenesis/style.css' type='text/css' />
+	<link rel='stylesheet' href='/wordpress/wp-content/themes/utility-pro/style.css' type='text/css' />
+	<link rel='stylesheet' href='/wordpress/wp-content/mu-plugins/themes/utility-pro.css' type='text/css' />
 	<link type='text/plain' rel='author' href='https://jorjafox.net/humans.txt' />
 
 	<!-- Scripts -->
