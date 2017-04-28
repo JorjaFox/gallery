@@ -5,14 +5,13 @@
 	include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/loader.php");
 ?>
 
-<div class="site-container"><h2 class="screen-reader-text">Skip links</h2>
-
-<ul class="wpacc-genesis-skip-link">
-  <li><a href="#genwpacc-genesis-nav-primary" class="screen-reader-shortcut">Skip to primary navigation</a></li>
-  <li><a href="#genwpacc-genesis-content" class="screen-reader-shortcut">Skip to content</a></li>
-  <li><a href="#genwpacc-sidebar-primary" class="screen-reader-shortcut">Skip to primary sidebar</a></li>
-  <li><a href="#genwpacc-genesis-footer-widgets" class="screen-reader-shortcut">Skip to footer widgets</a></li>
-  <li><a href="#genwpacc-genesis-nav-footer" class="screen-reader-shortcut">Skip to footer navigation</a></li>
+<div class="site-container">
+<ul class="genesis-skip-link">
+	<li><a href="#genesis-nav-primary" class="screen-reader-shortcut"> Skip to primary navigation</a></li>
+	<li><a href="#genesis-nav-footer" class="screen-reader-shortcut"> Skip to footer navigation</a></li>
+	<li><a href="#genesis-content" class="screen-reader-shortcut"> Skip to content</a></li>
+	<li><a href="#genesis-sidebar-primary" class="screen-reader-shortcut"> Skip to primary sidebar</a></li>
+	<li><a href="#genesis-footer-widgets" class="screen-reader-shortcut"> Skip to footer</a></li>
 </ul>
 
 <div class="utility-bar">
