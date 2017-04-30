@@ -42,7 +42,7 @@
 			<li class="menu-home menu-item menu-item-type-custom menu-item-object-custom"><a href="/">Home</a></li>
 			<li class="menu-news menu-item menu-item-type-custom menu-item-object-custom"><a href="/#news">News</a></li>
 			<li class="menu-photos menu-item menu-item-type-custom menu-item-object-custom"><a href="/gallery">Photos</a></li>
-			<li class="menu-videos menu-item menu-item-type-custom menu-item-object-custom"><a href="/gallery/videos/">Videos</a></li>
+			<li class="menu-videos menu-item menu-item-type-custom menu-item-object-custom"><a href="/videos/">Videos</a></li>
 			<li class="menu-library menu-item menu-item-type-custom menu-item-object-custom"><a href="/library/">Library</a></li>
 		</ul>
 	</div>

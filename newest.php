@@ -21,7 +21,7 @@
 
         <header class="entry-header">
             <h2 class="entry-title" itemprop="headline">Newest Albums</h2>
-            <div class="entry-meta"><div class="byline"><p>Most recently uploaded albums</p></div></div>
+            <div class="entry-meta">By the Fans of Le Fox Librarians</div>
         </header>
 
         <div class="entry-content" itemprop="text">

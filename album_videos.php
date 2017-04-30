@@ -21,7 +21,7 @@
 
         <header class="entry-header">
             <h2 class="entry-title" itemprop="headline"><?php printAlbumTitle(true); ?></h2>
-			<div class="entry-meta">By the Jorja Fox Gallery Librarians</div>
+			<div class="entry-meta">By the Fans of Le Fox Librarians</div>
         </header>
 
         <div class="entry-content" itemprop="text">

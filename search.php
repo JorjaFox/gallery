@@ -34,18 +34,19 @@
 
         <header class="entry-header">
             <h2 class="entry-title" itemprop="headline">Search Results</h2>
-            <div class="entry-meta">
-                <div class="byline"><?php
-                    if (isset($_REQUEST['date'])){
-        				$searchwords = getSearchDate();
-                    } else { $searchwords = getSearchWords(); }
-                    echo '<p>'.sprintf(gettext('Total matches for <em>%1$s</em>: %2$u'), html_encode($searchwords), $total).'</p>';
-        		?></div>
-            </div>
+            <div class="entry-meta">By the Fans of Le Fox Librarians</div>
         </header>
 
         <div class="entry-content" itemprop="text">
             <div id="padbox">
+
+	            <?php
+	                if (isset($_REQUEST['date'])){
+	    				$searchwords = getSearchDate();
+	                } else { $searchwords = getSearchWords(); }
+	                echo '<p>'.sprintf(gettext('Total matches for <em>%1$s</em>: %2$u'), html_encode($searchwords), $total).'</p>';
+				?>
+
                 <?php if ((getNumAlbums()) > 0) { ?>
                     <div id="albums">
                        <?php while (next_album()): ?>

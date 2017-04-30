@@ -26,7 +26,7 @@ error_reporting(0);
 
         <header class="entry-header">
             <h2 class="entry-title" itemprop="headline">404</h2>
-            <div class="entry-meta"><div class="byline"><p>File Not Found</p></div></div>
+            <div class="entry-meta">By the Fans of Le Fox Librarians</div>
         </header>
 
         <div class="entry-content" itemprop="text">
