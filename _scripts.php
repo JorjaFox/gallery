@@ -31,6 +31,10 @@
 
 	<!-- Scripts -->
 	<script type='text/javascript' src='/wordpress/wp-content/themes/utility-pro/js/genwpacc-dropdown.js'></script>
+	<script type='text/javascript' src='/wordpress/wp-content/themes/utility-pro/js/responsive-menu.min.js'></script>
+	<script type='text/javascript' src='/wordpress/wp-content/themes/utility-pro/js/responsive-menu.args.js'></script>
+
+
 	<script type='text/javascript'>
 	/* <![CDATA[ */
 	var utilityBackstretchL10n = {"src":"https:\/\/static.jorjafox.net\/content\/images\/JorjaFox.com_.jpg"};

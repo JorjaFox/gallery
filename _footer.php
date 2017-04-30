@@ -55,7 +55,6 @@
 
 	<nav class="nav-footer" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" id="genwpacc-genesis-nav-footer"><div class="wrap">
 		<ul id="menu-footer" class="menu genesis-nav-menu menu-footer">
-			<li id="menu-item-13467" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13467"><a href="https://jorjafox.net/about">About Us</a></li>
 			<li id="menu-item-3597" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3597"><a href="https://jorjafox.net/disclaimer/">Disclaimer</a></li>
 			<li id="menu-item-3598" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3598"><a href="https://jorjafox.net/copyrights/">Copyright</a></li>
 			<li id="menu-item-3599" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3599"><a href="https://jorjafox.net/policy/">Policy</a></li>
@@ -63,7 +62,7 @@
 	</div></nav>
 
 	<footer class="site-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
-		<div class="wrap"><p>Copyright &copy; 1996-<?php echo date("Y"); ?> <em><a href="/">Fans of LeFox</a></em><br />Powered by <a href="https://http://zenphoto20.us/">ZenPhoto20</a> & <a href="http://www.shareasale.com/r.cfm?b=778546&u=728549&m=61628&urllink=&afftrack=">Utility Pro</a></p></div>
+		<div class="wrap"><p>Copyright &copy; 1996-<?php echo date("Y"); ?> <em><a href="/">Fans of LeFox</a></em><br />Powered by <a href="https://http://zenphoto20.us/">ZenPhoto20</a> & <a href="http://www.shareasale.com/r.cfm?b=778546&u=728549&m=61628&urllink=&afftrack=">Utility Pro</a>& <a href="http://helf.us/genesis/">Genesis Framework</a>.<br>Hosted by <a href="https://liquidweb.evyy.net/c/294289/297312/4464">Liquidweb</a>.</p></div>
 		<div class="adboxes-footer">
 			<?php
 				$_GET['name'] = 'leaderboard-728x90';
