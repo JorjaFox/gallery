@@ -28,6 +28,7 @@
 	<link rel='stylesheet' href='/wordpress/wp-content/themes/utility-pro/style.css' type='text/css' />
 	<link rel='stylesheet' href='/wordpress/wp-content/mu-plugins/utility-pro/style.css' type='text/css' />
 	<link type='text/plain' rel='author' href='https://jorjafox.net/humans.txt' />
+	<link rel='stylesheet' id='utility-pro-fonts-css' href='//fonts.googleapis.com/css?family=Enriqueta%3A400%2C700%7COpen+Sans%3A400%2C700&amp;subset=latin%2Clatin-ext' type='text/css' media='all'>
 
 	<!-- Scripts -->
 	<script type='text/javascript' src='/wordpress/wp-content/themes/utility-pro/js/backstretch.min.js'></script>
