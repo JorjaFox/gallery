@@ -80,3 +80,5 @@
         </div>
     </div>
 </div>
+
+<script type='text/javascript' src='/static/content/code/js/catsignal.js'></script>
