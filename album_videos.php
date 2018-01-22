@@ -1,4 +1,5 @@
-<?php if (!defined('WEBPATH')) die(); ?>
+<?php
+/*LegacyConverter was here*/ if (!defined('WEBPATH')) die(); ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -15,21 +16,19 @@
 <?php include("_header.php"); ?>
 
 <main class="content" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
-    <div class="breadcrumb">You are here: <a href="/" title="View Home">Home</a> / <a href="/gallery/">Gallery</a> / <?php printParentBreadcrumb('',' / ','  / '); ?></span> <span class="trail-end"><?php printAlbumTitle(); ?></div>
+	<div class="breadcrumb">You are here: <a href="/" title="View Home">Home</a> / <a href="/gallery/">Gallery</a> / <?php printParentBreadcrumb('',' / ','  / '); ?></span> <span class="trail-end"><?php printAlbumTitle(); ?></div>
 
-    <article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+	<article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
-        <header class="entry-header">
-            <h2 class="entry-title" itemprop="headline"><?php printAlbumTitle(true); ?></h2>
+		<header class="entry-header">
+			<h2 class="entry-title" itemprop="headline"><?php printAlbumTitle(true); ?></h2>
 			<div class="entry-meta">By the Fans of Le Fox Librarians</div>
-        </header>
+		</header>
 
-        <div class="entry-content" itemprop="text">
-            <div id="padbox">
+		<div class="entry-content" itemprop="text">
+			<div id="padbox">
 
-				<div class="byline">
-	                <p><?php printAlbumDesc(); ?></p>
-	            </div>
+				<div class="byline"><p><?php printAlbumDesc(); ?></p></div>
 
 				<div id="albums">
 					<?php while (next_album()): ?>
@@ -57,15 +56,15 @@
 						</div>
 					<?php endwhile; ?>
 				</div>
-            </div> <!-- PadBox -->
-        </div>
+			</div> <!-- PadBox -->
+		</div>
 
-        <div class="nav-links"><span class="page-numbers current"><div class="archive-pagination pagination"><?php printPageListWithNav("« " . gettext("prev"), gettext("next") . " »"); ?></div></span></div>
+		<div class="nav-links"><span class="page-numbers current"><div class="archive-pagination pagination"><?php printPageListWithNav("« " . gettext("prev"), gettext("next") . " »"); ?></div></span></div>
 
-        <footer class="entry-footer"><p class="entry-meta">Per our <a href="/copyrights/">Copyrights</a> and <a href="/terms-of-use/">Terms of Use</a>, you are welcome to copy and reuse images on this site for your own use, provided you credit this site in some way (via a link back, or simply by mentioning us by name).</p></footer>
-    </article>
+		<footer class="entry-footer"><p class="entry-meta">Per our <a href="/copyrights/">Copyrights</a> and <a href="/terms-of-use/">Terms of Use</a>, you are welcome to copy and reuse images on this site for your own use, provided you credit this site in some way (via a link back, or simply by mentioning us by name).</p></footer>
+	</article>
 
-    <div class="adboxes-footerwidget"><center>
+	<div class="adboxes-footerwidget"><center>
 		<?php
 			$_GET['name'] = 'google-large-rectangle';
 			include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
@@ -77,7 +76,7 @@
 			include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
 
 		?>
-    </center></div>
+	</center></div>
 </main>
 
 <?php include("_sidebar.php"); ?>

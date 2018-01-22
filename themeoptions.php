@@ -1,4 +1,5 @@
 <?php
+/*LegacyConverter was here*/
 
 // force UTF-8 Ø
 
@@ -31,9 +32,9 @@ class ThemeOptions {
 		setThemeOptionDefault('thumb_crop_height', 200);
 		setThemeOptionDefault('thumb_crop', 1);
 		setThemeOptionDefault('thumb_transition', 1);
-		setOptionDefault('colorbox_' . $me . '_album', 1);
-		setOptionDefault('colorbox_' . $me . '_image', 1);
-		setOptionDefault('colorbox_' . $me . '_search', 1);
+		setOptionDefault('colorbox_' . $me . '_album', 1); /* TODO:replace with a call to colorbox::registerScripts(); */
+		setOptionDefault('colorbox_' . $me . '_image', 1); /* TODO:replace with a call to colorbox::registerScripts(); */
+		setOptionDefault('colorbox_' . $me . '_search', 1); /* TODO:replace with a call to colorbox::registerScripts(); */
 		if (class_exists('cacheManager')) {
 			$me = basename(dirname(__FILE__));
 			cacheManager::deleteThemeCacheSizes($me);
@@ -51,6 +52,5 @@ class ThemeOptions {
 	function getOptionsDisabled() {
 		return array('custom_index_page');
 	}
-
 
 }

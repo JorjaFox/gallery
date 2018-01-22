@@ -25,6 +25,7 @@
 			<section id="search-2" class="widget widget_search"><div class="widget-wrap">
 				<h4 class="widget-title widgettitle">Search</h4>
 				<?php
+/*LegacyConverter was here*/
 				if (getOption('Allow_search')) {
 					printSearchForm('');
 				}

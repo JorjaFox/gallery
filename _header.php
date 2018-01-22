@@ -1,6 +1,7 @@
 <body class="zenphoto custom-background sidebar-content utility-pro-green" itemscope="itemscope" itemtype="http://schema.org/WebPage">
 
 <?php
+/*LegacyConverter was here*/
 	zp_apply_filter('theme_body_open');
 	include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/loader.php");
 ?>

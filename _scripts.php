@@ -24,7 +24,8 @@
 	<meta name='viewport' content='width=device-width, initial-scale=1'/>
 
 	<!-- Stylesheets -->
-	<link rel='stylesheet' href='<?php echo $_zp_themeroot ?>/zen.css' type='text/css' />
+	<link rel='stylesheet' href='<?php
+/*LegacyConverter was here*/ echo $_zp_themeroot ?>/zen.css' type='text/css' />
 	<link rel='stylesheet' href='/wordpress/wp-content/themes/utility-pro/style.css' type='text/css' />
 	<link rel='stylesheet' href='/wordpress/wp-content/mu-plugins/utility-pro/style.css' type='text/css' />
 	<link type='text/plain' rel='author' href='https://jorjafox.net/humans.txt' />

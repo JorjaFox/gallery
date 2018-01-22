@@ -1,4 +1,5 @@
-<?php if (!defined('WEBPATH')) die();
+<?php
+/*LegacyConverter was here*/ if (!defined('WEBPATH')) die();
 
 error_reporting(0);
 ?>
@@ -7,7 +8,7 @@ error_reporting(0);
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
 	<?php zp_apply_filter('theme_head'); ?>
 	<title>404 - file not found | <?php echo getBareGalleryTitle(); ?></title>
 
@@ -18,40 +19,40 @@ error_reporting(0);
 <?php include("_header.php"); ?>
 
 <main class="content" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
-    <div class="breadcrumb">You are here: <a href="/" title="View Home">Home</a> / <a href="/gallery/">Gallery</a> / 404</div>
+	<div class="breadcrumb">You are here: <a href="/" title="View Home">Home</a> / <a href="/gallery/">Gallery</a> / 404</div>
 
 
 
-    <article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+	<article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
-        <header class="entry-header">
-            <h2 class="entry-title" itemprop="headline">404</h2>
-            <div class="entry-meta">By the Fans of Le Fox Librarians</div>
-        </header>
+		<header class="entry-header">
+			<h2 class="entry-title" itemprop="headline">404</h2>
+			<div class="entry-meta">By the Fans of Le Fox Librarians</div>
+		</header>
 
-        <div class="entry-content" itemprop="text">
-            <div id="padbox">
-                <?php
+		<div class="entry-content" itemprop="text">
+			<div id="padbox">
+				<?php
 
-                echo '<p>'.gettext("Whoops! We can't find that page...").'</p>';
+				echo '<p>'.gettext("Whoops! We can't find that page...").'</p>';
 
-                if (isset($album)) {
-                    echo '<p>' . sprintf(gettext('Album: %s'), html_encode($album)).'</p>';
-                }
-                if (isset($image)) {
-                    echo '<p>' . sprintf(gettext('Image: %s'), html_encode($image)).'</p>';
-                }
-                if (isset($obj)) {
-                    echo '<p>' . sprintf(gettext('Page: %s'), html_encode(substr(basename($obj), 0, -4))).'</p>';
-                }
-                ?>
-            </div> <!-- PadBox -->
-        </div>
+				if (isset($album)) {
+					echo '<p>' . sprintf(gettext('Album: %s'), html_encode($album)).'</p>';
+				}
+				if (isset($image)) {
+					echo '<p>' . sprintf(gettext('Image: %s'), html_encode($image)).'</p>';
+				}
+				if (isset($obj)) {
+					echo '<p>' . sprintf(gettext('Page: %s'), html_encode(substr(basename($obj), 0, -4))).'</p>';
+				}
+				?>
+			</div> <!-- PadBox -->
+		</div>
 
-        <footer class="entry-footer"></footer>
-    </article>
+		<footer class="entry-footer"></footer>
+	</article>
 
-    <div class="adboxes-footerwidget"><center>
+	<div class="adboxes-footerwidget"><center>
 		<?php
 			$_GET['name'] = 'google-large-rectangle';
 			include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
@@ -63,7 +64,7 @@ error_reporting(0);
 			include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
 
 		?>
-    </center></div>
+	</center></div>
 </main>
 
 <?php include("_sidebar.php"); ?>

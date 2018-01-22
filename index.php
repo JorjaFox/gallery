@@ -1,4 +1,5 @@
 <?php
+/*LegacyConverter was here*/
 if (!defined('WEBPATH')) die();
 error_reporting(0);
 ?>
@@ -7,7 +8,7 @@ error_reporting(0);
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
 
 	<?php zp_apply_filter('theme_head'); ?>
 	<title><?php echo getBareGalleryTitle(); ?></title>
@@ -19,34 +20,34 @@ error_reporting(0);
 <?php include("_header.php"); ?>
 
 <main class="content" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
-    <div class="breadcrumb">You are here: <a href="/" title="View Home">Home</a> / <a href="/gallery/">Gallery</a> </div>
+	<div class="breadcrumb">You are here: <a href="/" title="View Home">Home</a> / <a href="/gallery/">Gallery</a> </div>
 
-    <article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+	<article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
 
-        <header class="entry-header">
-            <h2 class="entry-title" itemprop="headline">Welcome to the Gallery</h2>
+		<header class="entry-header">
+			<h2 class="entry-title" itemprop="headline">Welcome to the Gallery</h2>
 			<div class="entry-meta">By the Fans of Le Fox Librarians</div>
-        </header>
+		</header>
 
-        <div class="entry-content" itemprop="text">
-            <div id="padbox">
-        		<div id="albums">
-        			<?php while (next_album()): ?>
-        			<div class="indexalbum">
-        				<div class="thumb"><a href="<?php echo htmlspecialchars(getAlbumURL());?>" title="<?php echo gettext('View album:'); ?> <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumThumbImage(getAnnotatedAlbumTitle()); ?></a></div>
-        				<div class="albumdesc"><h3><a href="<?php echo htmlspecialchars(getAlbumURL());?>" title="<?php echo gettext('View album:'); ?> <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumTitle(); ?></a></h3>
-                        <p><?php printAlbumDesc(); ?></p></div>
-        				<p style="clear: both; "></p>
-        			</div>
-        			<?php endwhile; ?>
-        		</div>
-            </div> <!-- PadBox -->
-        </div>
+		<div class="entry-content" itemprop="text">
+			<div id="padbox">
+				<div id="albums">
+					<?php while (next_album()): ?>
+					<div class="indexalbum">
+						<div class="thumb"><a href="<?php echo htmlspecialchars(getAlbumURL());?>" title="<?php echo gettext('View album:'); ?> <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumThumbImage(getAnnotatedAlbumTitle()); ?></a></div>
+						<div class="albumdesc"><h3><a href="<?php echo htmlspecialchars(getAlbumURL());?>" title="<?php echo gettext('View album:'); ?> <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumTitle(); ?></a></h3>
+						<p><?php printAlbumDesc(); ?></p></div>
+						<p style="clear: both; "></p>
+					</div>
+					<?php endwhile; ?>
+				</div>
+			</div> <!-- PadBox -->
+		</div>
 
-        <footer class="entry-footer"></footer>
-    </article>
+		<footer class="entry-footer"></footer>
+	</article>
 
-    <div class="adboxes-footerwidget"><center>
+	<div class="adboxes-footerwidget"><center>
 		<?php
 			$_GET['name'] = 'google-large-rectangle';
 			include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
@@ -58,7 +59,7 @@ error_reporting(0);
 			include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
 
 		?>
-    </center></div>
+	</center></div>
 
 </main>
 
