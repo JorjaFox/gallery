@@ -51,20 +51,6 @@ error_reporting(0);
 
 		<footer class="entry-footer"></footer>
 	</article>
-
-	<div class="adboxes-footerwidget"><center>
-		<?php
-			$_GET['name'] = 'google-large-rectangle';
-			include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
-
-			$_GET['name'] = 'studiopress-120x240';
-			include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
-
-			$_GET['name'] = 'line-buttons-500x250';
-			include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
-
-		?>
-	</center></div>
 </main>
 
 <?php include("_sidebar.php"); ?>

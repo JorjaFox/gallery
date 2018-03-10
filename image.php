@@ -64,20 +64,6 @@
 
 		<footer class="entry-footer"><p class="entry-meta">Per our <a href="/copyrights/">Copyrights</a> and <a href="/terms-of-use/">Terms of Use</a>, you are welcome to copy and reuse images on this site for your own use, provided you credit this site in some way (via a link back, or simply by mentioning us by name).</p></footer>
 	</article>
-
-	<div class="adboxes-footerwidget"><center>
-		<?php
-			$_GET['name'] = 'google-large-rectangle';
-			include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
-
-			$_GET['name'] = 'studiopress-120x240';
-			include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
-
-			$_GET['name'] = 'line-buttons-500x250';
-			include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/adboxes.php");
-
-		?>
-	</center></div>
 </main>
 
 <?php include("_sidebar.php"); ?>

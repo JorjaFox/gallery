@@ -3,7 +3,6 @@
 <?php
 /*LegacyConverter was here*/
 	zp_apply_filter('theme_body_open');
-	include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/ads/loader.php");
 ?>
 
 <div class="site-container">
@@ -20,8 +19,24 @@
 		<section id="text-16" class="widget widget_text">
 			<div class="widget-wrap">
 				<div class="textwidget"><?php
-					$_GET['url'] = 'https://jorjafox.net/wp-json/wp/v2/pages/14363';
-					include($_SERVER["DOCUMENT_ROOT"]."/static/content/code/json/utility-bar.php");
+					$curl = curl_init();
+				
+					curl_setopt_array( $curl, array(
+						CURLOPT_FAILONERROR    => true,
+						CURLOPT_CONNECTTIMEOUT => 30,
+						CURLOPT_TIMEOUT        => 60,
+						CURLOPT_FOLLOWLOCATION => false,
+						CURLOPT_MAXREDIRS      => 3,
+						CURLOPT_SSL_VERIFYPEER => false,
+						CURLOPT_RETURNTRANSFER => true,
+						CURLOPT_URL            => 'https://jorjafox.net/wp-json/wp/v2/pages/14363'
+					) );
+				
+					$url = curl_exec( $curl );
+					curl_close( $curl );
+
+					$obj = json_decode( $url );
+					if ( json_last_error() === JSON_ERROR_NONE ) echo $obj->content->rendered;
 				?></div>
 			</div>
 		</section>
@@ -32,7 +47,7 @@
 	<div class="wrap">
 		<div class="title-area"><h1 class="site-title" itemprop="headline"><a href="/">Fans of LeFox</a></h1>
 		<p class="site-description" itemprop="description">A fansite for Jorja Fox</p></div>
-		<aside class="widget-area header-widget-area"><section id="text-17" class="widget widget_text"><div class="widget-wrap"><div class="textwidget"><img src="https://static.jorjafox.net/content/code/rotate.php"></div>
+		<aside class="widget-area header-widget-area"><section id="text-17" class="widget widget_text"><div class="widget-wrap"><div class="textwidget"><img src="/static/content/code/rotate.php"></div>
 		</div></section></aside>
 	</div>
 </header><!--end #header-->
