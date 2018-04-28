@@ -42,7 +42,7 @@
 	</div></nav>
 
 	<footer class="site-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
-		<div class="wrap"><p>Copyright &copy; 1996-<?php echo date("Y"); ?> <em><a href="/">Fans of LeFox</a></em><br />Powered by <a href="https://http://zenphoto20.us/">ZenPhoto20</a> & <a href="http://shareasale.com/r.cfm?b=242694&u=728549&m=28169&urllink=&afftrack=">Genesis Framework</a> & <a href="http://helf.us/genesis/">Genesis Framework</a>.<br>Hosted by <a href="https://liquidweb.evyy.net/c/294289/297312/4464">Liquidweb</a>.</p></div>
+		<div class="wrap"><p>Copyright &copy; 1996-<?php echo date("Y"); ?> <em><a href="/">Fans of LeFox</a></em><br />Powered by <a href="https://http://zenphoto20.us/">ZenPhoto20</a> & <a href="http://shareasale.com/r.cfm?b=242694&u=728549&m=28169&urllink=&afftrack=">Utility Pro Theme</a> & <a href="http://helf.us/genesis/">Genesis Framework</a>.<br>Hosted by <a href="https://liquidweb.evyy.net/c/294289/297312/4464">Liquidweb</a>.</p></div>
 	</footer>
 </div> <!-- End Site-Container -->
 
