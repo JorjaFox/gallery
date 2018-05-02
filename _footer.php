@@ -35,9 +35,9 @@
 
 	<nav class="nav-footer" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" id="genwpacc-genesis-nav-footer"><div class="wrap">
 		<ul id="menu-footer" class="menu genesis-nav-menu menu-footer">
-			<li id="menu-item-3597" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3597"><a href="https://jorjafox.net/disclaimer/">Disclaimer</a></li>
-			<li id="menu-item-3598" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3598"><a href="https://jorjafox.net/copyrights/">Copyright</a></li>
-			<li id="menu-item-3599" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3599"><a href="https://jorjafox.net/policy/">Policy</a></li>
+			<li id="menu-item-3597" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3597"><a href="https://jorjafox.net/tos/">Terms of Use</a></li>
+			<li id="menu-item-3598" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3598"><a href="https://jorjafox.net/tos/copyrights/">Copyright</a></li>
+			<li id="menu-item-3599" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3599"><a href="https://jorjafox.net/tos/privacy/">Privacy Policy</a></li>
 		</ul>
 	</div></nav>
 
