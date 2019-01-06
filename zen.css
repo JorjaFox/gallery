@@ -1,6 +1,6 @@
 /* Fans of LeFox */
 
-.breadcrumb a, .current-menu-item a, .menu-secondary-container a, .site-footer p a {
+.breadcrumb a, .current-menu-item a, .menu-secondary-container a, .site-footer p a, .albumdesc a {
 	color: #107952!important;
 }
 
