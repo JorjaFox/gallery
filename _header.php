@@ -5,7 +5,7 @@
 	zp_apply_filter('theme_body_open');
 ?>
 
-<div class="authority-top-banner" style="display: block;"><div id="logo"><img src="https://static.jorjafox.net/wordpress/2019/01/cropped-flf-logo.png"></div></div>
+<div class="authority-top-banner" style="display: block;"><div id="logo"><img src="https://static.jorjafox.net/wordpress/2019/01/cropped-flf-logo.png">&nbsp;</div></div>
 
 <div class="site-container">
 

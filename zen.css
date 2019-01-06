@@ -105,8 +105,9 @@ input[type="submit"].primary,
 .more-link,
 .sidebar .enews-widget input[type="submit"],
 .enews-widget input[type="submit"] {
-	background-color: #107952;
+	background-color: #107952!important;
 	color: #ffffff;
+	height: 75px!important;
 }
 
 .authority-top-banner a,
