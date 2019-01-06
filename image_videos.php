@@ -1,14 +1,14 @@
 <?php
-/*LegacyConverter was here*/ if (!defined('WEBPATH')) die(); ?>
+if (!defined('WEBPATH')) die(); ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
 
 	<?php zp_apply_filter('theme_head'); ?>
-	<title><?php echo getImageTitle(); ?> | <? echo getBareGalleryTitle(); ?></title>
+	<title><?php echo getImageTitle(); ?> * <?php echo getBareGalleryTitle(); ?></title>
 
 	<?php include("_scripts.php"); ?>
 
@@ -16,7 +16,7 @@
 
 <?php include("_header.php"); ?>
 
-<main class="content" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+<main class="content" id="genesis-content">
 	<div class="breadcrumb">You are here: <a href="/" title="View Home">Home</a> / <a href="/gallery/">Gallery</a> / <?php printParentBreadcrumb('',' / ','  / '); ?></span> <span class="trail-end"><a href="<?php echo html_encode(getAlbumURL());?>" title="<?php echo gettext('View album:'); ?><?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumTitle(); ?></a></div>
 
 	<article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">

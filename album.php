@@ -8,7 +8,7 @@ if (!defined('WEBPATH')) die(); ?>
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
 
 	<?php zp_apply_filter('theme_head'); ?>
-	<title><?php echo getAlbumTitle() ." | ".getBareGalleryTitle(); ?></title>
+	<title><?php echo getAlbumTitle() ." * ".getBareGalleryTitle(); ?></title>
 
 	<?php include("_scripts.php"); ?>
 
@@ -24,7 +24,7 @@ if (!defined('WEBPATH')) die(); ?>
 
 <?php include("_header.php"); ?>
 
-<main class="content" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+<main class="content" id="genesis-content">
 	<div class="breadcrumb">You are here: <a href="/" title="View Home">Home</a> / <a href="/gallery/">Gallery</a> / <?php printParentBreadcrumb('',' / ','  / '); ?></span> <span class="trail-end"><?php printAlbumTitle(); ?></div>
 
 	<article class="post type-post format-standard category-jorjafox entry zenphoto" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">

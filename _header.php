@@ -6,62 +6,17 @@
 ?>
 
 <div class="site-container">
-<ul class="genesis-skip-link">
-	<li><a href="#genesis-nav-primary" class="screen-reader-shortcut"> Skip to primary navigation</a></li>
-	<li><a href="#genesis-nav-footer" class="screen-reader-shortcut"> Skip to footer navigation</a></li>
-	<li><a href="#genesis-content" class="screen-reader-shortcut"> Skip to content</a></li>
-	<li><a href="#genesis-sidebar-primary" class="screen-reader-shortcut"> Skip to primary sidebar</a></li>
-	<li><a href="#genesis-footer-widgets" class="screen-reader-shortcut"> Skip to footer</a></li>
-</ul>
 
-<div class="utility-bar">
-	<div class="wrap">
-		<section id="text-16" class="widget widget_text">
-			<div class="widget-wrap">
-				<div class="textwidget"><?php
-					$curl = curl_init();
-				
-					curl_setopt_array( $curl, array(
-						CURLOPT_FAILONERROR    => true,
-						CURLOPT_CONNECTTIMEOUT => 30,
-						CURLOPT_TIMEOUT        => 60,
-						CURLOPT_FOLLOWLOCATION => false,
-						CURLOPT_MAXREDIRS      => 3,
-						CURLOPT_SSL_VERIFYPEER => false,
-						CURLOPT_RETURNTRANSFER => true,
-						CURLOPT_URL            => 'https://jorjafox.net/wp-json/wp/v2/pages/14363'
-					) );
-				
-					$url = curl_exec( $curl );
-					curl_close( $curl );
+	<h2 id="additional-menu-label" class="screen-reader-text">Additional menu</h2>
+	<nav class="nav-social genesis-responsive-menu" aria-labelledby="additional-menu-label" id="genesis-nav-social" itemscope="" itemtype="https://schema.org/SiteNavigationElement" style="top: 104.859375px;"><ul id="menu-social" class="menu genesis-nav-menu js-superfish sf-js-enabled sf-arrows"><li id="menu-item-15218" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15218"><a href="https://www.facebook.com/JFO.Fans" itemprop="url"><span itemprop="name">Facebook</span></a></li>
+	<li id="menu-item-15219" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15219"><a href="http://twitter.com/LeFoxFans" itemprop="url"><span itemprop="name">Twitter</span></a></li>
+	<li id="menu-item-15220" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15220"><a href="https://lefoxfans.tumblr.com/" itemprop="url"><span itemprop="name">Tumblr</span></a></li>
+	</ul></nav>
 
-					$obj = json_decode( $url );
-					if ( json_last_error() === JSON_ERROR_NONE ) echo $obj->content->rendered;
-				?></div>
-			</div>
-		</section>
-	</div>
-</div>
+	<header class="site-header" itemscope="" itemtype="https://schema.org/WPHeader"><div class="wrap"><div class="title-area"><p class="site-title" itemprop="headline"><a href="https://jorjafox.net/">Fans of LeFox Gallery</a></p><p class="site-description" itemprop="description">A fansite for Jorja Fox</p></div><button class="menu-toggle dashicons-before dashicons-menu" aria-expanded="false" aria-pressed="false" id="genesis-mobile-nav-primary">Menu</button><nav class="nav-primary genesis-responsive-menu" aria-label="Main" itemscope="" itemtype="https://schema.org/SiteNavigationElement" id="genesis-nav-primary" style=""><div class="wrap"><ul id="menu-header" class="menu genesis-nav-menu menu-primary js-superfish sf-js-enabled sf-arrows"><li id="menu-item-14304" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-14304"><a href="https://jorjafox.net/#news" itemprop="url"><span itemprop="name">News</span></a></li>
+	<li id="menu-item-3622" class="menu-photos menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-3622"><a href="https://jorjafox.net/gallery" itemprop="url"><span itemprop="name">Photos</span></a></li>
+	<li id="menu-item-3623" class="menu-videos menu-item menu-item-type-custom menu-item-object-custom menu-item-3623"><a href="https://jorjafox.net/videos/" itemprop="url"><span itemprop="name">Videos</span></a></li>
+	<li id="menu-item-3624" class="menu-library menu-item menu-item-type-custom menu-item-object-custom menu-item-3624"><a href="https://jorjafox.net/library/" itemprop="url"><span itemprop="name">Library</span></a></li>
+	</ul></div></nav></div></header><!--end #header-->
 
-<header class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
-	<div class="wrap">
-		<div class="title-area"><h1 class="site-title" itemprop="headline"><a href="/">Fans of LeFox</a></h1>
-		<p class="site-description" itemprop="description">A fansite for Jorja Fox</p></div>
-		<aside class="widget-area header-widget-area"><section id="text-17" class="widget widget_text"><div class="widget-wrap"><div class="textwidget"><img src="/static/content/code/rotate.php"></div>
-		</div></section></aside>
-	</div>
-</header><!--end #header-->
-
-<nav class="nav-primary" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" id="genwpacc-genesis-nav-primary">
-	<div class="wrap">
-		<ul id="menu-header" class="menu genesis-nav-menu menu-primary">
-			<li class="menu-news menu-item menu-item-type-custom menu-item-object-custom"><a href="/#news">News</a></li>
-			<li class="menu-photos menu-item menu-item-type-custom menu-item-object-custom"><a href="/gallery">Photos</a></li>
-			<li class="menu-videos menu-item menu-item-type-custom menu-item-object-custom"><a href="/videos/">Videos</a></li>
-			<li class="menu-library menu-item menu-item-type-custom menu-item-object-custom"><a href="/library/">Library</a></li>
-		</ul>
-	</div>
-</nav>
-
-<div class="site-inner utility-pro-green"><div class="wrap">
-	<div class="content-sidebar-wrap">
+	<div class="site-inner"><div class="content-sidebar-wrap">

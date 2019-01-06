@@ -24,32 +24,13 @@
 	<meta name='viewport' content='width=device-width, initial-scale=1'/>
 
 	<!-- Stylesheets -->
-	<link rel='stylesheet' href='<?php
-/*LegacyConverter was here*/ echo $_zp_themeroot ?>/zen.css' type='text/css' />
-	<link rel='stylesheet' href='/wordpress/wp-content/themes/utility-pro/style.css' type='text/css' />
-	<link rel='stylesheet' href='/wordpress/wp-content/mu-plugins/utility-pro/style.css' type='text/css' />
+	<link rel='stylesheet' href='<?php echo $_zp_themeroot ?>/zen.css' type='text/css' />
+	<link rel="stylesheet" id="authority-pro-css" href="/wp-content/themes/authority-pro/style.css" type="text/css" media="all">
 	<link type='text/plain' rel='author' href='https://jorjafox.net/humans.txt' />
-	<link rel='stylesheet' id='utility-pro-fonts-css' href='//fonts.googleapis.com/css?family=Enriqueta%3A400%2C700%7COpen+Sans%3A400%2C700&amp;subset=latin%2Clatin-ext' type='text/css' media='all'>
-
-	<!-- Scripts -->
-	<script type='text/javascript' src='/wordpress/wp-content/themes/utility-pro/js/backstretch.min.js'></script>
-	<script type='text/javascript'>
-		/* <![CDATA[ */
-		var utilityBackstretchL10n = {"src":"https:\/\/static.jorjafox.net\/content\/images\/JorjaFox.com_.jpg"};
-		/* ]]> */
-	</script>
-	<script type='text/javascript' src='/wordpress/wp-content/mu-plugins/utility-pro/backstretch.args.js'></script>
-	<script type='text/javascript' src='/wordpress/wp-content/themes/utility-pro/js/genwpacc-dropdown.js'></script>
-	<script type='text/javascript'>
-		/* <![CDATA[ */
-		var utilityMenuPrimaryL10n = {"buttonText":"Menu","buttonLabel":"Primary Navigation Menu","subButtonText":"Sub Menu","subButtonLabel":"Sub Menu"};
-		var utilityMenuFooterL10n = {"buttonText":"Footer Menu","buttonLabel":"Footer Navigation Menu","subButtonText":"Sub Menu","subButtonLabel":"Sub Menu"};
-		/* ]]> */
-	</script>
-	<script type='text/javascript' src='/wordpress/wp-content/themes/utility-pro/js/responsive-menu.min.js'></script>
-	<script type='text/javascript' src='/wordpress/wp-content/themes/utility-pro/js/responsive-menu.args.js'></script>
-
-	<script type='text/javascript' src='/static/content/code/js/slide-up.js'></script>
+	<link crossorigin="anonymous" rel='stylesheet' id='authority-fonts-css'  href='//fonts.googleapis.com/css?family=Source+Sans+Pro%3A600%2C700%2C900%7CLibre+Baskerville%3A400%2C400italic%2C700&#038;ver=1.1.0' type='text/css' media='all' />
+	<link rel='stylesheet' id='authority-pro-gutenberg-css'  href='/wordpress/wp-content/themes/authority-pro/lib/gutenberg/front-end.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='authority-front-styles-css'  href='/wordpress/wp-content/themes/authority-pro/css/style-front.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='authority-hero-styles-css'  href='/wordpress/wp-content/themes/authority-pro/css/style-hero.css' type='text/css' media='all' />
 
 	<!-- Google Analytics -->
 	<script>
@@ -57,17 +38,16 @@
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	
+
 	  ga('create', 'UA-6548280-1', 'auto');
 	  ga('send', 'pageview');
-	
+
 	  setTimeout("ga('send','event','Profitable Engagement','time on page more than 2 minutes')",15000);
 	</script>
-	
+
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<script>
 	     (adsbygoogle = window.adsbygoogle || []).push({
 	          google_ad_client: "ca-pub-7868382837959636",
-	          enable_page_level_ads: true
 	     });
 	</script>
