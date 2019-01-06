@@ -1,5 +1,14 @@
 /* Fans of LeFox */
 
+#logo{
+	position:absolute;
+	top:0;
+	left:0;
+	width: 60px;
+	margin: 5px;
+}
+
+
 .breadcrumb a, .current-menu-item a, .menu-secondary-container a, .site-footer p a, .albumdesc a {
 	color: #107952!important;
 }
