@@ -8,7 +8,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 
 <?php zp_apply_filter( 'theme_body_open' ); ?>
 
-<div class="authority-top-banner" style="display: block;"><div id="logo"><img src="https://static.jorjafox.net/wordpress/2019/01/cropped-flf-logo.png">&nbsp;</div></div>
+<div class="authority-top-banner" style="display: block;"><div id="logo"><a href="/"><img src="https://static.jorjafox.net/wordpress/2019/01/cropped-flf-logo.png"></a>&nbsp;</div></div>
 
 <div class="site-container">
 
@@ -24,7 +24,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 	<header class="site-header" itemscope="" itemtype="https://schema.org/WPHeader">
 		<div class="wrap">
 			<div class="title-area">
-				<p class="site-title" itemprop="headline"><a href="https://jorjafox.net/">Fans of LeFox Gallery</a></p>
+				<p class="site-title" itemprop="headline"><a href="https://jorjafox.net/gallery/">Fans of LeFox Gallery</a></p>
 				<p class="site-description" itemprop="description">A fansite for Jorja Fox</p>
 			</div>
 			<button class="menu-toggle dashicons-before dashicons-menu" aria-expanded="false" aria-pressed="false" id="genesis-mobile-nav-primary">Menu</button>

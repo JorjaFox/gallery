@@ -26,7 +26,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 
 		<header class="entry-header">
 			<h1 class="entry-title" itemprop="headline"><?php printImageTitle(true); ?></h1>
-			<div class="entry-meta">By the Fans of Le Fox Librarians</div>
+			<div class="entry-meta">By the Fans of LeFox Librarians</div>
 		</header>
 
 		<div class="entry-content" itemprop="text">
