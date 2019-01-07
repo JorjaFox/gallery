@@ -1,6 +1,4 @@
 <?php
-/*LegacyConverter was here*/
-
 // force UTF-8 Ø
 
 /* Plug-in for theme option handling
@@ -10,10 +8,10 @@
  *
  */
 
-require_once(dirname(__FILE__) . '/functions.php');
+require '/functions.php';
 
 /* Fix because my server is stupid */
-setOption('locale','en_US',true);
+setOption( 'locale', 'en_US', true );
 
 class ThemeOptions {
 

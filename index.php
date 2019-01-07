@@ -1,7 +1,7 @@
 <?php
-/*LegacyConverter was here*/
-if (!defined('WEBPATH')) die();
-error_reporting(0);
+if ( ! defined( 'WEBPATH' ) ) {
+	die();
+}
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -17,7 +17,7 @@ error_reporting(0);
 
 </head>
 
-<?php include("_header.php"); ?>
+<?php require '_header.php'; ?>
 
 <main class="content" id="genesis-content">
 	<div class="breadcrumb">You are here: <a href="/" title="View Home">Home</a> / <a href="/gallery/">Gallery</a> </div>
@@ -48,11 +48,13 @@ error_reporting(0);
 	</article>
 </main>
 
-<?php include("_sidebar.php"); ?>
-<?php include("_footer.php"); ?>
+<?php
+	require '_sidebar.php';
+	require '_footer.php';
+?>
 
 </div> <!-- End Site-container -->
-<?php zp_apply_filter('theme_body_close'); ?>
+<?php zp_apply_filter( 'theme_body_close' ); ?>
 
 </body>
 </html>

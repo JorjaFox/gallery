@@ -1,5 +1,8 @@
 <?php
-/*LegacyConverter was here*/ if (!defined('WEBPATH')) die(); ?>
+if ( ! defined( 'WEBPATH' ) ) {
+	die();
+}
+?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -19,7 +22,7 @@
 	</script>
 </head>
 
-<?php include("_header.php"); ?>
+<?php require '_header.php'; ?>
 
 <?php
 	$total = getNumImages() + getNumAlbums();
@@ -84,11 +87,13 @@
 	</article>
 </main>
 
-<?php include("_sidebar.php"); ?>
-<?php include("_footer.php"); ?>
+<?php
+	require '_sidebar.php';
+	require '_footer.php';
+?>
 
 </div> <!-- End Site-container -->
-<?php zp_apply_filter('theme_body_close'); ?>
+<?php zp_apply_filter( 'theme_body_close' ); ?>
 
 </body>
 </html>
