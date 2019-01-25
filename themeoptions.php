@@ -8,7 +8,7 @@
  *
  */
 
-require '/functions.php';
+require 'functions.php';
 
 /* Fix because my server is stupid */
 setOption( 'locale', 'en_US', true );
