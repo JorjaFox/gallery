@@ -195,13 +195,12 @@ div.footer-widgets svg {
 
 .imagethumb a, .imagethumb a:hover {
 	display: block;
-	margin: 0px 9px 9px 0px;
+	margin: 2px;
 	line-height: 0px;
 }
 
 .imagethumb {
 	float: left;
-	padding: 0 0 5px 0;
 }
 .albumdesc2 {
 	line-height: 18px;
