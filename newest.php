@@ -9,7 +9,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
-	<?php zp_apply_filter('theme_head'); ?>
+	<?php npgFilters::apply('theme_head'); ?>
 	<title>Newest Images | <?php echo getBareGalleryTitle(); ?></title>
 
 	<?php include("_scripts.php"); ?>
@@ -44,7 +44,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 ?>
 
 </div> <!-- End Site-container -->
-<?php zp_apply_filter( 'theme_body_close' ); ?>
+<?php npgFilters::apply( 'theme_body_close' ); ?>
 
 </body>
 </html>

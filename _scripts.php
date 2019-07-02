@@ -9,7 +9,7 @@
 	<meta name='viewport' content='width=device-width, initial-scale=1'/>
 
 	<!-- Stylesheets -->
-	<link rel='stylesheet' href='<?php echo $_zp_themeroot; ?>/zen.css' type='text/css' />
+	<link rel='stylesheet' href='/gallery/theme/jorjafox-zenphoto/zen.css' type='text/css' />
 	<link rel="stylesheet" id="authority-pro-css" href="/wp-content/themes/authority-pro/style.css" type="text/css" media="all">
 	<link type='text/plain' rel='author' href='https://jorjafox.net/humans.txt' />
 	<link crossorigin="anonymous" rel='stylesheet' id='authority-fonts-css'  href='//fonts.googleapis.com/css?family=Source+Sans+Pro%3A600%2C700%2C900%7CLibre+Baskerville%3A400%2C400italic%2C700&#038;ver=1.1.0' type='text/css' media='all' />

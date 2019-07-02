@@ -6,7 +6,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 
 <body class="zenphoto custom-background sidebar-content utility-pro-green" itemscope="itemscope" itemtype="http://schema.org/WebPage">
 
-<?php zp_apply_filter( 'theme_body_open' ); ?>
+<?php npgFilters::apply( 'theme_body_open' ); ?>
 
 <div class="authority-top-banner" style="display: block;"><div id="logo"><a href="/"><img src="https://static.jorjafox.net/wordpress/2019/01/cropped-flf-logo.png"></a>&nbsp;</div></div>
 

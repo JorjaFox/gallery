@@ -8,7 +8,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<?php zp_apply_filter('theme_head'); ?>
+	<?php npgFilters::apply('theme_head'); ?>
 	<title>Search Results | <?php echo getBareGalleryTitle(); ?></title>
 
 	<?php include("_scripts.php"); ?>
@@ -26,8 +26,8 @@ if ( ! defined( 'WEBPATH' ) ) {
 
 <?php
 	$total = getNumImages() + getNumAlbums();
-	if (!$total) {
-		$_zp_current_search->clearSearchWords();
+	if ($total == 0) {
+		$_current_search->clearSearchWords();
 	}
 ?>
 
@@ -45,10 +45,16 @@ if ( ! defined( 'WEBPATH' ) ) {
 			<div id="padbox">
 
 				<?php
-					if (isset($_REQUEST['date'])){
-						$searchwords = getSearchDate();
-					} else { $searchwords = getSearchWords(); }
-					echo '<p>'.sprintf(gettext('Total matches for <em>%1$s</em>: %2$u'), html_encode($searchwords), $total).'</p>';
+					$searchwords = getSearchWords();
+					$searchdate = getSearchDate();
+					if (!empty($searchdate)) {
+						$searchwords .= $searchdate;
+					}
+					if ($total) {
+						echo '<p>' . sprintf(gettext('Total matches for <em>%1$s</em>: %2$u'), html_encode($searchwords), $total) . '</p>';
+					} else {
+						echo "<p>" . gettext('Sorry, no matches for your search.') . "</p>";
+					}
 				?>
 
 				<?php if ((getNumAlbums()) > 0) { ?>
@@ -93,7 +99,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 ?>
 
 </div> <!-- End Site-container -->
-<?php zp_apply_filter( 'theme_body_close' ); ?>
+<?php npgFilters::apply( 'theme_body_close' ); ?>
 
 </body>
 </html>
