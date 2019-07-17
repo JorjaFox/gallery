@@ -8,7 +8,11 @@ if ( ! defined( 'WEBPATH' ) ) {
 
 <?php npgFilters::apply( 'theme_body_open' ); ?>
 
-<div class="authority-top-banner" style="display: block;"><?php include FLF_BASE_DIR . '/wordpress/wp-content/top-bar.html'; ?></div>
+<div class="authority-top-banner" style="display: block;">
+<?php
+	echo file_get_contents( FLF_BASE_DIR . '/wordpress/wp-content/top-bar.html' );
+?>
+</div>
 
 <div class="site-container">
 

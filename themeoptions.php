@@ -13,9 +13,6 @@ require 'functions.php';
 /* Fix because my server is stupid */
 setOption( 'locale', 'en_US', true );
 
-// This should resolve to /home/me/public_html/
-define( 'FLF_BASE_DIR', dirname( SERVERPATH ) );
-
 class ThemeOptions {
 
 	public function __construct() {
