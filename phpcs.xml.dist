@@ -8,4 +8,10 @@
         <exclude name="WordPress.WP.EnqueuedResources.NonEnqueuedScript" />
         <exclude name="WordPress.WP.AlternativeFunctions.file_system_read_file_get_contents" />
     </rule>
+
+    <rule ref="WordPress.Security.EscapeOutput">
+        <properties>
+            <property name="customAutoEscapedFunctions" value="getBareGalleryTitle" type="array" />
+        </properties>
+    </rule>
 </ruleset>

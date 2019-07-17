@@ -8,7 +8,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 
 <?php npgFilters::apply( 'theme_body_open' ); ?>
 
-<div class="authority-top-banner" style="display: block;"><div id="logo"><a href="/"><img src="https://static.jorjafox.net/wordpress/2019/01/cropped-flf-logo.png"></a>&nbsp;</div></div>
+<div class="authority-top-banner" style="display: block;"><?php include FLF_BASE_DIR . '/wordpress/wp-content/top-bar.html'; ?></div>
 
 <div class="site-container">
 
