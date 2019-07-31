@@ -212,10 +212,12 @@ div.footer-widgets svg {
 ------------------------------ */
 
 .album, .indexalbum {
-	margin: 5px;
+	margin: 0 10px 0 0;
+	padding-top: 5px;
 	width: 200px;
 	display: inline-block;
 	vertical-align: top;
+	border-top: 2px solid #ddd;
 }
 
 .album h3, .indexalbum h3 {
@@ -239,6 +241,14 @@ div.footer-widgets svg {
 
 .albumdesc small {
 	color: #8DB8CF;
+}
+
+.albumdesc h3 {
+	margin: 5px!important;
+}
+
+.albumdesc {
+	margin-bottom: 10px;
 }
 
 #imagemetadata {
