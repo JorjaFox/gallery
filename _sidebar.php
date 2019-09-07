@@ -19,15 +19,7 @@
 			<div class="adboxes-sidebar">
 				<a href="//liquidweb.evyy.net/c/294289/297312/4464"><img src="//a.impactradius-go.com/display-ad/4464-297312" border="0" alt="Ad Liquid Web Managed Web Hosting" width="325" height="38"/></a><img height="0" width="0" src="//liquidweb.evyy.net/i/294289/297312/4464" style="position:absolute;visibility:hidden;" border="0" />
 				<p>&nbsp;</p>
-				<!-- Responsive -->
-				<ins class="adsbygoogle"
-					style="display:block"
-					data-ad-client="ca-pub-7868382837959636"
-					data-ad-slot="8167384707"
-					data-ad-format="auto"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
+				<a target="_blank" href="https://shareasale.com/r.cfm?b=1321322&amp;u=728549&amp;m=41388&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/41388/53-StudioPressThemes-300x250-5289.png" alt="StudioPress Themes" border="0" /></a>
 			</div>
 		</div>
 	</div></section>
