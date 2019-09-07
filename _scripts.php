@@ -29,10 +29,3 @@
 
 	  setTimeout("ga('send','event','Profitable Engagement','time on page more than 2 minutes')",15000);
 	</script>
-
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<script>
-	     (adsbygoogle = window.adsbygoogle || []).push({
-	          google_ad_client: "ca-pub-7868382837959636",
-	     });
-	</script>
