@@ -46,7 +46,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 					</ul>
 				</div>
 			</nav>
-			<p>Copyright &copy; 1996-<?php echo date( 'Y' ); ?> · <a href="https://zenphoto20.us/">ZenPhoto20</a> · <a href="https://shareasale.com/r.cfm?b=1320642&u=728549&m=41388&urllink=&afftrack=">Authority Pro</a> on <a href="https://shareasale.com/r.cfm?b=1320631&u=728549&m=41388&urllink=&afftrack=">Genesis Framework</a> · Hosted by <a href="https://liquidweb.evyy.net/c/294289/297312/4464">Liquidweb</a></p>
+			<p>Copyright &copy; 1996-<?php echo date( 'Y' ); ?> · <a href="https://zenphoto20.us/">ZenPhoto20</a> · <a href="https://shareasale.com/r.cfm?b=1320642&u=728549&m=41388&urllink=&afftrack=">Authority Pro</a> on <a href="https://shareasale.com/r.cfm?b=1320631&u=728549&m=41388&urllink=&afftrack=">Genesis Framework</a></p>
 		</div>
 	</footer>
 
