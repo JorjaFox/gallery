@@ -31,7 +31,6 @@ if ( ! defined( 'WEBPATH' ) ) {
 				<p class="site-title" itemprop="headline"><a href="https://jorjafox.net/gallery/">Fans of LeFox Gallery</a></p>
 				<p class="site-description" itemprop="description">A fansite for Jorja Fox</p>
 			</div>
-			<button class="menu-toggle dashicons-before dashicons-menu" aria-expanded="false" aria-pressed="false" id="genesis-mobile-nav-primary">Menu</button>
 			<nav class="nav-primary genesis-responsive-menu" aria-label="Main" itemscope="" itemtype="https://schema.org/SiteNavigationElement" id="genesis-nav-primary" style="">
 				<div class="wrap">
 					<ul id="menu-header" class="menu genesis-nav-menu menu-primary js-superfish sf-js-enabled sf-arrows">

@@ -51,3 +51,20 @@ if ( ! defined( 'WEBPATH' ) ) {
 	</footer>
 
 	</div> <!-- End Site-Container -->
+
+	<script type='text/javascript'>
+    /* <![CDATA[ */
+    var genesis_responsive_menu = {
+        "mainMenu": "Menu",
+        "menuIconClass": "dashicons-before dashicons-menu",
+        "subMenu": "Submenu",
+        "subMenuIconClass": "dashicons-before dashicons-arrow-down-alt2",
+        "menuClasses": {
+            "combine": [".nav-primary", ".nav-social"],
+            "others": []
+        }
+    };
+    /* ]]> */
+    </script>
+	<script type='text/javascript' src='/wordpress/wp-content/themes/authority-pro/js/responsive-menus.min.js?ver=1.2.0'></script>
+	<script type='text/javascript' src='/wordpress/wp-content/themes/authority-pro/js/top-banner.js?ver=1.2.0'></script>
