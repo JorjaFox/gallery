@@ -9,13 +9,14 @@
 	<meta name='viewport' content='width=device-width, initial-scale=1'/>
 
 	<!-- Stylesheets -->
-	<link rel='stylesheet' href='/gallery/themes/jfogenesis/zen.css' type='text/css' />
-	<link rel="stylesheet" id="authority-pro-css" href="/wordpress/wp-content/themes/authority-pro/style.css" type="text/css" media="all">
+	<link rel='stylesheet' href='/gallery/themes/jfogenesis/zen.css?version=<?php echo FLF_JFOGENESIS_THEME; ?>' type='text/css' />
+	<link rel='stylesheet' id='authority-pro-css' href='/wordpress/wp-content/themes/authority-pro/style.css' type='text/css' media='all'>
 	<link type='text/plain' rel='author' href='https://jorjafox.net/humans.txt' />
 	<link crossorigin="anonymous" rel='stylesheet' id='authority-fonts-css'  href='//fonts.googleapis.com/css?family=Source+Sans+Pro%3A600%2C700%2C900%7CLibre+Baskerville%3A400%2C400italic%2C700&#038;ver=1.1.0' type='text/css' media='all' />
 	<link rel='stylesheet' id='authority-pro-gutenberg-css'  href='/wordpress/wp-content/themes/authority-pro/lib/gutenberg/front-end.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='authority-front-styles-css'  href='/wordpress/wp-content/themes/authority-pro/css/style-front.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='authority-hero-styles-css'  href='/wordpress/wp-content/themes/authority-pro/css/style-hero.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='dashicons-css' href='/wordpress/wp-includes/css/dashicons.min.css' type='text/css' media='all'>
 
 	<!-- Google Analytics -->
 	<script>

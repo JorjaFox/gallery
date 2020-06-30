@@ -13,8 +13,43 @@
 	color: #107952!important;
 }
 
+.menu-toggle:hover {
+	color: #ffffff!important;
+	background: #107952!important;
+}
+
+.menu-toggle {
+	border: 2px solid #107952!important;
+	background: #ffffff;
+	color: #107952!important;
+}
+
 main.content {
 	float: left;
+}
+
+.dashicons-menu:before {
+	content: "\f333";
+}
+
+.dashicons-before:before {
+	font-family: dashicons;
+	display: inline-block;
+	line-height: 1;
+	font-weight: 400;
+	font-style: normal;
+	speak: none;
+	text-decoration: inherit;
+	text-transform: none;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	vertical-align: top;
+	text-align: center;
+	transition: color .1s ease-in;
 }
 
 aside.sidebar {
