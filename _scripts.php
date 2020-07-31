@@ -15,7 +15,7 @@
 
 	<link rel='stylesheet' id='astra-theme-css-css' href='/wordpress/wp-content/themes/astra/assets/css/minified/style.min.css' media='all' type='text/css' />
 	<link rel='stylesheet' id='astra-google-fonts-css' href='//fonts.googleapis.com/css?family=Open+Sans%3A600%2C400%7CPoppins%3A700%2C&#038;display=fallback&#038;ver=2.5.1' media='all'/>
-	<link rel="stylesheet" id="astra-addon-css-css" href="//static.jorjafox.net/wordpress/astra-addon/astra-addon-5f232fc10bd753-98232017.css?ver=2.6.1" media="all">
+	<link rel='stylesheet' id='astra-addon-css-css' href='https://jorjafox.net/static/content/code/astra-addon.php?type=css' media='all'/>
 
 	<link rel='stylesheet' href='/gallery/themes/fansoflefox/css/astra.css' type='text/css' />
 
