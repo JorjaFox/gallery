@@ -14,14 +14,6 @@
 	line-height: 0px;
 }
 
-.imagethumb {
-	float: left;
-}
-.albumdesc2 {
-	line-height: 18px;
-}
-
-.imagethumb ul li { list-style: none; float: left;display: inline; }
 
 /* Album Thumbnails
 ------------------------------ */
@@ -66,6 +58,12 @@
 	margin-bottom: 10px;
 }
 
+#album-albums, #album-images {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 #imagemetadata {
 	text-align: right;
 	position: relative;
@@ -91,9 +89,10 @@
 
 /* Individual Image
 ------------------------------ */
+
 .image {
 	margin: 0;
-	padding: 0;
+	padding: 10px;
 	border: 0;
 }
 #image {
@@ -402,17 +401,6 @@ table.password td.hint{
 }
 #admin h3:hover { color: #036;}
 
-/* Videos */
-
-.zen-video {
-	min-height: 270px;
-}
-
-div.imagethumb p a, div.imagethumb p a:hover {
-	/* font-weight: normal; */
-	border: none;
-	margin-top: 15px;
-}
 
 /* Pager */
 
