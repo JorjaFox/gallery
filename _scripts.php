@@ -9,14 +9,18 @@
 	<meta name='viewport' content='width=device-width, initial-scale=1'/>
 
 	<!-- Stylesheets -->
-	<link rel='stylesheet' href='/gallery/themes/jfogenesis/zen.css?version=<?php echo FLF_JFOGENESIS_THEME; ?>' type='text/css' />
-	<link rel='stylesheet' id='authority-pro-css' href='/wordpress/wp-content/themes/authority-pro/style.css' type='text/css' media='all'>
+	<link rel='stylesheet' href='/gallery/themes/fansoflefox/css/zen.css?version=<?php echo FLF_STABLE_THEME; ?>' type='text/css' />
+	<link rel='stylesheet' href='/gallery/themes/fansoflefox/css/style.css?version=<?php echo FLF_STABLE_THEME; ?>' type='text/css' />
+	<link rel='stylesheet' href='/gallery/themes/fansoflefox/css/astra.css?version=<?php echo FLF_STABLE_THEME; ?>' type='text/css' />
+
+	<link rel='stylesheet' id='astra-theme-css-css' href='/wordpress/wp-content/themes/astra/assets/css/minified/style.min.css' media='all' type='text/css' />
+	<link rel='stylesheet' id='astra-google-fonts-css' href='//fonts.googleapis.com/css?family=Open+Sans%3A600%2C400%7CPoppins%3A700%2C&#038;display=fallback&#038;ver=2.5.1' media='all'/>
+	<link rel="stylesheet" id="astra-addon-css-css" href="//static.jorjafox.net/wordpress/astra-addon/astra-addon-5f232fc10bd753-98232017.css?ver=2.6.1" media="all">
+
+	<link rel='stylesheet' href='/gallery/themes/fansoflefox/css/astra.css' type='text/css' />
+
 	<link type='text/plain' rel='author' href='https://jorjafox.net/humans.txt' />
-	<link crossorigin="anonymous" rel='stylesheet' id='authority-fonts-css'  href='//fonts.googleapis.com/css?family=Source+Sans+Pro%3A600%2C700%2C900%7CLibre+Baskerville%3A400%2C400italic%2C700&#038;ver=1.1.0' type='text/css' media='all' />
-	<link rel='stylesheet' id='authority-pro-gutenberg-css'  href='/wordpress/wp-content/themes/authority-pro/lib/gutenberg/front-end.css' type='text/css' media='all' />
-	<link rel='stylesheet' id='authority-front-styles-css'  href='/wordpress/wp-content/themes/authority-pro/css/style-front.css' type='text/css' media='all' />
-	<link rel='stylesheet' id='authority-hero-styles-css'  href='/wordpress/wp-content/themes/authority-pro/css/style-hero.css' type='text/css' media='all' />
-	<link rel='stylesheet' id='dashicons-css' href='/wordpress/wp-includes/css/dashicons.min.css' type='text/css' media='all'>
+
 
 	<!-- Google Analytics -->
 	<script>

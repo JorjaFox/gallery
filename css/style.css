@@ -1,0 +1,23 @@
+/* Ported from WordPress */
+
+div.footer-adv-widget svg {
+    max-width: 50px;
+    max-height: 50px;
+    fill: #fff;
+}
+
+div.footer-adv-widget svg:hover {
+    fill: #107952;
+}
+
+@media (min-width: 992px) {
+    .ast-col-lg-3 {
+        width: 33%!important;
+    }
+}
+
+@media (min-width: 768px) {
+    .ast-col-lg-3 {
+        width: 33%!important;
+    }
+}

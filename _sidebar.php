@@ -4,21 +4,38 @@
  */
 ?>
 
-<aside class="sidebar sidebar-primary widget-area" role="complementary" itemscope="itemscope" itemtype="http://schema.org/WPSideBar" id="genwpacc-sidebar-primary">
-	<section id="nav_menu-3" class="widget widget_nav_menu"><div class="widget-wrap">
-		<h3 class="widgettitle widget-title">Information</h3>
-		<div class="menu-secondary-container"><ul id="menu-secondary" class="menu">
-			<li id="menu-item-13467" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13467"><a href="/about/">About This Site</a></li>
-			<li id="menu-item-4227" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4227"><a href="/contact/">Contact Us</a></li>
-			<li id="menu-item-4226" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4226"><a href="/library/faq/">Frequently Asked Questions</a></li>
-		</ul></div>
-	</div></section>
+</div> <!-- content-area primary -->
 
-	<section id="text-15" class="widget widget_text"><div class="widget-wrap">
-		<div class="textwidget">
-			<div class="adboxes-sidebar">
-				<a target="_blank" href="https://shareasale.com/r.cfm?b=1321322&amp;u=728549&amp;m=41388&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/41388/53-StudioPressThemes-300x250-5289.png" alt="StudioPress Themes" border="0" /></a>
+<div class="widget-area secondary" id="secondary" role="complementary" itemtype="https://schema.org/WPSideBar" itemscope="itemscope">
+	<div class="sidebar-main">
+		<aside id="nav_menu-2" class="widget widget_nav_menu">
+			<h2 class="widget-title">Information</h2>
+			<div class="menu-sidebar-container">
+				<ul id="menu-sidebar" class="menu">
+					<li id="menu-item-14522" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14522">
+						<a href="https://jorjafox.net/about/" class="menu-link">About This Site</a>
+					</li>
+					<li id="menu-item-13468" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13468">
+						<a href="https://jorjafox.net/contact/" class="menu-link">Contact Us</a>
+					</li>
+					<li id="menu-item-15250" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15250">
+						<a href="https://jorjafox.net/updates/" class="menu-link">Subscribe</a>
+					</li>
+					<li id="menu-item-13469" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13469">
+						<a href="https://jorjafox.net/library/faq/" class="menu-link">Frequently Asked Questions</a>
+					</li>
+				</ul>
 			</div>
-		</div>
-	</div></section>
-</aside>
+		</aside>
+		<aside id="custom_html-23" class="widget_text widget widget_custom_html">
+			<div class="textwidget custom-html-widget">
+				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+				<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7868382837959636" data-ad-slot="2235271514" data-ad-format="auto" data-full-width-responsive="true"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+		</aside>
+	</div>
+</div>
