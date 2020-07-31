@@ -9,7 +9,7 @@
 	<meta name='viewport' content='width=device-width, initial-scale=1'/>
 
 	<!-- Stylesheets -->
-	<link rel='stylesheet' href='/gallery/themes/fansoflefox/css/zen.css?version=<?php echo FLF_STABLE_THEME; ?>' type='text/css' />
+	<link rel='stylesheet' href='/gallery/themes/fansoflefox/css/netPhotographics.css?version=<?php echo FLF_STABLE_THEME; ?>' type='text/css' />
 	<link rel='stylesheet' href='/gallery/themes/fansoflefox/css/style.css?version=<?php echo FLF_STABLE_THEME; ?>' type='text/css' />
 	<link rel='stylesheet' href='/gallery/themes/fansoflefox/css/astra.css?version=<?php echo FLF_STABLE_THEME; ?>' type='text/css' />
 

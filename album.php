@@ -74,7 +74,12 @@ if ( ! defined( 'WEBPATH' ) ) {
 						</div>
 					</div> <!-- PadBox -->
 
-					<div class="nav-links"><span class="page-numbers current"><div class="archive-pagination pagination"><?php printPageListWithNav("« " . gettext("prev"), gettext("next") . " »"); ?></div></span></div>
+					<nav class="navigation post-navigation" role="navigation" aria-label="Posts">
+					<h2 class="screen-reader-text">Gallery navigation</h2>
+					<div class="nav-links">
+						<?php printPageListWithNav('«', '»', false, true, 'pagination pagination-sm', NULL, true, 7); ?>
+					</div>
+					</nav>
 
 					<p>Per our <a href="/copyrights/">Copyrights</a> and <a href="/terms-of-use/">Terms of Use</a>, you are welcome to copy and reuse images on this site for your own use, provided you credit this site in some way (via a link back, or simply by mentioning us by name).</p>
 
