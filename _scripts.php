@@ -12,15 +12,12 @@
 	<link rel='stylesheet' href='/gallery/themes/fansoflefox/css/netPhotographics.css?version=<?php echo FLF_STABLE_THEME; ?>' type='text/css' />
 	<link rel='stylesheet' href='/gallery/themes/fansoflefox/css/style.css?version=<?php echo FLF_STABLE_THEME; ?>' type='text/css' />
 	<link rel='stylesheet' href='/gallery/themes/fansoflefox/css/astra.css?version=<?php echo FLF_STABLE_THEME; ?>' type='text/css' />
-
 	<link rel='stylesheet' id='astra-theme-css-css' href='/wordpress/wp-content/themes/astra/assets/css/minified/style.min.css' media='all' type='text/css' />
 	<link rel='stylesheet' id='astra-google-fonts-css' href='//fonts.googleapis.com/css?family=Open+Sans%3A600%2C400%7CPoppins%3A700%2C&#038;display=fallback&#038;ver=2.5.1' media='all'/>
-	<link rel='stylesheet' id='astra-addon-css-css' href='https://jorjafox.net/static/content/code/astra-addon.php?type=css' media='all'/>
-
-	<link rel='stylesheet' href='/gallery/themes/fansoflefox/css/astra.css' type='text/css' />
+	<link rel='stylesheet' id='astra-addon-css-css' href='/static/content/code/astra-addon.php?type=css' media='all'/>
+	<link rel='stylesheet' id='astra-addon-css-css' href='wordpress/astra/astra-theme-dynamic-css-post-14291.css' media='all'/>
 
 	<link type='text/plain' rel='author' href='https://jorjafox.net/humans.txt' />
-
 
 	<!-- Google Analytics -->
 	<script>
