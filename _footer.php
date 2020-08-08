@@ -54,6 +54,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 					<div class="ast-row ast-flex">
 						<div class="ast-small-footer-section ast-small-footer-section-1 ast-small-footer-section-equally ast-col-md-6 ast-col-xs-12">
 							Copyright © 1996 — <?php echo date( 'Y' ); ?> <span class="ast-footer-site-title">Fans of LeFox</span>
+							<br>Powered by <strong><a href="https://wpastra.com/?bsf=5672">Astra</a></strong> on <strong><a href="https://netphotographics.org">netPhotoGraphics</a></strong>
 						</div>
 						<div class="ast-small-footer-section ast-small-footer-section-2 ast-small-footer-section-equally ast-col-md-6 ast-col-xs-12">
 							<div class="footer-primary-navigation">
@@ -74,7 +75,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 </div> <!-- End Site Content -->
 </div> <!-- End Site -->
 
-<script src="/wordpress/wp-content/themes/astra/assets/js/minified/style.min.js?ver=2.5.1"></script>
+<script src="/wordpress/wp-content/themes/astra/assets/js/minified/style.min.js"></script>
 
 <script>
 var astraAddon = {"sticky_active":"1","header_main_stick":"1","header_above_stick":"0","header_below_stick":"0","stick_header_meta":"","header_main_stick_meta":"","header_above_stick_meta":"","header_below_stick_meta":"","sticky_header_on_devices":"desktop","sticky_header_style":"slide","sticky_hide_on_scroll":"0","break_point":"921","tablet_break_point":"768","mobile_break_point":"544","header_main_shrink":"1","header_logo_width":"","responsive_header_logo_width":{"desktop":"50","tablet":"","mobile":"120"},"stick_origin_position":"","site_layout":"","site_content_width":"1240","site_layout_padded_width":"1200","site_layout_box_width":"1200"};

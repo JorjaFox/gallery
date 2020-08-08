@@ -33,20 +33,35 @@ if ( ! defined( 'WEBPATH' ) ) {
 
 			<div class="entry-content clear" itemprop="text">
 				<!-- Content begins -->
-
-				<div id="padbox">
-					<div id="albums">
+				<div class="gallery-grid">
+					<div class="gallery-items gallery-columns-2 gallery-is-grid gallery-equal-height">
 						<?php while (next_album()): ?>
-						<div class="indexalbum">
-							<div class="thumb"><a href="<?php echo htmlspecialchars(getAlbumURL());?>" title="<?php echo gettext('View album:'); ?> <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumThumbImage(getAnnotatedAlbumTitle()); ?></a></div>
-							<div class="albumdesc"><h3><a href="<?php echo htmlspecialchars(getAlbumURL());?>" title="<?php echo gettext('View album:'); ?> <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumTitle(); ?></a></h3>
-							<p><?php printAlbumDesc(); ?></p></div>
-							<p style="clear: both; "></p>
-						</div>
+							<figure>
+								<div class="gallery-inner-wrap">
+									<div class="gallery-album-image"><a href="<?php echo htmlspecialchars(getAlbumURL());?>" title="<?php echo gettext('View album:'); ?> <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumThumbImage(getAnnotatedAlbumTitle()); ?></a></div>
+									<div class="gallery-text">
+										<h3 class="gallery-album-title"><a href="<?php echo htmlspecialchars(getAlbumURL());?>" title="<?php echo gettext('View album:'); ?> <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumTitle(); ?></a></h3>
+										<div class="gallery-album-excerpt"><p><?php printAlbumDesc(); ?></p></div>
+									</div>
+								</div>
+							</figure>
 						<?php endwhile; ?>
 					</div>
-				</div> <!-- PadBox -->
+				</div>
 				<!-- Content Ends -->
+
+				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- Horizontal (Responsive) -->
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-client="ca-pub-7868382837959636"
+				     data-ad-slot="3514530332"
+				     data-ad-format="auto"
+				     data-full-width-responsive="true"></ins>
+				<script>
+				     (adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+
 			</div>
 		</div>
 	</article>
