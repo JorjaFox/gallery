@@ -1,0 +1,47 @@
+/* Page Navigation
+------------------------------ */
+ul.pagelist {
+    clear: both;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.pagelist li {
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    padding: 0 1.5em;
+    height: 2.33333em;
+    color: #3a3a3a;
+    border-color: #107952;
+    width: auto;
+    line-height: 2.33333em;
+}
+
+ul.pagelist li:hover {
+    color: #ffffff;
+    background-color: #107952;
+    border-color: #107952;
+}
+
+ul.pagelist li:hover a {
+    color: #ffffff;
+}
+
+ul.pagelist li.next {
+    float: right;
+}
+
+ul.pagelist li.current {
+    color: #ffffff;
+    background-color: #107952;
+    border-color: #107952;
+}
+
+.pagenav {
+    clear: both;
+}
+
+.disabled_nav {
+    visibility: hidden;
+}

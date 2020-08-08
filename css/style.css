@@ -21,3 +21,11 @@ div.footer-adv-widget svg:hover {
         width: 33%!important;
     }
 }
+
+/* Overrides for NGG */
+
+.searchextra, input#search_submit { display: none; }
+
+input#search_input[type=text] {
+    width: 75%;
+}

@@ -26,7 +26,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 				<div class="ast-single-post-order">
 					<h1 class="entry-title" itemprop="headline"><?php printAlbumTitle( true ); ?></h1>
 					<div class="entry-meta">
-						<span class="cat-links"><?php printParentBreadcrumb( '', ' / ', '  / ' ); ?></span>
+						<span class="cat-links"><a href="/gallery">Gallery</a> / <?php printParentBreadcrumb( '', ' / ', '  / ' ); ?></span>
 						By <span class="posted-by vcard author" itemtype="https://schema.org/Person" itemscope="itemscope" itemprop="author">the Fans of LeFox Librarians</span>
 					</div>
 				</div>
@@ -69,6 +69,19 @@ if ( ! defined( 'WEBPATH' ) ) {
 				</div> <!-- PadBox -->
 
 				<p>Per our <a href="/copyrights/">Copyrights</a> and <a href="/terms-of-use/">Terms of Use</a>, you are welcome to copy and reuse images on this site for your own use, provided you credit this site in some way (via a link back, or simply by mentioning us by name).</p>
+
+				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- Horizontal (Responsive) -->
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-client="ca-pub-7868382837959636"
+				     data-ad-slot="3514530332"
+				     data-ad-format="auto"
+				     data-full-width-responsive="true"></ins>
+				<script>
+				     (adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+
 				<!-- Content Ends -->
 			</div>
 		</div>
