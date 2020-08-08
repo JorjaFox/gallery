@@ -70,23 +70,23 @@ if ( ! defined( 'WEBPATH' ) ) {
 
 				<p>Per our <a href="/copyrights/">Copyrights</a> and <a href="/terms-of-use/">Terms of Use</a>, you are welcome to copy and reuse images on this site for your own use, provided you credit this site in some way (via a link back, or simply by mentioning us by name).</p>
 
-				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- Horizontal (Responsive) -->
-				<ins class="adsbygoogle"
-				     style="display:block"
-				     data-ad-client="ca-pub-7868382837959636"
-				     data-ad-slot="3514530332"
-				     data-ad-format="auto"
-				     data-full-width-responsive="true"></ins>
-				<script>
-				     (adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
-
 				<!-- Content Ends -->
 			</div>
 		</div>
 	</article>
 </main>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal (Responsive) -->
+<ins class="adsbygoogle"
+	 style="display:block"
+	 data-ad-client="ca-pub-7868382837959636"
+	 data-ad-slot="3514530332"
+	 data-ad-format="auto"
+	 data-full-width-responsive="true"></ins>
+<script>
+	 (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <?php
 	require '_sidebar.php';
