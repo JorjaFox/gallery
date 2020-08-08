@@ -8,6 +8,18 @@ if ( ! defined( 'WEBPATH' ) ) {
 	</div> <!-- end .site-inner -->
 </div><!-- end ast-container -->
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal (Responsive) -->
+<ins class="adsbygoogle"
+	 style="display:block"
+	 data-ad-client="ca-pub-7868382837959636"
+	 data-ad-slot="3514530332"
+	 data-ad-format="auto"
+	 data-full-width-responsive="true"></ins>
+<script>
+	 (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <footer class="site-footer" id="colophon" itemtype="https://schema.org/WPFooter" itemscope="itemscope" itemid="#colophon">
 	<div class="footer-adv footer-adv-layout-4">
 		<div class="footer-adv-overlay">
