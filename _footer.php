@@ -8,6 +8,18 @@ if ( ! defined( 'WEBPATH' ) ) {
 	</div> <!-- end .site-inner -->
 </div><!-- end ast-container -->
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal (Responsive) -->
+<ins class="adsbygoogle"
+	 style="display:block"
+	 data-ad-client="ca-pub-7868382837959636"
+	 data-ad-slot="3514530332"
+	 data-ad-format="auto"
+	 data-full-width-responsive="true"></ins>
+<script>
+	 (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <footer class="site-footer" id="colophon" itemtype="https://schema.org/WPFooter" itemscope="itemscope" itemid="#colophon">
 	<div class="footer-adv footer-adv-layout-4">
 		<div class="footer-adv-overlay">
@@ -75,7 +87,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 </div> <!-- End Site Content -->
 </div> <!-- End Site -->
 
-<script src="/wordpress/wp-content/themes/astra/assets/js/minified/style.min.js"></script>
+<script src="/wordpress/wp-content/themes/astra/assets/js/minified/style.min.js?ver=<?php echo FLF_STABLE_THEME; ?>"></script>
 
 <script>
 var astraAddon = {"sticky_active":"1","header_main_stick":"1","header_above_stick":"0","header_below_stick":"0","stick_header_meta":"","header_main_stick_meta":"","header_above_stick_meta":"","header_below_stick_meta":"","sticky_header_on_devices":"desktop","sticky_header_style":"slide","sticky_hide_on_scroll":"0","break_point":"921","tablet_break_point":"768","mobile_break_point":"544","header_main_shrink":"1","header_logo_width":"","responsive_header_logo_width":{"desktop":"50","tablet":"","mobile":"120"},"stick_origin_position":"","site_layout":"","site_content_width":"1240","site_layout_padded_width":"1200","site_layout_box_width":"1200"};
