@@ -9,17 +9,34 @@
 	<meta name='viewport' content='width=device-width, initial-scale=1'/>
 
 	<!-- Stylesheets -->
-	<link rel='stylesheet' id='astra-theme-css-css' href='/wordpress/wp-content/themes/astra/assets/css/minified/style.min.css' media='all' type='text/css' />
+	<link rel='stylesheet' id='astra-theme-css-css' href='/wordpress/wp-content/themes/astra/assets/css/minified/style.min.css?ver=<?php echo FLF_STABLE_THEME; ?>' media='all' type='text/css' />
 	<link rel='stylesheet' id='astra-google-fonts-css' href='//fonts.googleapis.com/css?family=Open+Sans%3A400%7CPoppins%3A600%2C%7COpen+Sans+Condensed%3A700&#038;display=fallback' media='all'/>
-	<link rel='stylesheet' id='astra-addon-css-css' href='https://jorjafox.net/static/content/code/astra-addon.php?type=css' media='all'/>
-	<link rel='stylesheet' id='astra-addon-css-css' href='https://jorjafox.net/static/content/code/astra-static.php' media='all'/>
+	<link rel='stylesheet' id='astra-theme-dynamic-css' href='https://jorjafox.net/static/content/code/astra-dynamic.php?type=theme&ver=<?php echo FLF_STABLE_THEME; ?>' media='all'/>
 
-	<link rel='stylesheet' href='/gallery/themes/fansoflefox/css/style.css?version=<?php echo FLF_STABLE_THEME; ?>' type='text/css' />
-	<link rel='stylesheet' href='/gallery/themes/fansoflefox/css/pagination.css?version=<?php echo FLF_STABLE_THEME; ?>' type='text/css' />
-	<link rel='stylesheet' href='/gallery/themes/fansoflefox/css/gallery-grid.css?version=<?php echo FLF_STABLE_THEME; ?>' type='text/css' />
+	<link rel='stylesheet' id='wp-block-library-css' href='https://jorjafox.net/wordpress/wp-includes/css/dist/block-library/style.min.css?ver=<?php echo FLF_STABLE_THEME; ?>' media='all' />
+	<style id='wp-block-library-inline-css'>
+	.has-text-align-justify{text-align:justify;}
+	</style>
 
+	<link rel='stylesheet' id='astra-addon-css-css' href='https://jorjafox.net/static/content/code/astra-addon.php?type=css&ver=<?php echo FLF_STABLE_THEME; ?>' media='all'/>
+	<link rel='stylesheet' id='astra-addon-dynamic-css' href='https://jorjafox.net/static/content/code/astra-dynamic.php?type=addon&ver=<?php echo FLF_STABLE_THEME; ?>' media='all'/>
+
+	<!-- Gutenberg -->
+	<link rel="stylesheet" id="wp-block-library-css" href="https://jorjafox.net/wordpress/wp-includes/css/dist/block-library/style.min.css?ver=<?php echo FLF_STABLE_THEME; ?>" media="all">
+	<link rel='stylesheet' href='https://jorjafox.net/wordpress/wp-content/plugins/gutenberg/build/block-library/style.css?ver=<?php echo FLF_STABLE_THEME; ?>' type='text/css' />
+
+	<link rel='stylesheet' href='/gallery/themes/fansoflefox/css/style.css?ver=<?php echo FLF_STABLE_THEME; ?>' type='text/css' />
+	<link rel='stylesheet' href='/gallery/themes/fansoflefox/css/pagination.css?ver=<?php echo FLF_STABLE_THEME; ?>' type='text/css' />
+	<link rel='stylesheet' href='/gallery/themes/fansoflefox/css/gallery-grid.css?ver=<?php echo FLF_STABLE_THEME; ?>' type='text/css' />
 
 	<link type='text/plain' rel='author' href='https://jorjafox.net/humans.txt' />
+
+	<!--[if IE]>
+	    <script src='https://jorjafox.net/wordpress/wp-content/themes/astra/assets/js/minified/flexibility.min.js'></script>
+	    <script>
+	    flexibility(document.documentElement);
+	    </script>
+	<![endif]-->
 
 	<!-- Google Analytics -->
 	<script>
