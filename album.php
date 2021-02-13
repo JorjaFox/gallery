@@ -11,7 +11,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
 
 	<?php npgFilters::apply( 'theme_head' ); ?>
-	<title><?php echo getAlbumTitle() . ' * ' . getBareGalleryTitle(); ?></title>
+	<title><?php echo getAlbumTitle() . ' | ' . getBareGalleryTitle(); ?></title>
 
 	<?php
 	require '_scripts.php';
@@ -39,7 +39,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 					<!-- Content begins -->
 					<div class="byline">
 						<p><?php printAlbumDesc(); ?></p>
-						<?php if ( function_exists( 'printDownloadAlbumZipURL' ) && getNumAlbums() == 0 ) {
+						<?php if ( function_exists( 'printDownloadAlbumZipURL' ) && getNumAlbums() === 0 ) {
 							echo '<p><strong>';
 							printDownloadAlbumZipURL( 'Download a zip of all images in this album' );
 							echo ' (' . getNumImages() . ' images)';
@@ -55,11 +55,13 @@ if ( ! defined( 'WEBPATH' ) ) {
 									<div class="gallery-inner-wrap">
 										<div class="gallery-album-image"><a href="<?php echo htmlspecialchars(getAlbumURL());?>" title="<?php echo gettext('View album:'); ?> <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumThumbImage(getAnnotatedAlbumTitle()); ?></a></div>
 										<div class="gallery-text">
-											<h3 class="gallery-album-title"><a href="<?php echo htmlspecialchars(getAlbumURL());?>" title="<?php echo gettext('View album:'); ?> <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumTitle(); ?></a></h3>
+											<h3 class="gallery-album-title"><a href="<?php echo htmlspecialchars(getAlbumURL()); ?>" title="View album: <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumTitle(); ?></a></h3>
 											<div class="gallery-album-excerpt"><p>
 												<?php
 												printAlbumDesc();
-												echo ' (' . getNumImages() . ' images)';
+												if ( getNumImages() !== 0 ) {
+													echo ' (' . getNumImages() . ' images)';
+												}
 												?>
 											</p></div>
 										</div>
@@ -87,6 +89,9 @@ if ( ! defined( 'WEBPATH' ) ) {
 				</div>
 			</div>
 		</article>
+
+		<?php require '_sharethis.php'; ?>
+
 	</main>
 
 	<div class="ast-pagination">

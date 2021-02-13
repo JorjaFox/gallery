@@ -52,6 +52,8 @@ if ( ! defined( 'WEBPATH' ) ) {
 			</div>
 		</div>
 	</article>
+
+	<?php require '_sharethis.php'; ?>
 </main>
 
 <?php

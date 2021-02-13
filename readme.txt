@@ -1,3 +1,3 @@
-# Fans of LeFox Genesis theme NetPhotoGraphics
+# Fans of LeFox Astra theme NetPhotoGraphics
 
-This is a fork of the example theme to make my standard Genesis theme.
+This is a fork of the example theme to conform to Astra.

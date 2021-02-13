@@ -25,9 +25,9 @@ class ThemeOptions {
 		setThemeOptionDefault( 'images_per_row', 5 );
 		setThemeOptionDefault( 'image_size', 595 );
 		setThemeOptionDefault( 'image_use_side', 'longest' );
-		setThemeOptionDefault( 'thumb_size', 200 );
-		setThemeOptionDefault( 'thumb_crop_width', 200 );
-		setThemeOptionDefault( 'thumb_crop_height', 200 );
+		setThemeOptionDefault( 'thumb_size', 350, NULL );
+		setThemeOptionDefault( 'thumb_crop_width', 350 );
+		setThemeOptionDefault( 'thumb_crop_height', 350 );
 		setThemeOptionDefault( 'thumb_crop', 1 );
 		setThemeOptionDefault( 'thumb_transition', 1 );
 		setOptionDefault( 'colorbox_' . $me . '_album', 1 ); /* TODO:replace with a call to colorbox::registerScripts(); */
