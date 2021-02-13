@@ -11,7 +11,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
 
 	<?php npgFilters::apply( 'theme_head' ); ?>
-	<title><?php echo getAlbumTitle() . ' * ' . getBareGalleryTitle(); ?></title>
+	<title><?php echo getAlbumTitle() . ' | ' . getBareGalleryTitle(); ?></title>
 
 	<?php
 	require '_scripts.php';
@@ -89,6 +89,9 @@ if ( ! defined( 'WEBPATH' ) ) {
 				</div>
 			</div>
 		</article>
+
+		<?php require '_sharethis.php'; ?>
+
 	</main>
 
 	<div class="ast-pagination">
