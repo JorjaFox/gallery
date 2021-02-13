@@ -51,9 +51,8 @@ if ( ! defined( 'WEBPATH' ) ) {
 				<!-- Content Ends -->
 			</div>
 		</div>
+		<?php require '_sharethis.php'; ?>
 	</article>
-
-	<?php require '_sharethis.php'; ?>
 </main>
 
 <?php

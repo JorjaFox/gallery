@@ -23,7 +23,10 @@
 
 	<!-- Gutenberg -->
 	<link rel="stylesheet" id="wp-block-library-css" href="https://jorjafox.net/wordpress/wp-includes/css/dist/block-library/style.min.css?ver=<?php echo FLF_STABLE_THEME; ?>" media="all">
-	<link rel='stylesheet' href='https://jorjafox.net/wordpress/wp-content/plugins/gutenberg/build/block-library/style.css?ver=<?php echo FLF_STABLE_THEME; ?>' type='text/css' />
+
+	<!-- Jetpack -->
+	<link rel="stylesheet" id="social-logos-css" href="https://jorjafox.net/wordpress/wp-content/plugins/jetpack/_inc/social-logos/social-logos.min.css?ver=<?php echo FLF_STABLE_THEME; ?>" media="all">
+	<link rel="stylesheet" id="jetpack-css" href="https://jorjafox.net/wordpress/wp-content/plugins/jetpack/css/jetpack.css?ver=<?php echo FLF_STABLE_THEME; ?>" media="all">
 
 	<link rel='stylesheet' href='/gallery/themes/fansoflefox/css/style.css?ver=<?php echo FLF_STABLE_THEME; ?>' type='text/css' />
 	<link rel='stylesheet' href='/gallery/themes/fansoflefox/css/pagination.css?ver=<?php echo FLF_STABLE_THEME; ?>' type='text/css' />
