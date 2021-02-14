@@ -50,21 +50,20 @@ if ( ! defined( 'WEBPATH' ) ) {
 				<div class="site-primary-footer-wrap ast-builder-grid-row-container site-footer-focus-item ast-builder-grid-row-2-equal ast-builder-grid-row-tablet-2-equal ast-builder-grid-row-mobile-full ast-footer-row-inline ast-footer-row-tablet-stack ast-footer-row-mobile-stack" data-section="section-primary-footer-builder">
 					<div class="ast-builder-grid-row-container-inner">
 						<div class="ast-builder-footer-grid-columns site-primary-footer-inner-wrap ast-builder-grid-row">
-							<div class="site-footer-primary-section-1 site-footer-section site-footer-section-1">
+							<div class="site-footer-primary-section-0 site-footer-section site-footer-section-0">
 								<aside class="footer-widget-area widget-area site-footer-focus-item" data-section="sidebar-widgets-footer-widget-2">
 									<div class="footer-widget-area-inner site-info-inner">
-										<section id="search-2" class="widget widget_search"><h2 class="widget-title">Search</h2><!-- Search -->
+										<section id="search-2" class="widget widget_search"><h2 class="widget-title">Search</h2>
 											<!-- Search -->
 											<?php
 											if ( getOption( 'Allow_search' ) ) {
-												printSearchForm( null, 'search', null, gettext( 'Search' ), $_themeroot . '/images/search.png' );
+												printSearchForm( null, 'search', null, gettext( 'Search' ), null, null, null, null, 'Enter Search Term' );
 											}
 											?>
 										</section>
 									</div>
 								</aside>
 							</div>
-							<div class="site-footer-primary-section-2 site-footer-section site-footer-section-2"></div>
 						</div>
 					</div>
 				</div>
@@ -74,7 +73,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 							<div class="site-footer-below-section-1 site-footer-section site-footer-section-1">
 								<div class="ast-builder-layout-element ast-flex site-footer-focus-item ast-footer-copyright" data-section="section-footer-builder">
 									<div class="ast-footer-copyright"><div class="ast-footer-html-inner"><p>Copyright © 1996 — <?php echo date( 'Y' ); ?> <a href="/">Fans of LeFox</a><br>
-									Powered by <strong><a href="https://wpastra.com/?bsf=5672">Astra</a></strong> on <strong><a href="https://wordpress.org">WordPress</a></strong></p>
+									Powered by <strong><a href="https://wpastra.com/?bsf=5672">Astra</a></strong> on <strong><a href="https://netphotographics.org">NetPhotoGraphics</a></strong></p>
 									</div></div>
 								</div>
 							</div>
@@ -112,4 +111,4 @@ if ( ! defined( 'WEBPATH' ) ) {
 <script id="astra-addon-js-js-extra">
 	var astraAddon = {"sticky_active":"","header_main_stick":"","header_above_stick":"0","header_below_stick":"0","stick_header_meta":"","header_main_stick_meta":"","header_above_stick_meta":"","header_below_stick_meta":"","sticky_header_on_devices":"desktop","sticky_header_style":"slide","sticky_hide_on_scroll":"0","break_point":"921","tablet_break_point":"768","mobile_break_point":"544","header_main_shrink":"","header_logo_width":"","responsive_header_logo_width":{"desktop":"50","tablet":"","mobile":"120"},"stick_origin_position":"","site_layout":"","site_content_width":"1240","site_layout_padded_width":"1200","site_layout_box_width":"1200","header_builder_active":"","header_menu_count":"3","is_header_builder_active":""};
 </script>
-<script src="https://jorjafox.net/static/content/code/astra-addon.php?type=js"></script>
+<script src="gallery/themes/fansoflefox/css/astra-addon.js?ver=<?php echo FLF_STABLE_THEME; ?>"></script>
