@@ -1,13 +1,35 @@
 /* Ported from WordPress */
+/* WordPress */
 
-div.footer-adv-widget svg {
-    max-width: 50px;
-    max-height: 50px;
-    fill: #fff;
+div.site-above-footer-wrap svg {
+	max-width: 50px;
+	max-height: 50px;
+	fill: #ffffff;
 }
 
-div.footer-adv-widget svg:hover {
-    fill: #107952;
+div.site-above-footer-wrap .widget-title {
+	fill: #dddddd;
+}
+
+div.site-above-footer-wrap svg:hover {
+	fill: #107952;
+}
+
+.home figcaption {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: smaller;
+}
+
+div.site-below-footer-inner-wrap  a {
+	color: #fff;
+}
+div.site-below-footer-inner-wrap  a:hover {
+	color: purple!important;
+}
+
+#subscribe-blog-blog_subscription-10 {
+	display:inline-flex;
 }
 
 @media (min-width: 992px) {
@@ -22,10 +44,14 @@ div.footer-adv-widget svg:hover {
     }
 }
 
+#masthead .ast-header-sticked .site-logo-img .astra-logo-svg { width: 50px; } @media (max-width: 768px) { #masthead .ast-header-sticked .site-logo-img .astra-logo-svg { width: px; } } @media (max-width: 544px) { #masthead .ast-header-sticked .site-logo-img .astra-logo-svg { width: 120px; } }
+
+.ast-right-sidebar #secondary { border-left: none!important; }
+
 /* Overrides for NGG */
 
 .searchextra, input#search_submit { display: none; }
 
-input#search_input[type=text] {
+input#search_input {
     width: 75%;
 }

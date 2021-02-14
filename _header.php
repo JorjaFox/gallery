@@ -75,7 +75,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 			</div>
 		</header>
 		<div data-stick-gutter="32" data-stick-maxwidth="1430">
-			<header id="ast-fixed-header" class="site-header ast-primary-submenu-animation-fade header-main-layout-1 ast-primary-menu-enabled ast-logo-title-inline ast-menu-toggle-icon ast-mobile-header-inline" style="visibility: hidden;" data-type="fixed-header">
+			<header id="ast-fixed-header" class="site-header ast-primary-submenu-animation-fade header-main-layout-1 ast-primary-menu-enabled ast-logo-title-inline ast-menu-toggle-icon ast-mobile-header-inline" style="visibility: hidden; display:none;" data-type="fixed-header">
 				<div class="main-header-bar-wrap">
 					<div class="main-header-bar">
 						<div class="ast-container">
