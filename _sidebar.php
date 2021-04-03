@@ -2,6 +2,10 @@
 /**
  * Sidebar
  */
+
+if ( ! defined( 'WEBPATH' ) ) {
+	die();
+}
 ?>
 
 </div> <!-- content-area primary -->
@@ -27,6 +31,9 @@
 				</ul>
 			</div>
 		</aside>
+
+		<?php require 'addons/tvmaze.php'; ?>
+
 		<aside id="custom_html-23" class="widget_text widget widget_custom_html">
 			<div class="textwidget custom-html-widget">
 				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
