@@ -33,6 +33,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 
 	<div class="hfeed site" id="page">
 		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
 		<header class="site-header ast-primary-submenu-animation-fade header-main-layout-1 ast-primary-menu-enabled ast-logo-title-inline ast-menu-toggle-icon ast-mobile-header-inline" id="masthead" itemtype="https://schema.org/WPHeader" itemscope="itemscope" itemid="#masthead">
 			<div class="main-header-bar-wrap">
 				<div class="main-header-bar">

@@ -60,7 +60,7 @@ if ( isset( $show_id ) ) {
 }
 
 if ( ! isset( $content ) ) {
-	$content = ( isset( $slug ) ) ? '<p><a href="https://jorjafox.net/library/actor/' . $slug . '">Coming soon...</a></p>' : '<p>Coming soon...</p>';
+	$content = ( isset( $slug ) ) ? '<p><a href="https://jorjafox.net/library/actor/' . $slug . '-episodes">Coming soon...</a></p>' : '<p>Coming soon...</p>';
 }
 
 ?>

@@ -25,7 +25,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 
 		<footer class="ast-site-footer site-footer" id="colophon" itemtype="https://schema.org/WPFooter" itemscope="itemscope" itemid="#colophon">
 			<div class="ast-main-footer-wrap">
-				<div class="site-above-footer-wrap ast-builder-grid-row-container site-footer-focus-item ast-builder-grid-row-4-equal ast-builder-grid-row-tablet-4-equal ast-builder-grid-row-mobile-full ast-footer-row-inline ast-footer-row-tablet-stack ast-footer-row-mobile-stack" data-section="section-above-footer-builder">
+				<div class="site-above-footer-wrap ast-builder-grid-row-container site-footer-focus-item ast-builder-grid-row-2-equal ast-builder-grid-row-tablet-2-equal ast-builder-grid-row-mobile-full ast-footer-row-inline ast-footer-row-tablet-stack ast-footer-row-mobile-stack" data-section="section-above-footer-builder">
 					<div class="ast-builder-grid-row-container-inner">
 						<div class="ast-builder-footer-grid-columns site-above-footer-inner-wrap ast-builder-grid-row">
 							<div class="site-footer-above-section-1 site-footer-section site-footer-section-1">
@@ -90,24 +90,28 @@ if ( ! defined( 'WEBPATH' ) ) {
 </div> <!-- End Site Content -->
 </div> <!-- End Site -->
 
-<a id="ast-scroll-top" class="ast-scroll-top-icon ast-scroll-to-top-right" data-on-devices="both" style="display: inline;"><span class="screen-reader-text">Scroll to Top</span></a>
+<a id="ast-scroll-top" class="ast-scroll-top-icon ast-scroll-to-top-right" data-on-devices="both" style="display: inline;" href="#"><span class="screen-reader-text">Scroll to Top</span></a>
 
 <script id='astra-theme-js-js-extra'>
-    var astra = {
-        "break_point": "921",
-        "isRtl": "",
-        "infinite_count": "2",
-        "astinfiniteposttype": "page",
-        "infinite_total": "0",
-        "pagination": "number",
-        "masonryEnabled": "",
-        "blogMasonryBreakPoint": "768"
-    };
+	    var astra = {
+	        "break_point": "768",
+	        "isRtl": "",
+	        "infinite_count": "2",
+	        "astinfiniteposttype": "page",
+	        "infinite_total": "0",
+	        "pagination": "number",
+	        "masonryEnabled": "",
+	        "blogMasonryBreakPoint": "768"
+	    };
 </script>
 
 <script src="/wordpress/wp-content/themes/astra/assets/js/minified/style.min.js?ver=<?php echo FLF_STABLE_THEME; ?>"></script>
 
 <script id="astra-addon-js-js-extra">
-	var astraAddon = {"sticky_active":"","header_main_stick":"","header_above_stick":"0","header_below_stick":"0","stick_header_meta":"","header_main_stick_meta":"","header_above_stick_meta":"","header_below_stick_meta":"","sticky_header_on_devices":"desktop","sticky_header_style":"slide","sticky_hide_on_scroll":"0","break_point":"921","tablet_break_point":"768","mobile_break_point":"544","header_main_shrink":"","header_logo_width":"","responsive_header_logo_width":{"desktop":"50","tablet":"","mobile":"120"},"stick_origin_position":"","site_layout":"","site_content_width":"1240","site_layout_padded_width":"1200","site_layout_box_width":"1200","header_builder_active":"","header_menu_count":"3","is_header_builder_active":""};
+	var astraAddon = {
+	"sticky_active": "",
+	"is_header_builder_active": "1"
+};
 </script>
+
 <script src="gallery/themes/fansoflefox/css/astra-addon.js?ver=<?php echo FLF_STABLE_THEME; ?>"></script>
