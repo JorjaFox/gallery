@@ -42,7 +42,8 @@ if ( ! defined( 'WEBPATH' ) ) {
 								<div class="ast-site-identity" itemtype="https://schema.org/Organization" itemscope="itemscope">
 									<span class="site-logo-img"><a href="https://jorjafox.net/" class="custom-logo-link" rel="home"><img width="120" height="120" src="https://static.jorjafox.net/wordpress/2019/01/flf-logo-120x120.png" class="custom-logo" alt="Fans of LeFox" srcset="//static.jorjafox.net/wordpress/2019/01/flf-logo-120x120.png 120w, //static.jorjafox.net/wordpress/2019/01/flf-logo-200x200.png 200w, //static.jorjafox.net/wordpress/2019/01/flf-logo.png 512w" sizes="(max-width: 120px) 100vw, 120px"/></a></span>
 									<div class="ast-site-title-wrap">
-										<span class="site-title" itemprop="name"><a href="https://jorjafox.net/" rel="home" itemprop="url">Fans of LeFox</a></span>
+										<h1 class="site-title" itemprop="name"><a href="https://jorjafox.net/" rel="home" itemprop="url">Fans of LeFox</a></h1>
+										<p class="site-description" itemprop="description">A fansite celebrating the actor and activist, Jorja Fox</p>
 									</div>
 								</div>
 							</div>
@@ -84,7 +85,8 @@ if ( ! defined( 'WEBPATH' ) ) {
 									<div class="ast-site-identity" itemtype="https://schema.org/Organization" itemscope="itemscope">
 										<span class="site-logo-img"><a href="https://jorjafox.net/" class="custom-logo-link" rel="home"><img width="120" height="120" src="https://static.jorjafox.net/wordpress/2019/01/flf-logo-120x120.png" class="custom-logo" alt="Fans of LeFox" srcset="//static.jorjafox.net/wordpress/2019/01/flf-logo-120x120.png 120w, //static.jorjafox.net/wordpress/2019/01/flf-logo-200x200.png 200w, //static.jorjafox.net/wordpress/2019/01/flf-logo.png 512w" sizes="(max-width: 120px) 100vw, 120px"/></a></span>
 										<div class="ast-site-title-wrap">
-											<span class="site-title" itemprop="name"><a href="https://jorjafox.net/" rel="home" itemprop="url">Fans of LeFox</a></span>
+											<h1 class="site-title" itemprop="name"><a href="https://jorjafox.net/" rel="home" itemprop="url">Fans of LeFox</a></h1>
+											<p class="site-description" itemprop="description">A fansite celebrating the actor and activist, Jorja Fox</p>
 										</div>
 									</div>
 								</div>

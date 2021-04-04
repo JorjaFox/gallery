@@ -12,7 +12,6 @@ if ( ! defined( 'WEBPATH' ) ) {
 
 	<?php npgFilters::apply('theme_head'); ?>
 	<title><?php echo getBareGalleryTitle(); ?></title>
-
 	<?php include("_scripts.php"); ?>
 
 </head>
@@ -24,9 +23,8 @@ if ( ! defined( 'WEBPATH' ) ) {
 		<div class="ast-post-format- single-layout-1">
 			<header class="entry-header">
 				<div class="ast-single-post-order">
-					<h1 class="entry-title" itemprop="headline">Welcome to the Gallery</h1>
+					<h1 class="entry-title" itemprop="headline">Welcome to the Jorja Fox Photo Gallery</h1>
 					<div class="entry-meta">
-						By <span class="posted-by vcard author" itemtype="https://schema.org/Person" itemscope="itemscope" itemprop="author">the Fans of LeFox Librarians</span>
 					</div>
 				</div>
 			</header>

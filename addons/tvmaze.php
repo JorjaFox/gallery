@@ -52,7 +52,7 @@ if ( isset( $show_id ) ) {
 					$next_date_string = $next_date_time->format( 'M d, Y' );
 
 					$content  = '<p><strong>' . $next_info['name'] . '</strong><br />Episode ' . $next_info['season'] . 'x' . $next_info['number'] . '; ' . $next_date_string . '</p><small>' . $next_info['summary'] . '</small>';
-					$content .= '<p><a href="https://jorjafox.net/library/actor/' . $slug . '">More <em>' . $show_info['name'] . '</em> Episodes</a><br /><small><a href="' . $url . '">Powered by TV Maze</a></small>';
+					$content .= '<p><a href="https://jorjafox.net/library/actor/' . $slug . '-episodes">More <em>' . $show_info['name'] . '</em> Episodes</a><br /><small><a href="' . $url . '">Powered by TV Maze</a></small>';
 				}
 			}
 		}
