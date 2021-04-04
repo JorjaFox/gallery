@@ -56,14 +56,14 @@ if ( ! defined( 'WEBPATH' ) ) {
 										<div class="gallery-album-image"><a href="<?php echo htmlspecialchars(getAlbumURL());?>" title="<?php echo gettext('View album:'); ?> <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumThumbImage(getAnnotatedAlbumTitle()); ?></a></div>
 										<div class="gallery-text">
 											<h3 class="gallery-album-title"><a href="<?php echo htmlspecialchars(getAlbumURL()); ?>" title="View album: <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumTitle(); ?></a></h3>
-											<div class="gallery-album-excerpt"><p>
+											<div class="gallery-album-excerpt">
 												<?php
 												printAlbumDesc();
 												if ( getNumImages() !== 0 ) {
 													echo ' (' . getNumImages() . ' images)';
 												}
 												?>
-											</p></div>
+											</div>
 										</div>
 									</div>
 								</figure>
