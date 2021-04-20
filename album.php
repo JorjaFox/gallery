@@ -56,14 +56,14 @@ if ( ! defined( 'WEBPATH' ) ) {
 										<div class="gallery-album-image"><a href="<?php echo htmlspecialchars(getAlbumURL());?>" title="<?php echo gettext('View album:'); ?> <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumThumbImage(getAnnotatedAlbumTitle()); ?></a></div>
 										<div class="gallery-text">
 											<h3 class="gallery-album-title"><a href="<?php echo htmlspecialchars(getAlbumURL()); ?>" title="View album: <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumTitle(); ?></a></h3>
-											<div class="gallery-album-excerpt">
+											<div class="gallery-album-excerpt"><p>
 												<?php
 												printAlbumDesc();
 												if ( getNumImages() !== 0 ) {
 													echo ' (' . getNumImages() . ' images)';
 												}
 												?>
-											</div>
+											</p></div>
 										</div>
 									</div>
 								</figure>
@@ -89,15 +89,18 @@ if ( ! defined( 'WEBPATH' ) ) {
 				</div>
 			</div>
 			<?php require '_sharethis.php'; ?>
+
+			<div class="ast-pagination">
+				<nav class="navigation pagination" role="navigation" aria-label="Posts">
+					<h2 class="screen-reader-text">Gallery navigation</h2>
+					<div class="nav-links"><?php printPageListWithNav( '← Previous Page', ' Next Page →', ); ?></div>
+				</nav>
+			</div>
+
 		</article>
 	</main>
 
-	<div class="ast-pagination">
-		<nav class="navigation pagination" role="navigation" aria-label="Posts">
-			<h2 class="screen-reader-text">Gallery navigation</h2>
-			<div class="nav-links"><?php printPageListWithNav( '← Previous Page', ' Next Page →', ); ?></div>
-		</nav>
-	</div>
+
 
 <?php
 	require '_sidebar.php';
