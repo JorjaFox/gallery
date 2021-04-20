@@ -3,6 +3,7 @@
 ul.pagelist {
     clear: both;
     padding: 0;
+    margin: 0!important;
     list-style-type: none;
 }
 
