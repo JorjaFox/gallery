@@ -9,9 +9,9 @@ if ( ! defined( 'WEBPATH' ) ) {
 
 <head>
 	<?php npgFilters::apply('theme_head'); ?>
-	<title>Search Results | <?php echo getBareGalleryTitle(); ?></title>
+	<title>Search Results | <?php printGalleryTitle(); ?></title>
 
-	<?php include("_scripts.php"); ?>
+	<?php require '_scripts.php'; ?>
 
 	<script type="text/javascript">
 	// <!-- <![CDATA[

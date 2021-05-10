@@ -10,9 +10,9 @@ if ( ! defined( 'WEBPATH' ) ) {
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
 	<?php npgFilters::apply('theme_head'); ?>
-	<title>Newest Images | <?php echo getBareGalleryTitle(); ?></title>
+	<title>Newest Images | <?php printGalleryTitle(); ?></title>
 
-	<?php include("_scripts.php"); ?>
+	<?php require '_scripts.php'; ?>
 
 </head>
 

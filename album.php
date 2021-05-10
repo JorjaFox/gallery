@@ -11,7 +11,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
 
 	<?php npgFilters::apply( 'theme_head' ); ?>
-	<title><?php echo getAlbumTitle() . ' | ' . getBareGalleryTitle(); ?></title>
+	<title><?php printAlbumTitle() . ' | ' . getBareGalleryTitle(); ?></title>
 
 	<?php
 	require '_scripts.php';
@@ -30,7 +30,6 @@ if ( ! defined( 'WEBPATH' ) ) {
 						<h1 class="entry-title" itemprop="headline"><?php printAlbumTitle( true ); ?></h1>
 						<div class="entry-meta">
 							<span class="cat-links"><a href="/gallery">Gallery</a> / <?php printParentBreadcrumb( '', ' / ', '  / ' ); ?></span>
-							By <span class="posted-by vcard author" itemtype="https://schema.org/Person" itemscope="itemscope" itemprop="author">the Fans of LeFox Librarians</span>
 						</div>
 					</div>
 				</header>
@@ -39,23 +38,26 @@ if ( ! defined( 'WEBPATH' ) ) {
 					<!-- Content begins -->
 					<div class="byline">
 						<p><?php printAlbumDesc(); ?></p>
-						<?php if ( function_exists( 'printDownloadAlbumZipURL' ) && getNumAlbums() === 0 ) {
+						<?php
+						if ( function_exists( 'printDownloadAlbumZipURL' ) && getNumAlbums() === 0 ) {
 							echo '<p><strong>';
 							printDownloadAlbumZipURL( 'Download a zip of all images in this album' );
 							echo ' (' . getNumImages() . ' images)';
 							echo '</strong></p>';
-							}
+						}
 						?>
 					</div>
 
 					<div class="gallery-grid gallery-albums">
 						<div class="gallery-items gallery-columns-2 gallery-is-grid gallery-equal-height">
-							<?php while (next_album()): ?>
+							<?php
+							while ( next_album() ) :
+								?>
 								<figure>
 									<div class="gallery-inner-wrap">
-										<div class="gallery-album-image"><a href="<?php echo htmlspecialchars(getAlbumURL());?>" title="<?php echo gettext('View album:'); ?> <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumThumbImage(getAnnotatedAlbumTitle()); ?></a></div>
+										<div class="gallery-album-image"><a href="<?php echo htmlspecialchars( getAlbumURL() ); ?>" title="View album: <?php printAnnotatedAlbumTitle(); ?>"><?php printAlbumThumbImage( getAnnotatedAlbumTitle() ); ?></a></div>
 										<div class="gallery-text">
-											<h3 class="gallery-album-title"><a href="<?php echo htmlspecialchars(getAlbumURL()); ?>" title="View album: <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumTitle(); ?></a></h3>
+											<h3 class="gallery-album-title"><a href="<?php echo htmlspecialchars( getAlbumURL() ); ?>" title="View album: <?php printAnnotatedAlbumTitle(); ?>"><?php printAlbumTitle(); ?></a></h3>
 											<div class="gallery-album-excerpt"><p>
 												<?php
 												printAlbumDesc();
@@ -73,10 +75,20 @@ if ( ! defined( 'WEBPATH' ) ) {
 
 					<div class="gallery-grid gallery-images">
 						<div class="gallery-items gallery-columns-2 gallery-is-grid gallery-equal-height">
-							<?php while (next_image()): ?>
+							<?php
+							while ( next_image() ) :
+								?>
 								<figure>
 									<div class="gallery-inner-wrap">
-										<div class="gallery-album-image"><a href="<?php echo html_encode( getDefaultSizedImage() );?>" rel="showcase" title="<?php echo getBareImageTitle();?>" full="<?php echo html_encode( getFullImageURL() ); ?>" solo="<?php echo html_encode( getImageURL() ); ?>" size="<?php echo getFullWidth() . 'x' . getFullHeight(); ?>" /> <?php printImageThumb( getAnnotatedImageTitle() ); ?></a></div>
+										<div class="gallery-album-image">
+											<a href="<?php echo html_encode( getDefaultSizedImage() ); ?>"
+												rel="showcase"
+												title="<?php printBareImageTitle(); ?>"
+												full="<?php echo html_encode( getFullImageURL() ); ?>"
+												solo="<?php echo html_encode( getImageURL() ); ?>"
+												size="<?php echo getFullWidth() . 'x' . getFullHeight(); ?>" /> <?php printImageThumb( getAnnotatedImageTitle() ); ?>
+											</a>
+										</div>
 									</div>
 								</figure>
 							<?php endwhile; ?>
@@ -99,8 +111,6 @@ if ( ! defined( 'WEBPATH' ) ) {
 
 		</article>
 	</main>
-
-
 
 <?php
 	require '_sidebar.php';

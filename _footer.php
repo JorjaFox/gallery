@@ -93,16 +93,16 @@ if ( ! defined( 'WEBPATH' ) ) {
 <a id="ast-scroll-top" class="ast-scroll-top-icon ast-scroll-to-top-right" data-on-devices="both" style="display: inline;" href="#"><span class="screen-reader-text">Scroll to Top</span></a>
 
 <script id='astra-theme-js-js-extra'>
-	    var astra = {
-	        "break_point": "768",
-	        "isRtl": "",
-	        "infinite_count": "2",
-	        "astinfiniteposttype": "page",
-	        "infinite_total": "0",
-	        "pagination": "number",
-	        "masonryEnabled": "",
-	        "blogMasonryBreakPoint": "768"
-	    };
+	var astra = {
+		"break_point": "768",
+		"isRtl": "",
+		"infinite_count": "2",
+		"astinfiniteposttype": "page",
+		"infinite_total": "0",
+		"pagination": "number",
+		"masonryEnabled": "",
+		"blogMasonryBreakPoint": "768"
+	};
 </script>
 
 <script src="/wordpress/wp-content/themes/astra/assets/js/minified/style.min.js?ver=<?php echo FLF_STABLE_THEME; ?>"></script>

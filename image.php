@@ -10,10 +10,10 @@ if ( ! defined( 'WEBPATH' ) ) {
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
 
-	<?php npgFilters::apply('theme_head'); ?>
-	<title><?php echo getImageTitle(); ?> * <? echo getBareGalleryTitle(); ?></title>
+	<?php npgFilters::apply( 'theme_head' ); ?>
+	<title><?php printBareImageTitle(); ?> | <?php printGalleryTitle(); ?></title>
 
-	<?php include("_scripts.php"); ?>
+	<?php require '_scripts.php'; ?>
 
 </head>
 
@@ -27,7 +27,6 @@ if ( ! defined( 'WEBPATH' ) ) {
 					<h1 class="entry-title" itemprop="headline"><?php printAlbumTitle( true ); ?></h1>
 					<div class="entry-meta">
 						<span class="cat-links"><a href="/gallery">Gallery</a> / <?php printParentBreadcrumb( '', ' / ', '  / ' ); ?></span>
-						By <span class="posted-by vcard author" itemtype="https://schema.org/Person" itemscope="itemscope" itemprop="author">the Fans of LeFox Librarians</span>
 					</div>
 				</div>
 			</header>
@@ -36,35 +35,48 @@ if ( ! defined( 'WEBPATH' ) ) {
 				<!-- Content begins -->
 				<div id="padbox">
 					<div class="byline">
-						<p><?php printImageDesc(true); ?></p>
+						<p><?php printImageDesc( true ); ?></p>
 
 						<?php
-							$credit = getImageData("credit");
-							if ( $credit ) { ?><p><?php printImageData('credit', 'Credit: '); ?></p><?php };
+						$credit = getImageData( 'credit' );
+						if ( $credit ) {
+							?>
+								<p><?php printImageData( 'credit', 'Credit: ' ); ?></p>
+							<?php
+						}
 						?>
 					</div>
 
 					<!-- The Image -->
 					<div id="image"><div class="fullsize">
-						<?php printCustomSizedImageMaxSpace(getBareImageTitle(),580,580); ?>
+						<?php printCustomSizedImageMaxSpace( getBareImageTitle(), 580, 580 ); ?>
 					</div></div>
 					<div style="clear:both;"></div>
 
-					<ul class="pager">
-						<?php if (hasPrevImage()) { ?>
-							<li><a href="<?php echo html_encode(getPrevImageURL()); ?>" title="<?php echo gettext('Previous Image'); ?>">&larr; <?php echo gettext('prev'); ?></a></li>
-						<?php } else { ?>
-							<li class="disabled"><a href="#">&larr; <?php echo gettext('prev'); ?></a></li>
-						<?php } ?>
-						<?php if (hasNextImage()) { ?>
-							<li><a href="<?php echo html_encode(getNextImageURL()); ?>" title="<?php echo gettext('Next Image'); ?>"><?php echo gettext('next'); ?> &rarr;</a></li>
-						<?php } else { ?>
-							<li class="disabled"><a href="#"><?php echo gettext('next'); ?> &rarr;</a></li>
-						<?php } ?>
-					</ul>
+					<nav class="navigation post-navigation" role="navigation" aria-label="Posts">
+						<h2 class="screen-reader-text">Post navigation</h2>
+						<div class="nav-links">
+							<?php
+							if ( hasPrevImage() ) {
+								?>
+								<div class="nav-previous">
+									<a href="<?php echo html_encode( getPrevImageURL() ); ?>" rel="prev"><span class="ast-left-arrow">←</span> Previous Image</a>
+								</div>
+								<?php
+							}
+							if ( hasNextImage() ) {
+								?>
+								<div class="nav-next">
+									<a href="<?php echo html_encode( getNextImageURL() ); ?>" rel="next">Next Image <span class="ast-right-arrow">→</span></a>
+								</div>
+								<?php
+							}
+							?>
+						</div>
+					</nav>
 
 					<!-- Download links -->
-					<div class="downloadline"><p><em><a href="<?php echo htmlspecialchars(getFullImageURL());?>" title="Right-click on the link and Save-As"><?php echo gettext("Download Full Size:"); ?><?php echo getFullWidth() . "x" . getFullHeight(); ?></a></em><br />(Right-click on the link and Save-As)</p></div>
+					<div class="downloadline"><p><em><a href="<?php echo htmlspecialchars( getFullImageURL() ); ?>" title="Right-click on the link and Save-As">Download Full Size: <?php echo getFullWidth() . 'x' . getFullHeight(); ?></a></em><br />(Right-click on the link and Save-As)</p></div>
 
 				</div> <!-- PadBox -->
 
