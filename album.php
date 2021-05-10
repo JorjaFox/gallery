@@ -30,6 +30,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 						<h1 class="entry-title" itemprop="headline"><?php printAlbumTitle( true ); ?></h1>
 						<div class="entry-meta">
 							<span class="cat-links"><a href="/gallery">Gallery</a> / <?php printParentBreadcrumb( '', ' / ', '  / ' ); ?></span>
+							<span class="author-name" itemprop="name">By the Fans of LeFox Librarians</span>
 						</div>
 					</div>
 				</header>
