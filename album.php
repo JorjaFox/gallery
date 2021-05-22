@@ -15,7 +15,10 @@ if ( ! defined( 'WEBPATH' ) ) {
 
 	<?php
 	require '_scripts.php';
-	require 'colorbox.php';
+
+	if ( class_exists( 'colorbox' ) ) {
+		require 'colorbox.php';
+	}
 	?>
 
 </head>
@@ -82,13 +85,26 @@ if ( ! defined( 'WEBPATH' ) ) {
 								<figure>
 									<div class="gallery-inner-wrap">
 										<div class="gallery-album-image">
-											<a href="<?php echo html_encode( getDefaultSizedImage() ); ?>"
-												rel="showcase"
-												title="<?php printBareImageTitle(); ?>"
-												full="<?php echo html_encode( getFullImageURL() ); ?>"
-												solo="<?php echo html_encode( getImageURL() ); ?>"
-												size="<?php echo getFullWidth() . 'x' . getFullHeight(); ?>" /> <?php printImageThumb( getAnnotatedImageTitle() ); ?>
-											</a>
+											<?php
+											if ( class_exists( 'colorbox' ) ) {
+												?>
+												<a href="<?php echo html_encode( getDefaultSizedImage() ); ?>"
+													rel="showcase"
+													title="<?php printBareImageTitle(); ?>"
+													full="<?php echo html_encode( getFullImageURL() ); ?>"
+													solo="<?php echo html_encode( getImageURL() ); ?>"
+													size="<?php echo getFullWidth() . 'x' . getFullHeight(); ?>" /> <?php printImageThumb( getAnnotatedImageTitle() ); ?>
+												</a>
+												<?php
+											} else {
+												?>
+												<a href="<?php echo html_encode( getImageURL() ); ?>" title="<?php printBareImageTitle(); ?>">
+													<?php printImageThumb( getAnnotatedImageTitle() ); ?>
+												</a>
+												<?php
+											}
+											?>
+
 										</div>
 									</div>
 								</figure>
