@@ -39,14 +39,15 @@ class ThemeOptions {
 			cacheManager::addCacheSize( $me, getThemeOption( 'image_size' ), null, null, null, null, null, null, false, null, null, null );
 			cacheManager::addCacheSize( $me, getThemeOption( 'thumb_size' ), null, null, getThemeOption( 'thumb_crop_width' ), getThemeOption( 'thumb_crop_height' ), null, null, true, null, null, null );
 		}
+		setThemeOptionDefault( 'flf_tv_maze_url', 'https://www.tvmaze.com/shows/50361/csi-vegas' );
 	}
 
 	public function getOptionsSupported() {
 		return array(
-			gettext( 'Allow search' ) => array(
-				'key'  => 'Allow_search',
-				'type' => OPTION_TYPE_CHECKBOX,
-				'desc' => gettext( 'Check to enable search form.' ),
+			gettext('TV Maze URL') => array(
+				'key' => 'flf_tv_maze_url',
+				'type' => OPTION_TYPE_TEXTBOX,
+				'desc' => gettext('Set URL to pull TV Maze info from.')
 			),
 		);
 	}
