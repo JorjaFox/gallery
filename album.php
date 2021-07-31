@@ -66,7 +66,10 @@ if ( ! defined( 'WEBPATH' ) ) {
 												<?php
 												printAlbumDesc();
 												if ( getNumImages() !== 0 ) {
-													echo ' (' . getNumImages() . ' images)';
+													echo '<br />(' . getNumImages() . ' images)';
+												}
+												if ( getNumAlbums() !== 0 ) {
+													echo '<br />(' . getNumAlbums() . ' sub-albums)';
 												}
 												?>
 											</p></div>
