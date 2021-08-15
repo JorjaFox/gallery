@@ -9,9 +9,9 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'/>
 
 <!-- Stylesheets -->
+<link rel='stylesheet' href='/gallery/themes/fansoflefox/css/bootstrap/bootstrap.min.css?ver=<?php echo FLF_STABLE_THEME; ?>' type='text/css' />
 <link rel='stylesheet' id='astra-theme-css-css' href='/wordpress/wp-content/themes/astra/assets/css/minified/style.min.css?ver=<?php echo FLF_STABLE_THEME; ?>' media='all' type='text/css' />
 <link rel='stylesheet' id='astra-theme-frontend-css' href='/wordpress/wp-content/themes/astra/assets/css/minified/frontend.min.css?ver=<?php echo FLF_STABLE_THEME; ?>' media='all' type='text/css' />
-
 
 <link rel='stylesheet' id='astra-google-fonts-css' href='//fonts.googleapis.com/css?family=Open+Sans%3A400%7CPoppins%3A600%2C%7COpen+Sans+Condensed%3A700&#038;display=fallback&#038;ver=<?php echo FLF_STABLE_THEME; ?>' media='all'/>
 
@@ -20,9 +20,6 @@
 <link rel='stylesheet' id='astra-addon-dynamic-css' href='/gallery/themes/fansoflefox/css/astra-addon-dynamic.css?ver=<?php echo FLF_STABLE_THEME; ?>' type='text/css' />
 
 <link rel='stylesheet' id='wp-block-library-css' href='/wordpress/wp-includes/css/dist/block-library/style.min.css?ver=<?php echo FLF_STABLE_THEME; ?>' media='all' />
-<style id='wp-block-library-inline-css'>
-.has-text-align-justify{text-align:justify;}
-</style>
 
 <!-- Gutenberg -->
 <link rel="stylesheet" id="wp-block-library-css" href="/wordpress/wp-includes/css/dist/block-library/style.min.css?ver=<?php echo FLF_STABLE_THEME; ?>" media="all">

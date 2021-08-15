@@ -12,6 +12,17 @@ if ( ! defined( 'WEBPATH' ) ) {
 
 <div class="widget-area secondary" id="secondary" role="complementary" itemtype="https://schema.org/WPSideBar" itemscope="itemscope">
 	<div class="sidebar-main">
+		<aside id="nav_menu-3" class="widget widget_nav_menu">
+			<h2 class="widget-title">About Jorja</h2>
+			<div class="menu-sidebar-container">
+				<ul id="menu-sidebar" class="menu">
+					<li id="menu-item-14522" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14522"><a href="/library/biographies/" class="menu-link">Who is Jorja Fox?</a></li>
+					<li id="menu-item-14522" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14522"><a href="/library/filmography/" class="menu-link">Filmography</a></li>
+					<li id="menu-item-14522" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14522"><a href="/library/seafox/" class="menu-link">Seafox Productions</a></li>
+				</ul>
+			</div>
+		</aside>
+
 		<aside id="nav_menu-2" class="widget widget_nav_menu">
 			<h2 class="widget-title">Information</h2>
 			<div class="menu-sidebar-container">

@@ -55,3 +55,7 @@ div.site-below-footer-inner-wrap  a:hover {
 input#search_input {
     width: 75%;
 }
+
+.has-text-align-justify{
+	text-align:justify;
+}
