@@ -87,9 +87,9 @@ if ( ! defined( 'WEBPATH' ) ) {
 								?>
 								<figure>
 									<div class="gallery-inner-wrap">
-										<div class="gallery-album-image">
+										<div class="gallery-individual-image">
 											<?php
-											if ( class_exists( 'colorbox' ) ) {
+											if ( ( ! $isMobile && ! $isTablet ) && class_exists( 'colorbox' ) ) {
 												?>
 												<a href="<?php echo html_encode( getDefaultSizedImage() ); ?>"
 													rel="showcase"
