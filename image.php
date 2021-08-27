@@ -24,7 +24,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 		<div class="ast-post-format- single-layout-1">
 			<header class="entry-header">
 				<div class="ast-single-post-order">
-					<h1 class="entry-title" itemprop="headline"><?php printAlbumTitle( true ); ?></h1>
+					<h1 class="entry-title" itemprop="headline"><?php printAlbumTitle( true ); ?> - <?php printBareImageTitle(); ?></h1>
 					<div class="entry-meta">
 						<span class="cat-links"><a href="/gallery">Gallery</a> / <?php printParentBreadcrumb( '', ' / ', '  / ' ); ?></span>
 						<span class="author-name" itemprop="name">By the Fans of LeFox Librarians</span>
