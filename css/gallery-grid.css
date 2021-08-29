@@ -57,6 +57,6 @@
     word-break: break-word;
 }
 
-.gallery-album-image, .gallery-individual-image {
+.gallery-album-image, .gallery-individual-image, .gallery-individual-image img  {
     max-height: 300px!important;
 }
