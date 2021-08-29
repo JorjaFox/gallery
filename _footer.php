@@ -110,4 +110,4 @@ if ( ! defined( 'WEBPATH' ) ) {
 };
 </script>
 
-<script src="gallery/themes/fansoflefox/css/astra-addon.js?ver=<?php echo FLF_STABLE_THEME; ?>"></script>
+<script src="/gallery/themes/fansoflefox/css/astra-addon.js?ver=<?php echo FLF_STABLE_THEME; ?>"></script>
