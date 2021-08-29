@@ -59,4 +59,5 @@
 
 .gallery-album-image, .gallery-individual-image, .gallery-individual-image img, .gallery-album-image img {
     max-height: 300px!important;
+    overflow-y: hidden;
 }
