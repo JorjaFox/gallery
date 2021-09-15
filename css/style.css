@@ -69,3 +69,7 @@ input#search_input {
 .has-text-align-justify{
 	text-align:justify;
 }
+
+div.fullsize {
+	margin-bottom: 1rem;
+}

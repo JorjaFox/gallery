@@ -35,6 +35,13 @@ if ( ! defined( 'WEBPATH' ) ) {
 			<div class="entry-content clear" itemprop="text">
 				<!-- Content begins -->
 				<div id="padbox">
+
+					<!-- The Image -->
+					<div id="image"><div class="fullsize">
+						<?php printCustomSizedImageMaxSpace( getBareImageTitle(), 580, 580 ); ?>
+					</div></div>
+
+					<!-- The Credits -->
 					<div class="byline">
 						<p><?php printImageDesc( true ); ?></p>
 
@@ -48,10 +55,6 @@ if ( ! defined( 'WEBPATH' ) ) {
 						?>
 					</div>
 
-					<!-- The Image -->
-					<div id="image"><div class="fullsize">
-						<?php printCustomSizedImageMaxSpace( getBareImageTitle(), 580, 580 ); ?>
-					</div></div>
 					<div style="clear:both;"></div>
 
 					<nav class="navigation post-navigation" role="navigation" aria-label="Posts">
