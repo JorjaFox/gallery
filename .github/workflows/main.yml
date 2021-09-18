@@ -13,6 +13,13 @@ jobs:
         with:
           submodules: true
 
+      - name: Verify Workspace
+        run: |
+          echo "GITHUB_WORKSPACE: ${GITHUB_WORKSPACE}"
+      - name: Verify Folder
+        run: |
+          ls -lah ${GITHUB_WORKSPACE}
+
       - name: Deploy to Server
         uses: easingthemes/ssh-deploy@main
         env:
@@ -21,4 +28,4 @@ jobs:
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: "/home/jorjafox/jorjafox.net/gallery/themes/fansoflefox/"
-          #EXCLUDE: "/dist/, /node_modules/"
+          EXCLUDE: "/.git/, /.github/"
