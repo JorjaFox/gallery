@@ -15,12 +15,6 @@ if ( ! defined( 'WEBPATH' ) ) {
 
 	<?php
 	require '_scripts.php';
-
-	if ( class_exists( 'colorbox' ) ) {
-		require 'colorbox.php';
-	}
-	?>
-
 </head>
 
 	<?php require '_header.php'; ?>
