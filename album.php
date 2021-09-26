@@ -13,8 +13,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 	<?php npgFilters::apply( 'theme_head' ); ?>
 	<title><?php printAlbumTitle() . ' | ' . getBareGalleryTitle(); ?></title>
 
-	<?php
-	require '_scripts.php';
+	<?php require '_scripts.php'; ?>
 </head>
 
 	<?php require '_header.php'; ?>
