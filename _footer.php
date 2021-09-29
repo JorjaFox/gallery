@@ -12,14 +12,12 @@ if ( ! defined( 'WEBPATH' ) ) {
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<!-- Horizontal (Responsive) -->
 	<ins class="adsbygoogle"
-		 style="display:block"
-		 data-ad-client="ca-pub-7868382837959636"
-		 data-ad-slot="3514530332"
-		 data-ad-format="auto"
-		 data-full-width-responsive="true"></ins>
-	<script>
-		 (adsbygoogle = window.adsbygoogle || []).push({});
-	</script>
+		style="display:block"
+		data-ad-client="ca-pub-7868382837959636"
+		data-ad-slot="3514530332"
+		data-ad-format="auto"
+		data-full-width-responsive="true"></ins>
+	<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 	<p>&nbsp;</p>
 </center>
 

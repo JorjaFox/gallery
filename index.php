@@ -10,7 +10,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
 
-	<?php npgFilters::apply('theme_head'); ?>
+	<?php npgFilters::apply( 'theme_head' ); ?>
 	<title><?php printGalleryTitle(); ?></title>
 	<?php require '_scripts.php'; ?>
 
@@ -33,12 +33,12 @@ if ( ! defined( 'WEBPATH' ) ) {
 				<!-- Content begins -->
 				<div class="gallery-grid">
 					<div class="gallery-items gallery-columns-2 gallery-is-grid gallery-equal-height">
-						<?php while (next_album()): ?>
+						<?php while ( next_album() ) : ?>
 							<figure>
 								<div class="gallery-inner-wrap">
-									<div class="gallery-album-image"><a href="<?php echo htmlspecialchars(getAlbumURL());?>" title="<?php echo gettext('View album:'); ?> <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumThumbImage(getAnnotatedAlbumTitle()); ?></a></div>
+									<div class="gallery-album-image"><a href="<?php echo htmlspecialchars( getAlbumURL() ); ?>" title="<?php echo gettext( 'View album:' ) . getAnnotatedAlbumTitle(); ?>"><?php printAlbumThumbImage( getAnnotatedAlbumTitle() ); ?></a></div>
 									<div class="gallery-text">
-										<h3 class="gallery-album-title"><a href="<?php echo htmlspecialchars(getAlbumURL());?>" title="<?php echo gettext('View album:'); ?> <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumTitle(); ?></a></h3>
+										<h3 class="gallery-album-title"><a href="<?php echo htmlspecialchars( getAlbumURL() ); ?>" title="<?php echo gettext( 'View album:' ) . getAnnotatedAlbumTitle(); ?>"><?php printAlbumTitle(); ?></a></h3>
 										<div class="gallery-album-excerpt"><?php printAlbumDesc(); ?></div>
 									</div>
 								</div>

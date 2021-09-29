@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ruleset name="HalfElf Coding Standards">
+    <description>Using a WordPress ruleset for a non-WordPress app means you have to ignore things.</description>
+    <rule ref="WordPress-Extra">
+        <exclude name="WordPress.Files.FileName.InvalidClassFileName" />
+        <exclude name="WordPress.Files.FileName.NotHyphenatedLowercase" />
+        <exclude name="WordPress.Security.NonceVerification" />
+        <exclude name="WordPress.Security.EscapeOutput" />
+        <exclude name="WordPress.WP.AlternativeFunctions" />
+        <exclude name="WordPress.WP.EnqueuedResources" />
+        <exclude name="WordPress.DateTime" />
+        <exclude name="WordPress.NamingConventions" />
+        <exclude name="WordPress.PHP.DevelopmentFunctions.prevent_path_disclosure_error_reporting" />
+    </rule>
+</ruleset>

@@ -24,7 +24,7 @@ class ThemeOptions {
 		setThemeOptionDefault( 'images_per_row', 5 );
 		setThemeOptionDefault( 'image_size', 595 );
 		setThemeOptionDefault( 'image_use_side', 'longest' );
-		setThemeOptionDefault( 'thumb_size', 350, NULL );
+		setThemeOptionDefault( 'thumb_size', 350, null );
 		setThemeOptionDefault( 'thumb_crop_width', 350 );
 		setThemeOptionDefault( 'thumb_crop_height', 350 );
 		setThemeOptionDefault( 'thumb_crop', 1 );
@@ -43,10 +43,10 @@ class ThemeOptions {
 
 	public function getOptionsSupported() {
 		return array(
-			gettext('TV Maze URL') => array(
-				'key' => 'flf_tv_maze_url',
+			gettext( 'TV Maze URL' ) => array(
+				'key'  => 'flf_tv_maze_url',
 				'type' => OPTION_TYPE_TEXTBOX,
-				'desc' => gettext('Set URL to pull TV Maze info from.')
+				'desc' => gettext( 'Set URL to pull TV Maze info from.' ),
 			),
 		);
 	}

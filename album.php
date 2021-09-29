@@ -81,26 +81,9 @@ if ( ! defined( 'WEBPATH' ) ) {
 								<figure>
 									<div class="gallery-inner-wrap">
 										<div class="gallery-individual-image">
-											<?php
-											if ( ( ! $isMobile && ! $isTablet ) && class_exists( 'colorbox' ) ) {
-												?>
-												<a href="<?php echo html_encode( getDefaultSizedImage() ); ?>"
-													rel="showcase"
-													title="<?php printBareImageTitle(); ?>"
-													full="<?php echo html_encode( getFullImageURL() ); ?>"
-													solo="<?php echo html_encode( getImageURL() ); ?>"
-													size="<?php echo getFullWidth() . 'x' . getFullHeight(); ?>" /> <?php printImageThumb( getAnnotatedImageTitle() ); ?>
-												</a>
-												<?php
-											} else {
-												?>
-												<a href="<?php echo html_encode( getImageURL() ); ?>" title="<?php printBareImageTitle(); ?>">
-													<?php printImageThumb( getAnnotatedImageTitle() ); ?>
-												</a>
-												<?php
-											}
-											?>
-
+											<a href="<?php echo html_encode( getImageURL() ); ?>" title="<?php printBareImageTitle(); ?>">
+												<?php printImageThumb( getAnnotatedImageTitle() ); ?>
+											</a>
 										</div>
 									</div>
 								</figure>
@@ -108,7 +91,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 						</div>
 					</div>
 
-					<p>&nbsp;</br>Per our <a href="/copyrights/">Copyrights</a> and <a href="/terms-of-use/">Terms of Use</a>, you are welcome to copy and reuse images on this site for your own use, provided you credit this site in some way (via a link back, or simply by mentioning us by name).</p>
+					<p>&nbsp;</br>Per our <a href="/copyrights/">Copyrights</a> and <a href="/terms-of-use/">Terms of Use</a>, you are welcome to copy and reuse images on this site for your own use, provided you credit the creator and this site in some way (via a link back, or simply by mentioning us by name).</p>
 
 					<!-- Content Ends -->
 				</div>

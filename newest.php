@@ -9,7 +9,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
-	<?php npgFilters::apply('theme_head'); ?>
+	<?php npgFilters::apply( 'theme_head' ); ?>
 	<title>Newest Images | <?php printGalleryTitle(); ?></title>
 
 	<?php require '_scripts.php'; ?>
@@ -33,7 +33,11 @@ if ( ! defined( 'WEBPATH' ) ) {
 			<div class="entry-content clear" itemprop="text">
 				<!-- Content begins -->
 				<div id="padbox">
-					<?php if (function_exists('printLatestUpdatedAlbums')) { printLatestUpdatedAlbums($number = 4, $showtitle = true, $showdesc = true); } ?>
+					<?php
+					if ( function_exists( 'printLatestUpdatedAlbums' ) ) {
+						printLatestUpdatedAlbums( 4, true, true );
+					}
+					?>
 				</div> <!-- PadBox -->
 				<!-- Content Ends -->
 			</div>

@@ -8,27 +8,20 @@ if ( ! defined( 'WEBPATH' ) ) {
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<?php npgFilters::apply('theme_head'); ?>
+	<?php npgFilters::apply( 'theme_head' ); ?>
 	<title>Search Results | <?php printGalleryTitle(); ?></title>
 
 	<?php require '_scripts.php'; ?>
-
-	<script type="text/javascript">
-	// <!-- <![CDATA[
-	$(document).ready(function(){
-	$(".colorbox").colorbox({inline:true, href:"#imagethumb"});
-	$("a[rel='showcase']").colorbox({transition:"none", width:"75%", photo:true,title:function () { var size = $(this).attr('size'); return "View Image Page".link($(this).attr('solo')) + " | " + "View Full Sized".link($(this).attr('full')) + " ("+size+")" ;} });});
-	// ]]> -->
-	</script>
 </head>
 
-<?php require '_header.php'; ?>
-
 <?php
-	$total = getNumImages() + getNumAlbums();
-	if ($total == 0) {
-		$_current_search->clearSearchWords();
-	}
+
+require '_header.php';
+
+$total = getNumImages() + getNumAlbums();
+if ( 0 === $total ) {
+	$_current_search->clearSearchWords();
+}
 ?>
 
 <main id="main" class="site-main">
@@ -48,46 +41,58 @@ if ( ! defined( 'WEBPATH' ) ) {
 				<div id="padbox">
 
 					<?php
-						$searchwords = getSearchWords();
-						$searchdate = getSearchDate();
-						if (!empty($searchdate)) {
-							$searchwords .= $searchdate;
+					$searchwords = getSearchWords();
+					$searchdate  = getSearchDate();
+					if ( ! empty( $searchdate ) ) {
+						$searchwords .= $searchdate;
+					}
+					if ( $total ) {
+						echo '<p>' . sprintf( gettext( 'Total matches for <em>%1$s</em>: %2$u' ), html_encode( $searchwords ), $total ) . '</p>';
+					} else {
+						echo '<p>' . gettext( 'Sorry, no matches for your search.' ) . '</p>';
+					}
+
+					if ( ( getNumAlbums() ) > 0 ) {
+						echo '<div id="albums">';
+
+						while ( next_album() ) {
+							?>
+							<div class="album">
+								<div class="albumdesc">
+									<h3><a href="<?php echo html_encode( getAlbumURL() ); ?>" title="<?php echo gettext( 'View album:' ) . getAnnotatedAlbumTitle(); ?>"><?php printAlbumTitle(); ?></a></h3>
+									<p><?php printAlbumDesc(); ?></p>
+								</div>
+								<div class="thumb">
+									<a href="<?php echo html_encode( getAlbumURL() ); ?>" title="<?php echo gettext( 'View album:' ); ?> <?php echo getAnnotatedAlbumTitle(); ?>"><?php printAlbumThumbImage( getAnnotatedAlbumTitle() ); ?></a>
+								</div>
+								<p style="clear: both; "><!-- End Albums --></p>
+							</div>
+							<?php
 						}
-						if ($total) {
-							echo '<p>' . sprintf(gettext('Total matches for <em>%1$s</em>: %2$u'), html_encode($searchwords), $total) . '</p>';
-						} else {
-							echo "<p>" . gettext('Sorry, no matches for your search.') . "</p>";
+						echo '</div>';
+					}
+
+					if ( ( getNumImages() ) > 0 ) {
+						echo '<div id="images">';
+						$x = 0;
+						while ( next_image( true ) ) {
+							if ( $x >= 1 ) {
+								$show = 'style="display:none;"';
+							} else {
+								$show = '';
+							}
+							?>
+							<div class="image"><div class="imagethumb">
+								<a href="<?php echo html_encode( getDefaultSizedImage() ); ?>" rel="showcase" title="<?php echo getBareImageTitle(); ?>" full="<?php echo html_encode( getFullImageURL() ); ?>" solo="<?php echo html_encode( getImageURL() ); ?>" size="<?php echo getFullWidth() . 'x' . getFullHeight(); ?>" /> <?php printImageThumb( getAnnotatedImageTitle() ); ?></a>
+							</div></div>
+							<?php
+							$x++;
 						}
+						echo '</div>';
+					}
 					?>
 
-					<?php if ((getNumAlbums()) > 0) { ?>
-						<div id="albums">
-						   <?php while (next_album()): ?>
-						   <div class="album">
-							 <div class="albumdesc">
-							   <h3><a href="<?php echo html_encode(getAlbumURL());?>" title="<?php echo gettext('View album:'); ?> <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumTitle(); ?></a></h3>
-							   <p><?php printAlbumDesc(); ?></p>
-							 </div>
-							 <div class="thumb">
-							   <a href="<?php echo html_encode(getAlbumURL());?>" title="<?php echo gettext('View album:'); ?> <?php echo getAnnotatedAlbumTitle();?>"><?php printAlbumThumbImage(getAnnotatedAlbumTitle()); ?></a>
-							 </div>
-							 <p style="clear: both; "><!-- End Albums --></p>
-						   </div>
-						<?php endwhile; ?>
-						</div>
-					<?php } ?>
-
-					<?php if ((getNumImages()) > 0) { ?>
-						<div id="images">
-						   <?php $x=0; while (next_image(true)):
-						   if ($x>=1) { $show='style="display:none;"'; } else { $show='';}  ?>
-						   <div class="image"><div class="imagethumb">
-						<a href="<?php echo html_encode(getDefaultSizedImage());?>" rel="showcase" title="<?php echo getBareImageTitle();?>" full="<?php echo html_encode(getFullImageURL()); ?>" solo="<?php echo html_encode(getImageURL()); ?>" size="<?php echo getFullWidth() . "x" . getFullHeight(); ?>" /> <?php printImageThumb(getAnnotatedImageTitle()); ?></a>
-						   </div></div>
-						   <?php $x=$x+1;
-						   endwhile; ?>
-						</div>
-					<?php } ?><!-- End Images -->
+					<!-- End Images -->
 
 					<br clear="all" />
 
