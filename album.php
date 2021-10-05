@@ -35,14 +35,6 @@ if ( ! defined( 'WEBPATH' ) ) {
 					<!-- Content begins -->
 					<div class="byline">
 						<p><?php printAlbumDesc(); ?></p>
-						<?php
-						if ( function_exists( 'printDownloadAlbumZipURL' ) && getNumAlbums() === 0 ) {
-							echo '<p><strong>';
-							printDownloadAlbumZipURL( 'Download a zip of all images in this album' );
-							echo ' (' . getNumImages() . ' images)';
-							echo '</strong></p>';
-						}
-						?>
 					</div>
 
 					<div class="gallery-grid gallery-albums">
