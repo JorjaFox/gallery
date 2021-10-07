@@ -58,7 +58,7 @@ if ( isset( $show_id ) ) {
 				$content  = '<p><strong>' . $next_info['name'] . '</strong><br />Episode ' . $next_info['season'] . 'x' . $next_info['number'] . '; ' . $next_date_string;
 
 				if ( isset( $next_info['summary'] ) ) {
-					$content = ' <small>' . $next_info['summary'] . '</small>';
+					$content .= ' <small>' . $next_info['summary'] . '</small>';
 				}
 
 				$content .= '</p>';

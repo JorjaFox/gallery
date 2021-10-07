@@ -8,19 +8,6 @@ if ( ! defined( 'WEBPATH' ) ) {
 	</div> <!-- end .site-inner -->
 </div><!-- end ast-container -->
 
-<center>
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<!-- Horizontal (Responsive) -->
-	<ins class="adsbygoogle"
-		style="display:block"
-		data-ad-client="ca-pub-7868382837959636"
-		data-ad-slot="3514530332"
-		data-ad-format="auto"
-		data-full-width-responsive="true"></ins>
-	<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-	<p>&nbsp;</p>
-</center>
-
 	<footer class="site-footer" id="colophon" itemtype="https://schema.org/WPFooter" itemscope="itemscope" itemid="#colophon">
 			<div class="site-above-footer-wrap ast-builder-grid-row-container site-footer-focus-item ast-builder-grid-row-2-equal ast-builder-grid-row-tablet-2-equal ast-builder-grid-row-mobile-full ast-footer-row-inline ast-footer-row-tablet-stack ast-footer-row-mobile-stack" data-section="section-above-footer-builder">
 				<div class="ast-builder-grid-row-container-inner">
@@ -53,7 +40,7 @@ if ( ! defined( 'WEBPATH' ) ) {
 					<div class="ast-builder-footer-grid-columns site-primary-footer-inner-wrap ast-builder-grid-row">
 						<div class="site-footer-primary-section-1 site-footer-section site-footer-section-1">
 							<aside class="footer-widget-area widget-area site-footer-focus-item" data-section="sidebar-widgets-footer-widget-3" aria-label="Footer Widget 3">
-								<div class="footer-widget-area-inner site-info-inner"><section id="block-15" class="widget widget_block"><center><iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=48&l=ur1&category=primevideo&banner=16J2A3410NSWNHBY26R2&f=ifr&linkID=4f108f6b296efd976bbf8af1e99dceb0&t=ipsteorg-20&tracking_id=ipsteorg-20" width="728" height="90" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe></center></section></div>
+								<div class="footer-widget-area-inner site-info-inner"><section id="block-15" class="widget widget_block"><center><iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=48&l=ur1&category=primevideo&banner=16J2A3410NSWNHBY26R2&f=ifr&linkID=4f108f6b296efd976bbf8af1e99dceb0&t=ipsteorg-20&tracking_id=ipsteorg-20" width="728" height="90" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe><p>&nbsp;</p></center></section></div>
 							</aside>
 						</div>
 					</div>
