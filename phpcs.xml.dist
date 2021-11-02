@@ -10,6 +10,7 @@
         <exclude name="WordPress.WP.EnqueuedResources" />
         <exclude name="WordPress.DateTime" />
         <exclude name="WordPress.NamingConventions" />
+        <exclude name="PEAR.Files.IncludingFile.UseRequire" />
         <exclude name="WordPress.PHP.DevelopmentFunctions.prevent_path_disclosure_error_reporting" />
     </rule>
 </ruleset>
