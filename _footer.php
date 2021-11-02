@@ -35,12 +35,17 @@ if ( ! defined( 'WEBPATH' ) ) {
 					</div>
 				</div>
 			</div>
-			<div class="site-primary-footer-wrap ast-builder-grid-row-container site-footer-focus-item ast-builder-grid-row-full ast-builder-grid-row-tablet-full ast-builder-grid-row-mobile-full ast-footer-row-inline ast-footer-row-tablet-stack ast-footer-row-mobile-stack" data-section="section-primary-footer-builder">
+			<div class="site-primary-footer-wrap ast-builder-grid-row-container site-footer-focus-item ast-builder-grid-row-2-equal ast-builder-grid-row-tablet-2-equal ast-builder-grid-row-mobile-full ast-footer-row-inline ast-footer-row-tablet-stack ast-footer-row-mobile-stack" data-section="section-primary-footer-builder">
 				<div class="ast-builder-grid-row-container-inner">
 					<div class="ast-builder-footer-grid-columns site-primary-footer-inner-wrap ast-builder-grid-row">
 						<div class="site-footer-primary-section-1 site-footer-section site-footer-section-1">
+							<aside class="footer-widget-area widget-area site-footer-focus-item" data-section="sidebar-widgets-footer-widget-4" aria-label="Footer Widget 4">
+								<div class="footer-widget-area-inner site-info-inner"><section id="block-19" class="widget widget_block"><p><?php include 'ads/footer-left.html' ?></p></section></div>
+							</aside>
+						</div>
+						<div class="site-footer-primary-section-2 site-footer-section site-footer-section-2">
 							<aside class="footer-widget-area widget-area site-footer-focus-item" data-section="sidebar-widgets-footer-widget-3" aria-label="Footer Widget 3">
-								<div class="footer-widget-area-inner site-info-inner"><section id="block-15" class="widget widget_block"><center><iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=48&l=ur1&category=primevideo&banner=16J2A3410NSWNHBY26R2&f=ifr&linkID=4f108f6b296efd976bbf8af1e99dceb0&t=ipsteorg-20&tracking_id=ipsteorg-20" width="728" height="90" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe><p>&nbsp;</p></center></section></div>
+								<div class="footer-widget-area-inner site-info-inner"><section id="block-15" class="widget widget_block"><p>><?php include 'ads/footer-right.html' ?></p></section></div>
 							</aside>
 						</div>
 					</div>
