@@ -40,12 +40,12 @@ if ( ! defined( 'WEBPATH' ) ) {
 					<div class="ast-builder-footer-grid-columns site-primary-footer-inner-wrap ast-builder-grid-row">
 						<div class="site-footer-primary-section-1 site-footer-section site-footer-section-1">
 							<aside class="footer-widget-area widget-area site-footer-focus-item" data-section="sidebar-widgets-footer-widget-4" aria-label="Footer Widget 4">
-								<div class="footer-widget-area-inner site-info-inner"><section id="block-19" class="widget widget_block"><p><?php include 'ads/footer-left.html'; ?></p></section></div>
+								<div class="footer-widget-area-inner site-info-inner"><section id="block-19" class="widget widget_block"><p><!-- Used to be Ads --></p></section></div>
 							</aside>
 						</div>
 						<div class="site-footer-primary-section-2 site-footer-section site-footer-section-2">
 							<aside class="footer-widget-area widget-area site-footer-focus-item" data-section="sidebar-widgets-footer-widget-3" aria-label="Footer Widget 3">
-								<div class="footer-widget-area-inner site-info-inner"><section id="block-15" class="widget widget_block"><p>><?php include 'ads/footer-right.html'; ?></p></section></div>
+								<div class="footer-widget-area-inner site-info-inner"><section id="block-15" class="widget widget_block"><p><!-- Used to be Ads --></p></section></div>
 							</aside>
 						</div>
 					</div>
